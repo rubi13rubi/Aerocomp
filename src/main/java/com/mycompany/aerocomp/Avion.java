@@ -10,22 +10,16 @@ package com.mycompany.aerocomp;
  */
 public class Avion extends Thread{
     String identificador;
-    Gestor gestor;
+    Aeropuerto aeropuerto;
     
-    public Avion (String identificador, Gestor gestor){
+    public Avion (String identificador, Aeropuerto aeropuerto){
         this.identificador = identificador;
-        this.gestor = gestor;
+        this.aeropuerto = aeropuerto;
     }
     
     public void run(){
         //codigo del hilo avion
-    }
-    
-    public Boolean esPar(String identificador){
-        
-        String parteNumerica = identificador.substring(2);
-        int numero = Integer.parseInt(parteNumerica);
-        return numero % 2 == 0; 
+        System.out.println("Soy el avion " + this.identificador + " de " + this.aeropuerto.getCiudad());
     }
 
     public String getIdentificador() {

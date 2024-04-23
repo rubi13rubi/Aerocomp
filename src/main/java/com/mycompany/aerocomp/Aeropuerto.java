@@ -14,7 +14,10 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  * @author ruben
  */
-public class Gestor {
+public class Aeropuerto {
+    String ciudad;
+    
+    
     //Todo se implementa mediante listas para que varie dependiendo del aeropuerto
     private AtomicInteger[] personasaeropuerto = new AtomicInteger[2];
     private Semaphore[] semaforospuertaembarque = new Semaphore[2];
@@ -26,9 +29,10 @@ public class Gestor {
     private Semaphore[] talleres = new Semaphore[2];
     private Semaphore[] entradatalleres = new Semaphore[2];
     private Random r = new Random();
-
-    public Gestor() {
+    
+    public Aeropuerto() {
         //Inicializa todos los arrays
+        /*
         Arrays.fill(personasaeropuerto, new AtomicBoolean(false));
         Arrays.fill(semaforospuertasmixtas, new Semaphore(1, true));
         Arrays.fill(semaforospuertasmixtas, new Semaphore(1, true));
@@ -37,7 +41,12 @@ public class Gestor {
         Arrays.fill(semaforospistas, new Semaphore(4, true));
         Arrays.fill(arraypistas, new AtomicBoolean(false));
         Arrays.fill(talleres, new Semaphore(20, true));
-        Arrays.fill(entradatalleres, new Semaphore(1));
+        Arrays.fill(entradatalleres, new Semaphore(1));*/
+
+    }
+    
+    public Aeropuerto (String ciudad){
+        this.ciudad = ciudad;
     }
     
     public void autobusACiudad(int id){
@@ -54,4 +63,9 @@ public class Gestor {
     public void moverAutobus(String id, int ciudad, Boolean sentido) throws InterruptedException{
         Thread.sleep(r.nextInt(5000,10000));
     }
+
+    public String getCiudad() {
+        return ciudad;
+    }
+    
 }
