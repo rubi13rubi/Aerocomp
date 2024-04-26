@@ -4,26 +4,45 @@
  */
 package com.mycompany.aerocomp;
 
+import java.util.Random;
+
 /**
  *
  * @author alvarocamacho
  */
-public class Avion extends Thread{
+public class Avion extends Thread {
+
     String identificador;
-    Aeropuerto aeropuerto;
-    
-    public Avion (String identificador, Aeropuerto aeropuerto){
+    Aeropuerto madrid;
+    Aeropuerto barcelona;
+    boolean ubicacion;
+    int capacidad;
+    Random rand = new Random();
+
+    public Avion(String identificador, Aeropuerto madrid, Aeropuerto barcelona, boolean ubicacion) {
         this.identificador = identificador;
-        this.aeropuerto = aeropuerto;
+        this.madrid = madrid;
+        this.barcelona = barcelona;
+        this.ubicacion = ubicacion;
+        this.capacidad = rand.nextInt(201) + 100;
     }
-    
-    public void run(){
+
+    public void run() {
         //codigo del hilo avion
-        System.out.println("Soy el avion " + this.identificador + " de " + this.aeropuerto.getCiudad());
+        System.out.println("Soy el avion " + this.identificador + " de " + this.getAeropuerto(this.ubicacion).getCiudad() + " con capacidad " + this.capacidad);
+    }
+
+    public Aeropuerto getAeropuerto(boolean ubicacion) {
+        //Funcion que devuelve el nombre del aeropuerto en el que se encuentra. True es madrid y false Barcelona
+        if (ubicacion == true) {
+            return this.madrid;
+        } else {
+            return this.barcelona;
+        }
     }
 
     public String getIdentificador() {
         return identificador;
     }
-    
+
 }

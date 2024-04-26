@@ -20,29 +20,73 @@ public class Aerocomp extends javax.swing.JFrame {
      */
     Aeropuerto barcelona;
     Aeropuerto madrid;
+
     public Aerocomp() throws InterruptedException {
         initComponents();
         Random rand = new Random();
-        Avion a;
-        Autobus b;
         madrid = new Aeropuerto("Madrid");
         barcelona = new Aeropuerto("Barcelona");
+
+        //Hilo generador de aviones
+        Thread hiloAviones = new Thread(new Runnable() {
+            Avion a;
+
+            @Override
+
+            public void run() {
+                for (int i = 1; i <= 5; i++) {
+                    int delay = rand.nextInt(3000) + 1000;
+                    if (i % 2 == 0) { //Si es par se le asigna madrid
+                        char char1 = (char) (rand.nextInt(26) + 'A');
+                        char char2 = (char) (rand.nextInt(26) + 'A');
+                        String identificador = String.format("%c%c-%04d", char1, char2, i);
+                        a = new Avion(identificador, madrid, barcelona, true);
+                        a.start();
+                    } else { //Si es impar se le asigna barcelona
+                        char char1 = (char) (rand.nextInt(26) + 'A');
+                        char char2 = (char) (rand.nextInt(26) + 'A');
+                        String identificador = String.format("%c%c-%04d", char1, char2, i);
+                        a = new Avion(identificador, madrid, barcelona, false);
+                        a.start();
+                    }
+                    try {
+                        Thread.sleep(delay);
+                    } catch (InterruptedException ex) {
+                        Logger.getLogger(Aerocomp.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
+            }
+        });
+
+        //Hilo generador de buses
+        Thread hiloBuses = new Thread(new Runnable() {
+            Autobus b;
+
+            @Override
+            public void run() {
+                for (int i = 1; i <= 5; i++) {
+                    int delay = rand.nextInt(1000) + 500;
+                    if (i % 2 == 0) { //Si es par se le asigna madrid
+                        String identificador = String.format("B-%04d", i); //Se le asigna a cada avión el identificador y la ciudad a la que pertenece
+                        b = new Autobus(identificador, madrid);
+                        b.start();
+                    } else {
+                        String identificador = String.format("B-%04d", i);
+                        b = new Autobus(identificador, barcelona);
+                        b.start();
+                    }
+                    try {
+                        Thread.sleep(delay);
+                    } catch (InterruptedException ex) {
+                        Logger.getLogger(Aerocomp.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }
+            }
+        });
         
-        for (int i=1; i<=80; i++)
-        {
-            int delay = rand.nextInt(3) + 1;            
-            if (i%2==0){ //Si es par se le asigna madrid
-            String identificador = String.format("A-%04d", i); //Se le asigna a cada avión el identificador y la ciudad a la que pertenece
-            a=new Avion(identificador,madrid);
-            a.start();
-            }
-            else{
-                String identificador = String.format("A-%04d", i);
-                a=new Avion(identificador,barcelona);
-                a.start();
-            }
-            Thread.sleep(delay*1000);
-        }
+        hiloAviones.start();
+        hiloBuses.start();
+
     }
 
     /**
@@ -910,7 +954,7 @@ public class Aerocomp extends javax.swing.JFrame {
         }
         //</editor-fold>
         //</editor-fold>
-        
+
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -919,8 +963,8 @@ public class Aerocomp extends javax.swing.JFrame {
                 } catch (InterruptedException ex) {
                     System.out.println("error");
                 }
-                
-            }      
+
+            }
         });
 
     }

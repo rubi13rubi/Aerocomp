@@ -8,25 +8,36 @@ package com.mycompany.aerocomp;
  *
  * @author alvarocamacho
  */
-public class Autobus extends Thread{
+public class Autobus extends Thread {
+
     String identificador;
-    String ciudad;
     Aeropuerto aeropuerto;
-    
-    public Autobus (String identificador, Aeropuerto aeropuerto){
+
+    public Autobus(String identificador, Aeropuerto aeropuerto) {
         this.identificador = identificador;
         this.aeropuerto = aeropuerto;
-        this.ciudad = ciudad;
-    }
-    
-    public void run(){
-        //Codigo del hilo autobus
+
     }
 
-    public String getIdentificador() {
-        return identificador;
+    @Override
+    public void run() {
+        //codigo del hilo autobus
+        System.out.println("Soy el autobus " + this.identificador + " de " + this.getAeropuerto().getCiudad());
+        /*
+        aeropuerto.llegaCiudad();
+        aeropuerto.subirPasajerosCiudad();
+        aeropuerto.irAeropuerto();
+        aeropuerto.bajarPasajerosAeropuerto();
+        aeropuerto.subirPasajerosAeropuerto();
+        aeropuerto.irCiudad();
+        bajarPasajerosCiudad();       
+         */
     }
-    
-    
+
+    public Aeropuerto getAeropuerto() {
+        //Funcion que devuelve el nombre del aeropuerto en el que se encuentra. 
+        return this.aeropuerto;
+
+    }
+
 }
-
