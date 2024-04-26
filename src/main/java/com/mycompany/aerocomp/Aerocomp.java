@@ -34,7 +34,7 @@ public class Aerocomp extends javax.swing.JFrame {
             @Override
 
             public void run() {
-                for (int i = 1; i <= 5; i++) {
+                for (int i = 1; i <= 1; i++) {
                     int delay = rand.nextInt(3000) + 1000;
                     if (i % 2 == 0) { //Si es par se le asigna madrid
                         char char1 = (char) (rand.nextInt(26) + 'A');
@@ -64,7 +64,7 @@ public class Aerocomp extends javax.swing.JFrame {
 
             @Override
             public void run() {
-                for (int i = 1; i <= 5; i++) {
+                for (int i = 1; i <= 1; i++) {
                     int delay = rand.nextInt(1000) + 500;
                     if (i % 2 == 0) { //Si es par se le asigna madrid
                         String identificador = String.format("B-%04d", i); //Se le asigna a cada avión el identificador y la ciudad a la que pertenece
