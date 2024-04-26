@@ -23,15 +23,13 @@ public class Autobus extends Thread {
     public void run() {
         //codigo del hilo autobus
         System.out.println("Soy el autobus " + this.identificador + " de " + this.getAeropuerto().getCiudad());
-        /*
-        aeropuerto.llegaCiudad();
-        aeropuerto.subirPasajerosCiudad();
-        aeropuerto.irAeropuerto();
-        aeropuerto.bajarPasajerosAeropuerto();
-        aeropuerto.subirPasajerosAeropuerto();
-        aeropuerto.irCiudad();
-        bajarPasajerosCiudad();       
-         */
+        aeropuerto.busLlegaCiudad(this);
+        aeropuerto.busSubePasajerosCiudad(this);
+        aeropuerto.busVaAeropuerto(this);
+        aeropuerto.busBajaPasajerosAeropuerto(this);
+        aeropuerto.busSubePasajerosAeropuerto(this);
+        aeropuerto.busVaCiudad(this);
+        aeropuerto.busBajaPasajerosCiudad(this);       
     }
 
     public Aeropuerto getAeropuerto() {

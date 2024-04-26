@@ -15,57 +15,47 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author ruben
  */
 public class Aeropuerto {
+
     String ciudad;
-    
-    
-    //Todo se implementa mediante listas para que varie dependiendo del aeropuerto
-    private AtomicInteger[] personasaeropuerto = new AtomicInteger[2];
-    private Semaphore[] semaforospuertaembarque = new Semaphore[2];
-    private Semaphore[] semaforospuertadesembarque = new Semaphore[2];
-    private Semaphore[] semaforospuertasmixtas = new Semaphore[2];
-    private AtomicBoolean[] arraypuertas = new AtomicBoolean[12];
-    private Semaphore[] semaforospistas = new Semaphore[2];
-    private AtomicBoolean[] arraypistas = new AtomicBoolean[8];
-    private Semaphore[] talleres = new Semaphore[2];
-    private Semaphore[] entradatalleres = new Semaphore[2];
-    private Random r = new Random();
-    
+
     public Aeropuerto() {
         //Inicializa todos los arrays
-        /*
-        Arrays.fill(personasaeropuerto, new AtomicBoolean(false));
-        Arrays.fill(semaforospuertasmixtas, new Semaphore(1, true));
-        Arrays.fill(semaforospuertasmixtas, new Semaphore(1, true));
-        Arrays.fill(semaforospuertasmixtas, new Semaphore(6, true));
-        Arrays.fill(arraypuertas, new AtomicBoolean(false));
-        Arrays.fill(semaforospistas, new Semaphore(4, true));
-        Arrays.fill(arraypistas, new AtomicBoolean(false));
-        Arrays.fill(talleres, new Semaphore(20, true));
-        Arrays.fill(entradatalleres, new Semaphore(1));*/
 
     }
-    
-    public Aeropuerto (String ciudad){
+
+    public Aeropuerto(String ciudad) {
         this.ciudad = ciudad;
     }
-    
-    public void autobusACiudad(int id){
-        
+
+    public void busLlegaCiudad(Autobus bus) {
+        System.out.println("autobus " + bus.identificador + " llega a la ciudad");
     }
-    
-    public int autobusCargarCiudad(String id) throws InterruptedException{
-        Thread.sleep(r.nextInt(2000,5000));
-        int pasajeros = r.nextInt(0,50);
-        System.out.println("Se montan " + pasajeros + " pasajeros en el bus " + id);
-        return pasajeros;
+
+    public void busSubePasajerosCiudad(Autobus bus) {
+        System.out.println("autobus " + bus.identificador + " recoge pasajeros de la ciudad");
     }
-    
-    public void moverAutobus(String id, int ciudad, Boolean sentido) throws InterruptedException{
-        Thread.sleep(r.nextInt(5000,10000));
+
+    public void busVaAeropuerto(Autobus bus) {
+        System.out.println("autobus " + bus.identificador + " va al aeropuerto");
+    }
+
+    public void busBajaPasajerosAeropuerto(Autobus bus) {
+        System.out.println("autobus " + bus.identificador + " baja pasajeros en el aeropuerto");
+    }
+
+    public void busSubePasajerosAeropuerto(Autobus bus) {
+        System.out.println("autobus " + bus.identificador + " sube pasajeros del aeropuerto");
+    }
+
+    public void busVaCiudad(Autobus bus) {
+        System.out.println("autobus " + bus.identificador + " va a la ciudad");
+    }
+
+    public void busBajaPasajerosCiudad(Autobus bus) {
+        System.out.println("autobus " + bus.identificador + " baja pasajeros en la ciudad");
     }
 
     public String getCiudad() {
         return ciudad;
     }
-    
 }
