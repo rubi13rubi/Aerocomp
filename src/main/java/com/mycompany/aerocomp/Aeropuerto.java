@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 public class Aeropuerto {
 
     String ciudad;
-    AtomicInteger numPersonas = new AtomicInteger(0);
+    AtomicInteger numPersonasAerop = new AtomicInteger(0); //Atomic integer porque es un recurso compartido
     Random rand = new Random();
 
     public Aeropuerto() {
@@ -59,7 +59,7 @@ public class Aeropuerto {
     public void busBajaPasajerosAeropuerto(Autobus bus) {
         System.out.println("autobus " + bus.identificador + " baja " + bus.personas + " pasajeros en el aeropuerto");
         //Aqui se meten en el aeropuerto
-        int cuantas = numPersonas.addAndGet(bus.personas);
+        int cuantas = numPersonasAerop.addAndGet(bus.personas);
         System.out.println("Ahora en el aeropuerto hay "+cuantas+" personas");
         bus.bajarPasajeros();
         System.out.println("Ahora el bus " + bus.identificador + " tiene " + bus.personas + " pasajeros");
@@ -75,19 +75,21 @@ public class Aeropuerto {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        int pasajeros = rand.nextInt(50);
-        
-        if (pasajeros>numPersonas){
-            int max = numPersonas.get();
-            int pasajeros = rand.nextInt(max);
+        int pasajerosSalir = rand.nextInt(50);        
+        int pasajerosActuales = numPersonasAerop.get();
+        //Por si en el aeropuerto hay menos personas de las que se quieren sacar
+        if (pasajerosSalir>pasajerosActuales){
+            System.out.println("No hay suficientes personas para sacar, probamos otra vez");
+            int max = numPersonasAerop.get(); //Se pone como tope de personas que vayan a salir las que hay dentro del aeropuerto
+            pasajerosSalir = rand.nextInt(max); 
         }
-        bus.subirPasajeros(pasajeros);
-        System.out.println("autobus " + bus.identificador + " sube "+pasajeros+" pasajeros del aeropuerto");
+        bus.subirPasajeros(pasajerosSalir);
+        System.out.println("autobus " + bus.identificador + " sube "+pasajerosSalir+" pasajeros del aeropuerto");
         //Aqui se restan del sistema aeropuerto
-        int cuantas = numPersonas.addAndGet(-pasajeros);
+        int cuantas = numPersonasAerop.addAndGet(-pasajerosSalir);
         System.out.println("Ahora en el aeropuerto hay "+cuantas+" personas");
-        
-        
+
+      
     }
 
     public void busVaCiudad(Autobus bus) {

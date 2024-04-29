@@ -28,6 +28,7 @@ public class Aerocomp extends javax.swing.JFrame {
         barcelona = new Aeropuerto("Barcelona");
 
         //Hilo generador de aviones
+        
         Thread hiloAviones = new Thread(new Runnable() {
             Avion a;
 
@@ -36,12 +37,14 @@ public class Aerocomp extends javax.swing.JFrame {
             public void run() {
                 for (int i = 1; i <= 1; i++) {
                     int delay = rand.nextInt(3000) + 1000;
+                    
                     if (i % 2 == 0) { //Si es par se le asigna madrid
                         char char1 = (char) (rand.nextInt(26) + 'A');
                         char char2 = (char) (rand.nextInt(26) + 'A');
-                        String identificador = String.format("%c%c-%04d", char1, char2, i);
+                        String identificador = String.format("%c%c-%04d", char1, char2, i); //Para dar el formato correcto al nombre del avion
                         a = new Avion(identificador, madrid, barcelona, true);
                         a.start();
+                        
                     } else { //Si es impar se le asigna barcelona
                         char char1 = (char) (rand.nextInt(26) + 'A');
                         char char2 = (char) (rand.nextInt(26) + 'A');
@@ -50,7 +53,7 @@ public class Aerocomp extends javax.swing.JFrame {
                         a.start();
                     }
                     try {
-                        Thread.sleep(delay);
+                        Thread.sleep(delay); //Para que se generen de forma escalonada su hilo creador se duerme 
                     } catch (InterruptedException ex) {
                         Logger.getLogger(Aerocomp.class.getName()).log(Level.SEVERE, null, ex);
                     }
@@ -83,7 +86,7 @@ public class Aerocomp extends javax.swing.JFrame {
                 }
             }
         });
-        
+
         hiloAviones.start();
         hiloBuses.start();
 
