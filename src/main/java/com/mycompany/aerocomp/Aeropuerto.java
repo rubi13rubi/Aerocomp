@@ -19,6 +19,7 @@ import java.util.logging.Logger;
 public class Aeropuerto {
 
     String ciudad;
+    AtomicInteger numPersonas = new AtomicInteger(0);
     Random rand = new Random();
 
     public Aeropuerto() {
@@ -57,7 +58,9 @@ public class Aeropuerto {
 
     public void busBajaPasajerosAeropuerto(Autobus bus) {
         System.out.println("autobus " + bus.identificador + " baja " + bus.personas + " pasajeros en el aeropuerto");
-        //Aqui se meten en el aeropuerto, no he mirado todavia como
+        //Aqui se meten en el aeropuerto
+        int cuantas = numPersonas.addAndGet(bus.personas);
+        System.out.println("Ahora en el aeropuerto hay "+cuantas+" personas");
         bus.bajarPasajeros();
         System.out.println("Ahora el bus " + bus.identificador + " tiene " + bus.personas + " pasajeros");
     }
@@ -71,10 +74,20 @@ public class Aeropuerto {
         } catch (InterruptedException ex) {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
         int pasajeros = rand.nextInt(50);
-        //Aqui se restan del sistema aeropuerto
+        
+        if (pasajeros>numPersonas){
+            int max = numPersonas.get();
+            int pasajeros = rand.nextInt(max);
+        }
         bus.subirPasajeros(pasajeros);
         System.out.println("autobus " + bus.identificador + " sube "+pasajeros+" pasajeros del aeropuerto");
+        //Aqui se restan del sistema aeropuerto
+        int cuantas = numPersonas.addAndGet(-pasajeros);
+        System.out.println("Ahora en el aeropuerto hay "+cuantas+" personas");
+        
+        
     }
 
     public void busVaCiudad(Autobus bus) {
