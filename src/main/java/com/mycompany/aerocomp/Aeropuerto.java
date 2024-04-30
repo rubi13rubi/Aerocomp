@@ -9,8 +9,10 @@ import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.Lock;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  *
@@ -20,6 +22,8 @@ public class Aeropuerto {
 
     String ciudad;
     AtomicInteger numPersonasAerop = new AtomicInteger(0); //Atomic integer porque es un recurso compartido
+    AtomicInteger numAvionesHangar = new AtomicInteger(0);
+    AtomicInteger numAvionesAreaEst = new AtomicInteger(0);
     Random rand = new Random();
 
     public Aeropuerto() {
@@ -111,7 +115,15 @@ public class Aeropuerto {
         bus.bajarPasajeros();
         System.out.println("Ahora el bus " + bus.identificador + " tiene " + bus.personas + " pasajeros");
     }
+    
+    public void entrarAreaEstacionamiento(Avion avion){
+        //el avion entra al area de estacionamiento con capacidad ilimitada
+        System.out.println("El avion "+avion.identificador+" esta en el area de estacionamiento");
+        int cuantos = numAvionesAreaEst.incrementAndGet(); //No se suman correctamente??? 
+        System.out.println("Ahora en el area de estacionamiento hay "+cuantos+" aviones");
+        
 
+    }
     public String getCiudad() {
         return ciudad;
     }
