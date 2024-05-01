@@ -1,0 +1,138 @@
+Wed May 01 20:39:58 CEST 2024 - Abre el Aeropuerto
+Wed May 01 20:39:59 CEST 2024 - Soy el autobus B-0001 de Barcelona
+Wed May 01 20:39:59 CEST 2024 - autobus B-0001 llega a la ciudad con 0 personas
+Wed May 01 20:39:59 CEST 2024 - Creado el avion QX-0001 de Barcelona con capacidad 270
+Wed May 01 20:39:59 CEST 2024 - El avion QX-0001 esta en el area de estacionamiento
+Wed May 01 20:39:59 CEST 2024 - Ahora en el area de estacionamiento hay 1 aviones
+Wed May 01 20:40:00 CEST 2024 - Soy el autobus B-0002 de Madrid
+Wed May 01 20:40:00 CEST 2024 - autobus B-0002 llega a la ciudad con 0 personas
+Wed May 01 20:40:00 CEST 2024 - Soy el autobus B-0003 de Barcelona
+Wed May 01 20:40:00 CEST 2024 - autobus B-0003 llega a la ciudad con 0 personas
+Wed May 01 20:40:01 CEST 2024 - Creado el avion TO-0002 de Madrid con capacidad 210
+Wed May 01 20:40:01 CEST 2024 - El avion TO-0002 esta en el area de estacionamiento
+Wed May 01 20:40:01 CEST 2024 - Ahora en el area de estacionamiento hay 1 aviones
+Wed May 01 20:40:02 CEST 2024 - Soy el autobus B-0004 de Madrid
+Wed May 01 20:40:02 CEST 2024 - autobus B-0004 llega a la ciudad con 0 personas
+Wed May 01 20:40:02 CEST 2024 - Soy el autobus B-0005 de Barcelona
+Wed May 01 20:40:02 CEST 2024 - autobus B-0005 llega a la ciudad con 0 personas
+Wed May 01 20:40:03 CEST 2024 - autobus B-0002 recoge 4 pasajeros de la ciudad
+Wed May 01 20:40:03 CEST 2024 - autobus B-0002 va al aeropuerto
+Wed May 01 20:40:03 CEST 2024 - Creado el avion PI-0003 de Barcelona con capacidad 232
+Wed May 01 20:40:03 CEST 2024 - El avion PI-0003 esta en el area de estacionamiento
+Wed May 01 20:40:03 CEST 2024 - Ahora en el area de estacionamiento hay 2 aviones
+Wed May 01 20:40:04 CEST 2024 - Soy el autobus B-0006 de Madrid
+Wed May 01 20:40:04 CEST 2024 - autobus B-0006 llega a la ciudad con 0 personas
+Wed May 01 20:40:04 CEST 2024 - autobus B-0004 recoge 39 pasajeros de la ciudad
+Wed May 01 20:40:04 CEST 2024 - autobus B-0004 va al aeropuerto
+Wed May 01 20:40:04 CEST 2024 - autobus B-0001 recoge 20 pasajeros de la ciudad
+Wed May 01 20:40:04 CEST 2024 - autobus B-0001 va al aeropuerto
+Wed May 01 20:40:05 CEST 2024 - Soy el autobus B-0007 de Barcelona
+Wed May 01 20:40:05 CEST 2024 - autobus B-0007 llega a la ciudad con 0 personas
+Wed May 01 20:40:05 CEST 2024 - Soy el autobus B-0008 de Madrid
+Wed May 01 20:40:05 CEST 2024 - autobus B-0008 llega a la ciudad con 0 personas
+Wed May 01 20:40:05 CEST 2024 - autobus B-0005 recoge 44 pasajeros de la ciudad
+Wed May 01 20:40:05 CEST 2024 - autobus B-0005 va al aeropuerto
+Wed May 01 20:40:06 CEST 2024 - Creado el avion VS-0004 de Madrid con capacidad 142
+Wed May 01 20:40:06 CEST 2024 - El avion VS-0004 esta en el area de estacionamiento
+Wed May 01 20:40:06 CEST 2024 - Ahora en el area de estacionamiento hay 2 aviones
+Wed May 01 20:40:07 CEST 2024 - Soy el autobus B-0009 de Barcelona
+Wed May 01 20:40:07 CEST 2024 - autobus B-0009 llega a la ciudad con 0 personas
+Wed May 01 20:40:07 CEST 2024 - autobus B-0003 recoge 2 pasajeros de la ciudad
+Wed May 01 20:40:07 CEST 2024 - autobus B-0003 va al aeropuerto
+Wed May 01 20:40:07 CEST 2024 - Soy el autobus B-0010 de Madrid
+Wed May 01 20:40:07 CEST 2024 - autobus B-0010 llega a la ciudad con 0 personas
+Wed May 01 20:40:08 CEST 2024 - Creado el avion ZP-0005 de Barcelona con capacidad 196
+Wed May 01 20:40:08 CEST 2024 - El avion ZP-0005 esta en el area de estacionamiento
+Wed May 01 20:40:08 CEST 2024 - Ahora en el area de estacionamiento hay 3 aviones
+Wed May 01 20:40:08 CEST 2024 - autobus B-0006 recoge 42 pasajeros de la ciudad
+Wed May 01 20:40:08 CEST 2024 - autobus B-0006 va al aeropuerto
+Wed May 01 20:40:08 CEST 2024 - autobus B-0007 recoge 32 pasajeros de la ciudad
+Wed May 01 20:40:08 CEST 2024 - autobus B-0007 va al aeropuerto
+Wed May 01 20:40:09 CEST 2024 - autobus B-0002 baja 4 pasajeros en el aeropuerto
+Wed May 01 20:40:09 CEST 2024 - Ahora en el aeropuerto hay 4 personas
+Wed May 01 20:40:09 CEST 2024 - Ahora el bus B-0002 tiene 0 pasajeros
+Wed May 01 20:40:09 CEST 2024 - bus B-0002 Esperando nuevos pasajeros
+Wed May 01 20:40:09 CEST 2024 - autobus B-0010 recoge 21 pasajeros de la ciudad
+Wed May 01 20:40:09 CEST 2024 - autobus B-0010 va al aeropuerto
+Wed May 01 20:40:10 CEST 2024 - Creado el avion AH-0006 de Madrid con capacidad 100
+Wed May 01 20:40:10 CEST 2024 - El avion AH-0006 esta en el area de estacionamiento
+Wed May 01 20:40:10 CEST 2024 - Ahora en el area de estacionamiento hay 3 aviones
+Wed May 01 20:40:10 CEST 2024 - autobus B-0009 recoge 48 pasajeros de la ciudad
+Wed May 01 20:40:10 CEST 2024 - autobus B-0009 va al aeropuerto
+Wed May 01 20:40:10 CEST 2024 - autobus B-0008 recoge 40 pasajeros de la ciudad
+Wed May 01 20:40:10 CEST 2024 - autobus B-0008 va al aeropuerto
+Wed May 01 20:40:11 CEST 2024 - autobus B-0004 baja 39 pasajeros en el aeropuerto
+Wed May 01 20:40:11 CEST 2024 - Ahora en el aeropuerto hay 43 personas
+Wed May 01 20:40:11 CEST 2024 - Ahora el bus B-0004 tiene 0 pasajeros
+Wed May 01 20:40:11 CEST 2024 - bus B-0004 Esperando nuevos pasajeros
+Wed May 01 20:40:12 CEST 2024 - autobus B-0003 baja 2 pasajeros en el aeropuerto
+Wed May 01 20:40:12 CEST 2024 - Ahora en el aeropuerto hay 2 personas
+Wed May 01 20:40:12 CEST 2024 - Ahora el bus B-0003 tiene 0 pasajeros
+Wed May 01 20:40:12 CEST 2024 - bus B-0003 Esperando nuevos pasajeros
+Wed May 01 20:40:12 CEST 2024 - autobus B-0002 sube 12 pasajeros del aeropuerto
+Wed May 01 20:40:12 CEST 2024 - Ahora en el aeropuerto hay 31 personas
+Wed May 01 20:40:12 CEST 2024 - autobus B-0002 va a la ciudad
+Wed May 01 20:40:13 CEST 2024 - autobus B-0001 baja 20 pasajeros en el aeropuerto
+Wed May 01 20:40:13 CEST 2024 - Ahora en el aeropuerto hay 22 personas
+Wed May 01 20:40:13 CEST 2024 - Ahora el bus B-0001 tiene 0 pasajeros
+Wed May 01 20:40:13 CEST 2024 - bus B-0001 Esperando nuevos pasajeros
+Wed May 01 20:40:13 CEST 2024 - Creado el avion TT-0007 de Barcelona con capacidad 265
+Wed May 01 20:40:13 CEST 2024 - El avion TT-0007 esta en el area de estacionamiento
+Wed May 01 20:40:13 CEST 2024 - Ahora en el area de estacionamiento hay 4 aviones
+Wed May 01 20:40:14 CEST 2024 - autobus B-0005 baja 44 pasajeros en el aeropuerto
+Wed May 01 20:40:14 CEST 2024 - Ahora en el aeropuerto hay 66 personas
+Wed May 01 20:40:14 CEST 2024 - Ahora el bus B-0005 tiene 0 pasajeros
+Wed May 01 20:40:14 CEST 2024 - bus B-0005 Esperando nuevos pasajeros
+Wed May 01 20:40:15 CEST 2024 - Creado el avion QF-0008 de Madrid con capacidad 226
+Wed May 01 20:40:15 CEST 2024 - El avion QF-0008 esta en el area de estacionamiento
+Wed May 01 20:40:15 CEST 2024 - Ahora en el area de estacionamiento hay 4 aviones
+Wed May 01 20:40:15 CEST 2024 - autobus B-0007 baja 32 pasajeros en el aeropuerto
+Wed May 01 20:40:15 CEST 2024 - Ahora en el aeropuerto hay 98 personas
+Wed May 01 20:40:15 CEST 2024 - Ahora el bus B-0007 tiene 0 pasajeros
+Wed May 01 20:40:15 CEST 2024 - bus B-0007 Esperando nuevos pasajeros
+Wed May 01 20:40:15 CEST 2024 - autobus B-0006 baja 42 pasajeros en el aeropuerto
+Wed May 01 20:40:15 CEST 2024 - Ahora en el aeropuerto hay 73 personas
+Wed May 01 20:40:15 CEST 2024 - Ahora el bus B-0006 tiene 0 pasajeros
+Wed May 01 20:40:15 CEST 2024 - bus B-0006 Esperando nuevos pasajeros
+Wed May 01 20:40:16 CEST 2024 - autobus B-0003 sube 14 pasajeros del aeropuerto
+Wed May 01 20:40:16 CEST 2024 - Ahora en el aeropuerto hay 84 personas
+Wed May 01 20:40:16 CEST 2024 - autobus B-0003 va a la ciudad
+Wed May 01 20:40:16 CEST 2024 - autobus B-0004 sube 22 pasajeros del aeropuerto
+Wed May 01 20:40:16 CEST 2024 - Ahora en el aeropuerto hay 51 personas
+Wed May 01 20:40:16 CEST 2024 - autobus B-0004 va a la ciudad
+Wed May 01 20:40:16 CEST 2024 - autobus B-0005 sube 8 pasajeros del aeropuerto
+Wed May 01 20:40:16 CEST 2024 - Ahora en el aeropuerto hay 76 personas
+Wed May 01 20:40:16 CEST 2024 - autobus B-0005 va a la ciudad
+Wed May 01 20:40:17 CEST 2024 - autobus B-0001 sube 32 pasajeros del aeropuerto
+Wed May 01 20:40:17 CEST 2024 - Ahora en el aeropuerto hay 44 personas
+Wed May 01 20:40:17 CEST 2024 - autobus B-0001 va a la ciudad
+Wed May 01 20:40:17 CEST 2024 - autobus B-0010 baja 21 pasajeros en el aeropuerto
+Wed May 01 20:40:17 CEST 2024 - Ahora en el aeropuerto hay 72 personas
+Wed May 01 20:40:17 CEST 2024 - Ahora el bus B-0010 tiene 0 pasajeros
+Wed May 01 20:40:17 CEST 2024 - bus B-0010 Esperando nuevos pasajeros
+Wed May 01 20:40:17 CEST 2024 - Creado el avion BZ-0009 de Barcelona con capacidad 113
+Wed May 01 20:40:17 CEST 2024 - El avion BZ-0009 esta en el area de estacionamiento
+Wed May 01 20:40:17 CEST 2024 - Ahora en el area de estacionamiento hay 5 aviones
+Wed May 01 20:40:18 CEST 2024 - autobus B-0009 baja 48 pasajeros en el aeropuerto
+Wed May 01 20:40:18 CEST 2024 - Ahora en el aeropuerto hay 92 personas
+Wed May 01 20:40:18 CEST 2024 - Ahora el bus B-0009 tiene 0 pasajeros
+Wed May 01 20:40:18 CEST 2024 - bus B-0009 Esperando nuevos pasajeros
+Wed May 01 20:40:19 CEST 2024 - Creado el avion SD-0010 de Madrid con capacidad 155
+Wed May 01 20:40:19 CEST 2024 - El avion SD-0010 esta en el area de estacionamiento
+Wed May 01 20:40:19 CEST 2024 - Ahora en el area de estacionamiento hay 5 aviones
+Wed May 01 20:40:19 CEST 2024 - autobus B-0008 baja 40 pasajeros en el aeropuerto
+Wed May 01 20:40:19 CEST 2024 - Ahora en el aeropuerto hay 112 personas
+Wed May 01 20:40:19 CEST 2024 - Ahora el bus B-0008 tiene 0 pasajeros
+Wed May 01 20:40:19 CEST 2024 - bus B-0008 Esperando nuevos pasajeros
+Wed May 01 20:40:19 CEST 2024 - autobus B-0006 sube 26 pasajeros del aeropuerto
+Wed May 01 20:40:19 CEST 2024 - Ahora en el aeropuerto hay 86 personas
+Wed May 01 20:40:19 CEST 2024 - autobus B-0006 va a la ciudad
+Wed May 01 20:40:20 CEST 2024 - autobus B-0007 sube 13 pasajeros del aeropuerto
+Wed May 01 20:40:20 CEST 2024 - Ahora en el aeropuerto hay 79 personas
+Wed May 01 20:40:20 CEST 2024 - autobus B-0007 va a la ciudad
+Wed May 01 20:40:20 CEST 2024 - autobus B-0010 sube 15 pasajeros del aeropuerto
+Wed May 01 20:40:20 CEST 2024 - Ahora en el aeropuerto hay 71 personas
+Wed May 01 20:40:20 CEST 2024 - autobus B-0010 va a la ciudad
+Wed May 01 20:40:21 CEST 2024 - autobus B-0009 sube 39 pasajeros del aeropuerto
+Wed May 01 20:40:21 CEST 2024 - Ahora en el aeropuerto hay 40 personas
+Wed May 01 20:40:21 CEST 2024 - autobus B-0009 va a la ciudad

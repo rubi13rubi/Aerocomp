@@ -4,6 +4,10 @@
  */
 package com.mycompany.aerocomp;
 
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author alvarocamacho
@@ -22,8 +26,12 @@ public class Autobus extends Thread {
 
     @Override
     public void run() {
-        //codigo del hilo autobus
-        System.out.println("Soy el autobus " + this.identificador + " de " + this.getAeropuerto().getCiudad());
+        try {
+            //codigo del hilo autobus
+            Log.logEvent("Creado el autobus " + this.identificador + " de " + this.getAeropuerto().getCiudad());
+        } catch (IOException ex) {
+            Logger.getLogger(Autobus.class.getName()).log(Level.SEVERE, null, ex);
+        }
         aeropuerto.busLlegaCiudad(this);
         aeropuerto.busVaAeropuerto(this);
         aeropuerto.busBajaPasajerosAeropuerto(this);

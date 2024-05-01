@@ -4,8 +4,11 @@
  */
 package com.mycompany.aerocomp;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -32,8 +35,12 @@ public class Avion extends Thread {
     }
 
     public void run() {
-        //codigo del hilo avion
-        System.out.println("Soy el avion " + this.identificador + " de " + this.getAeropuerto(this.ciudad).getCiudad() + " con capacidad " + this.capacidad);
+        try {
+            //codigo del hilo avion
+            Log.logEvent("Creado el avion " + this.identificador + " de " + this.getAeropuerto(this.ciudad).getCiudad() + " con capacidad " + this.capacidad);
+        } catch (IOException ex) {
+            Logger.getLogger(Avion.class.getName()).log(Level.SEVERE, null, ex);
+        }
         if (this.ciudad){
             madrid.entrarAreaEstacionamiento(this);
         }
