@@ -22,7 +22,7 @@ public class Avion extends Thread {
     boolean ciudad;
     int capacidad;
     Random rand = new Random();
-    String ubicacion;
+    int ubicacion;
     ArrayList<String> zonas = new ArrayList<>();
 
     public Avion(String identificador, Aeropuerto madrid, Aeropuerto barcelona, boolean cuidad) {
@@ -31,7 +31,7 @@ public class Avion extends Thread {
         this.barcelona = barcelona;
         this.ciudad = cuidad;
         this.capacidad = rand.nextInt(201) + 100;
-        this.ubicacion = "Hangar";
+        this.ubicacion = 1; 
     }
 
     public void run() {
