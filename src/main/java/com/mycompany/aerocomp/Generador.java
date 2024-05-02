@@ -45,7 +45,7 @@ public class Generador {
                     try {
                         Thread.sleep(delay); //Para que se generen de forma escalonada su hilo creador se duerme 
                     } catch (InterruptedException ex) {
-                        Logger.getLogger(Aerocomp.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(AerocompInterfaz.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
             }
@@ -71,7 +71,7 @@ public class Generador {
                     try {
                         Thread.sleep(delay);
                     } catch (InterruptedException ex) {
-                        Logger.getLogger(Aerocomp.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(AerocompInterfaz.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
             }

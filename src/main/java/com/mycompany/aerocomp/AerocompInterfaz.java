@@ -14,12 +14,12 @@ import java.util.logging.Logger;
  *
  * @author alvarocamacho
  */
-public class Aerocomp extends javax.swing.JFrame {
+public class AerocompInterfaz extends javax.swing.JFrame {
 
     /**
      * Creates new form Aerocomp2
      */
-    public Aerocomp() throws InterruptedException {
+    public AerocompInterfaz() throws InterruptedException {
         initComponents();
     }
 
@@ -55,11 +55,9 @@ public class Aerocomp extends javax.swing.JFrame {
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         gate1Mad = new javax.swing.JTextField();
-        cajaTransfersCiudadMad = new javax.swing.JTextField();
         tallerMad = new javax.swing.JTextField();
         hangarMad = new javax.swing.JTextField();
         gate2Mad = new javax.swing.JTextField();
-        numPasajMad = new javax.swing.JTextField();
         gate3Mad = new javax.swing.JTextField();
         gate5Mad = new javax.swing.JTextField();
         gate6Mad = new javax.swing.JTextField();
@@ -88,9 +86,7 @@ public class Aerocomp extends javax.swing.JFrame {
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
-        transfersAeropBCN = new javax.swing.JTextField();
         gate1BCN = new javax.swing.JTextField();
-        transfersCiudadBCN = new javax.swing.JTextField();
         tallerBCN = new javax.swing.JTextField();
         hangarBCN = new javax.swing.JTextField();
         gate2BCN = new javax.swing.JTextField();
@@ -106,6 +102,13 @@ public class Aerocomp extends javax.swing.JFrame {
         pista2BCN = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         cajaTransfersAeropMad = new javax.swing.JTextArea();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        cajaTransfersCiudadMad = new javax.swing.JTextArea();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        cajaTransfersAeropBar = new javax.swing.JTextArea();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        cajaTransfersCiudadBar = new javax.swing.JTextArea();
+        numPasajMad = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -159,12 +162,6 @@ public class Aerocomp extends javax.swing.JFrame {
             }
         });
 
-        cajaTransfersCiudadMad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cajaTransfersCiudadMadActionPerformed(evt);
-            }
-        });
-
         tallerMad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tallerMadActionPerformed(evt);
@@ -180,12 +177,6 @@ public class Aerocomp extends javax.swing.JFrame {
         gate2Mad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 gate2MadActionPerformed(evt);
-            }
-        });
-
-        numPasajMad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                numPasajMadActionPerformed(evt);
             }
         });
 
@@ -289,21 +280,9 @@ public class Aerocomp extends javax.swing.JFrame {
 
         jLabel39.setText("Pista 4");
 
-        transfersAeropBCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                transfersAeropBCNActionPerformed(evt);
-            }
-        });
-
         gate1BCN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 gate1BCNActionPerformed(evt);
-            }
-        });
-
-        transfersCiudadBCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                transfersCiudadBCNActionPerformed(evt);
             }
         });
 
@@ -389,21 +368,46 @@ public class Aerocomp extends javax.swing.JFrame {
         cajaTransfersAeropMad.setRows(5);
         jScrollPane1.setViewportView(cajaTransfersAeropMad);
 
+        cajaTransfersCiudadMad.setColumns(20);
+        cajaTransfersCiudadMad.setRows(5);
+        jScrollPane2.setViewportView(cajaTransfersCiudadMad);
+
+        cajaTransfersAeropBar.setColumns(20);
+        cajaTransfersAeropBar.setRows(5);
+        jScrollPane3.setViewportView(cajaTransfersAeropBar);
+
+        cajaTransfersCiudadBar.setColumns(20);
+        cajaTransfersCiudadBar.setRows(5);
+        jScrollPane4.setViewportView(cajaTransfersCiudadBar);
+
+        numPasajMad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                numPasajMadActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(155, 155, 155)
-                .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel3)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(421, 421, 421)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel6)
+                            .addComponent(titulo))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(155, 155, 155)
+                        .addComponent(jLabel2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel3)))
                 .addGap(161, 161, 161))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(462, 462, 462)
-                        .addComponent(titulo))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(422, 422, 422)
                         .addComponent(jLabel22))
@@ -414,102 +418,83 @@ public class Aerocomp extends javax.swing.JFrame {
                             .addComponent(aeroviaMadBarc, javax.swing.GroupLayout.PREFERRED_SIZE, 818, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(415, 415, 415)
-                        .addComponent(jLabel21)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(24, 24, 24)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel7)
-                            .addGap(29, 29, 29)
-                            .addComponent(hangarMad))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel8)
-                            .addGap(35, 35, 35)
-                            .addComponent(tallerMad, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jLabel10)
-                                        .addComponent(jLabel11)
-                                        .addComponent(jLabel12))
-                                    .addGap(31, 31, 31)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(gate3Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(gate2Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(gate1Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                        .addComponent(jLabel18)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(pista2mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                        .addComponent(jLabel17)
-                                        .addGap(26, 26, 26)
-                                        .addComponent(pista1mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addGap(13, 13, 13)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(37, 37, 37)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(layout.createSequentialGroup()
-                                            .addComponent(jLabel15)
-                                            .addGap(18, 18, 18)
-                                            .addComponent(gate6Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(layout.createSequentialGroup()
-                                            .addComponent(jLabel13)
-                                            .addGap(18, 18, 18)
-                                            .addComponent(gate4Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(layout.createSequentialGroup()
-                                            .addComponent(jLabel14)
-                                            .addGap(18, 18, 18)
-                                            .addComponent(gate5Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(29, 29, 29)
-                                    .addComponent(jLabel19)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(pista3mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGap(31, 31, 31)
-                                    .addComponent(jLabel20)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(pista4mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(6, 6, 6)
-                            .addComponent(jLabel16)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(rodajeMad, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(jLabel9)
+                        .addComponent(jLabel21))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(60, 60, 60)
-                        .addComponent(jLabel6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cajaTransfersCiudadMad, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(numPasajMad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(24, 24, 24)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(jLabel7)
+                                    .addGap(29, 29, 29)
+                                    .addComponent(hangarMad))
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(jLabel8)
+                                    .addGap(35, 35, 35)
+                                    .addComponent(tallerMad, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(layout.createSequentialGroup()
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(layout.createSequentialGroup()
+                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(jLabel10)
+                                                .addComponent(jLabel11)
+                                                .addComponent(jLabel12))
+                                            .addGap(31, 31, 31)
+                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(gate3Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(gate2Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(gate1Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                                .addComponent(jLabel18)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addComponent(pista2mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                                .addComponent(jLabel17)
+                                                .addGap(26, 26, 26)
+                                                .addComponent(pista1mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addGap(13, 13, 13)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(layout.createSequentialGroup()
+                                            .addGap(37, 37, 37)
+                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(layout.createSequentialGroup()
+                                                    .addComponent(jLabel15)
+                                                    .addGap(18, 18, 18)
+                                                    .addComponent(gate6Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGroup(layout.createSequentialGroup()
+                                                    .addComponent(jLabel13)
+                                                    .addGap(18, 18, 18)
+                                                    .addComponent(gate4Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGroup(layout.createSequentialGroup()
+                                                    .addComponent(jLabel14)
+                                                    .addGap(18, 18, 18)
+                                                    .addComponent(gate5Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addGroup(layout.createSequentialGroup()
+                                            .addGap(29, 29, 29)
+                                            .addComponent(jLabel19)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(pista3mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGroup(layout.createSequentialGroup()
+                                            .addGap(31, 31, 31)
+                                            .addComponent(jLabel20)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(pista4mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGroup(layout.createSequentialGroup()
+                                    .addGap(6, 6, 6)
+                                    .addComponent(jLabel16)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(rodajeMad, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jLabel9)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel33)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(transfersAeropBCN, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel35)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(transfersCiudadBCN, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel34)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pasajerosBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jLabel5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(numPasajMad, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(185, 185, 185)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel36)
@@ -567,14 +552,27 @@ public class Aerocomp extends javax.swing.JFrame {
                                             .addComponent(jLabel39)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                             .addComponent(pista4BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                            .addComponent(jLabel23)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(69, 69, 69)
-                        .addComponent(jLabel30)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(rodajeBCN, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addGap(25, 25, 25))
+                            .addComponent(jLabel23)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(69, 69, 69)
+                                .addComponent(jLabel30)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(rodajeBCN, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(157, 157, 157)
+                                .addComponent(jLabel33)
+                                .addGap(18, 18, 18)
+                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel35)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel34)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(pasajerosBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(18, 18, 18)
+                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(25, 25, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -586,19 +584,18 @@ public class Aerocomp extends javax.swing.JFrame {
                     .addComponent(jLabel2)
                     .addComponent(jLabel3))
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel4)
-                                    .addComponent(jLabel6)
-                                    .addComponent(cajaTransfersCiudadMad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(48, 48, 48))
+                                    .addComponent(jLabel6))
+                                .addGap(51, 51, 51))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 59, Short.MAX_VALUE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel5)
                             .addComponent(numPasajMad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
@@ -661,18 +658,26 @@ public class Aerocomp extends javax.swing.JFrame {
                         .addGap(5, 5, 5)
                         .addComponent(AeroviaBarcMad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(35, 35, 35)
+                                        .addComponent(jLabel33)))
+                                .addGap(4, 4, 4)
+                                .addComponent(jLabel35))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel33)
-                                    .addComponent(jLabel35)
-                                    .addComponent(transfersAeropBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(transfersCiudadBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel34)
                                     .addComponent(pasajerosBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(18, 18, 18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel36)
                                     .addComponent(hangarBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -731,10 +736,6 @@ public class Aerocomp extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_gate1MadActionPerformed
 
-    private void cajaTransfersCiudadMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cajaTransfersCiudadMadActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cajaTransfersCiudadMadActionPerformed
-
     private void tallerMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tallerMadActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_tallerMadActionPerformed
@@ -746,10 +747,6 @@ public class Aerocomp extends javax.swing.JFrame {
     private void gate2MadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate2MadActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_gate2MadActionPerformed
-
-    private void numPasajMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_numPasajMadActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_numPasajMadActionPerformed
 
     private void gate3MadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate3MadActionPerformed
         // TODO add your handling code here:
@@ -795,17 +792,9 @@ public class Aerocomp extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_AeroviaBarcMadActionPerformed
 
-    private void transfersAeropBCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_transfersAeropBCNActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_transfersAeropBCNActionPerformed
-
     private void gate1BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate1BCNActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_gate1BCNActionPerformed
-
-    private void transfersCiudadBCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_transfersCiudadBCNActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_transfersCiudadBCNActionPerformed
 
     private void tallerBCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tallerBCNActionPerformed
         // TODO add your handling code here:
@@ -859,6 +848,10 @@ public class Aerocomp extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_pista2BCNActionPerformed
 
+    private void numPasajMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_numPasajMadActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_numPasajMadActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -876,21 +869,23 @@ public class Aerocomp extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Aerocomp.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AerocompInterfaz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Aerocomp.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AerocompInterfaz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Aerocomp.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AerocompInterfaz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Aerocomp.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AerocompInterfaz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    new Aerocomp().setVisible(true);
+                    new AerocompInterfaz().setVisible(true);
                 } catch (InterruptedException ex) {
                     System.out.println("error");
                 }
@@ -903,8 +898,10 @@ public class Aerocomp extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField AeroviaBarcMad;
     private javax.swing.JTextField aeroviaMadBarc;
+    private javax.swing.JTextArea cajaTransfersAeropBar;
     private javax.swing.JTextArea cajaTransfersAeropMad;
-    private javax.swing.JTextField cajaTransfersCiudadMad;
+    private javax.swing.JTextArea cajaTransfersCiudadBar;
+    private javax.swing.JTextArea cajaTransfersCiudadMad;
     private javax.swing.JTextField gate1BCN;
     private javax.swing.JTextField gate1Mad;
     private javax.swing.JTextField gate2BCN;
@@ -958,6 +955,9 @@ public class Aerocomp extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTextField numPasajMad;
     private javax.swing.JTextField pasajerosBCN;
     private javax.swing.JTextField pista1BCN;
@@ -973,19 +973,62 @@ public class Aerocomp extends javax.swing.JFrame {
     private javax.swing.JTextField tallerBCN;
     private javax.swing.JTextField tallerMad;
     private javax.swing.JLabel titulo;
-    private javax.swing.JTextField transfersAeropBCN;
-    private javax.swing.JTextField transfersCiudadBCN;
     // End of variables declaration//GEN-END:variables
 
 //Meter 1 si se quiere meter, 0 si no
     public synchronized void actualizarTransfersAeropuerto(Autobus bus, boolean meter) {
-        String texto = cajaTransfersAeropMad.getText();
-        String idBus = bus.identificador;
-        if (meter) {
-            texto += " "+idBus;
-        } else {
-            texto = texto.replace(idBus, "");
+        //Cambiar caja de madrid
+        if (bus.getCiudad().equals("Madrid")) {
+            String texto = cajaTransfersAeropMad.getText();
+            String idBus = bus.identificador;
+            if (meter) {
+                texto += " " + idBus;
+            } else {
+                texto = texto.replace(idBus, "");
+            }
+            cajaTransfersAeropMad.setText(texto);
+        } 
+        //Cambiar caja de barcelona
+        else if(bus.getCiudad().equals("Barcelona")){
+            String texto = cajaTransfersAeropBar.getText();
+            String idBus = bus.identificador;
+            if (meter) {
+                texto += " " + idBus;
+            } else {
+                texto = texto.replace(idBus, "");
+            }
+            cajaTransfersAeropBar.setText(texto);
         }
-        cajaTransfersAeropMad.setText(texto);
+    }
+
+    public synchronized void actualizarTransfersCiudad(Autobus bus, boolean meter) {
+        //Cambiar caja madrid
+        if (bus.getCiudad().equals("Madrid")) {
+            String texto = cajaTransfersCiudadMad.getText();
+            String idBus = bus.identificador;
+            if (meter) {
+                texto += " " + idBus;
+            } else {
+                texto = texto.replace(idBus, "");
+            }
+            cajaTransfersCiudadMad.setText(texto);
+        } 
+        //Cambiar caja de barcelona
+        else if(bus.getCiudad().equals("Barcelona")){
+            String texto = cajaTransfersCiudadBar.getText();
+            String idBus = bus.identificador;
+            if (meter) {
+                texto += " " + idBus;
+            } else {
+                texto = texto.replace(idBus, "");
+            }
+            cajaTransfersCiudadBar.setText(texto);
+        }
+    }
+
+    public synchronized void actualizarPersonasAeropuerto(int cuantas) {
+
+        numPasajMad.setText(String.valueOf(cuantas));
+
     }
 }

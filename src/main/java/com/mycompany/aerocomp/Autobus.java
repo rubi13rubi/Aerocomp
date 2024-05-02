@@ -53,4 +53,7 @@ public class Autobus extends Thread {
         this.personas = 0;
     }
 
+    public String getCiudad(){
+        return this.aeropuerto.getCiudad();
+    }
 }

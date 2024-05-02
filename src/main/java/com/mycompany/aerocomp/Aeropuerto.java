@@ -26,7 +26,7 @@ public class Aeropuerto {
     AtomicInteger numAvionesHangar = new AtomicInteger(0);
     AtomicInteger numAvionesAreaEst = new AtomicInteger(0);
     Random rand = new Random();
-    private static Aerocomp interfaz;
+    private static AerocompInterfaz interfaz;
     
 
     public Aeropuerto() {
@@ -45,7 +45,7 @@ public class Aeropuerto {
         }
 
         //Inicialización de la interfaz
-        interfaz = new Aerocomp();
+        interfaz = new AerocompInterfaz();
         interfaz.setVisible(true);
 
         Generador generador = new Generador();
@@ -93,6 +93,7 @@ public class Aeropuerto {
             Log.logEvent("autobus " + bus.identificador + " baja " + bus.personas + " pasajeros en el aeropuerto");
             //Aqui se meten en el aeropuerto
             int cuantas = numPersonasAerop.addAndGet(bus.personas);
+            interfaz.actualizarPersonasAeropuerto(cuantas);
             Log.logEvent("Ahora en el aeropuerto hay " + cuantas + " personas");
             bus.bajarPasajeros();
             Log.logEvent("Ahora el bus " + bus.identificador + " tiene " + bus.personas + " pasajeros");
@@ -124,6 +125,7 @@ public class Aeropuerto {
             Log.logEvent("autobus " + bus.identificador + " sube " + pasajerosSalir + " pasajeros del aeropuerto");
             //Aqui se restan del sistema aeropuerto
             int cuantas = numPersonasAerop.addAndGet(-pasajerosSalir);
+            interfaz.actualizarPersonasAeropuerto(cuantas);
             Log.logEvent("Ahora en el aeropuerto hay " + cuantas + " personas");
 
         } catch (IOException ex) {
@@ -133,6 +135,7 @@ public class Aeropuerto {
     }
 
     public void busVaCiudad(Autobus bus) {
+        interfaz.actualizarTransfersCiudad(bus, true);
         try {
             Log.logEvent("autobus " + bus.identificador + " va a la ciudad");
             int irCiudad = rand.nextInt(5000) + 10000;
@@ -146,6 +149,7 @@ public class Aeropuerto {
         } catch (IOException ex) {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
+        interfaz.actualizarTransfersCiudad(bus, true);
     }
 
     public void busBajaPasajerosCiudad(Autobus bus) {
