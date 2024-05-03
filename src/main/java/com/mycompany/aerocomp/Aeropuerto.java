@@ -167,6 +167,7 @@ public class Aeropuerto {
     public void entrarAreaEstacionamiento(Avion avion) {
         try {
             //el avion entra al area de estacionamiento con capacidad ilimitada
+            interfaz.actualizarAreaEstacionamiento(avion, true);
             Log.logEvent("El avion " + avion.identificador + " esta en el area de estacionamiento");
             int cuantos = numAvionesAreaEst.incrementAndGet(); //No se suman correctamente???
             Log.logEvent("Ahora en el area de estacionamiento hay " + cuantos + " aviones");

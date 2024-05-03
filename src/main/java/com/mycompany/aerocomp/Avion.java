@@ -23,6 +23,7 @@ public class Avion extends Thread {
     int capacidad;
     Random rand = new Random();
     int ubicacion;
+        private static AerocompInterfaz interfaz;
     ArrayList<String> zonas = new ArrayList<>();
 
     public Avion(String identificador, Aeropuerto madrid, Aeropuerto barcelona, boolean cuidad) {
@@ -41,6 +42,7 @@ public class Avion extends Thread {
         } catch (IOException ex) {
             Logger.getLogger(Avion.class.getName()).log(Level.SEVERE, null, ex);
         }
+        interfaz.actualizarHangar(this, true);
         if (this.ciudad){
             madrid.entrarAreaEstacionamiento(this);
         }
