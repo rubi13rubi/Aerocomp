@@ -13,6 +13,17 @@ import java.util.logging.Logger;
  */
 public class main {
     public static void main(String[] args) throws InterruptedException{
-            Aeropuerto.iniciarSimulacion(10, 10);   
+        //Inicialización del log
+        Log.initialize();
+        Log.logEvent("Abre el Aeropuerto");
+
+        //Inicialización de la interfaz
+        AerocompInterfaz interfaz = new AerocompInterfaz();
+        interfaz.setVisible(true);
+
+        Generador generador = new Generador();
+        int nAviones = 100;
+        int nBus = 100;
+        generador.generar(nAviones, nBus);
     }
 }

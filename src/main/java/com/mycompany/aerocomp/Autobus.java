@@ -14,46 +14,26 @@ import java.util.logging.Logger;
  */
 public class Autobus extends Thread {
 
-    String identificador;
+    String id;
     Aeropuerto aeropuerto;
     int personas;
 
     public Autobus(String identificador, Aeropuerto aeropuerto) {
-        this.identificador = identificador;
+        this.id = identificador;
         this.aeropuerto = aeropuerto;
         this.personas = 0;
     }
 
     @Override
     public void run() {
-        try {
-            //codigo del hilo autobus
-            Log.logEvent("Creado el autobus " + this.identificador + " de " + this.getAeropuerto().getCiudad());
-        } catch (IOException ex) {
-            Logger.getLogger(Autobus.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        aeropuerto.busLlegaCiudad(this);
-        aeropuerto.busVaAeropuerto(this);
-        aeropuerto.busBajaPasajerosAeropuerto(this);
-        aeropuerto.busSubePasajerosAeropuerto(this);
-        aeropuerto.busVaCiudad(this);
-        aeropuerto.busBajaPasajerosCiudad(this);       
-    }
-
-    public Aeropuerto getAeropuerto() {
-        //Funcion que devuelve el nombre del aeropuerto en el que se encuentra. 
-        return this.aeropuerto;
-    }
-    
-    public void subirPasajeros(int numPasajeros){
-        this.personas = numPasajeros;
-    }
-    
-    public void bajarPasajeros(){
+        //codigo del hilo autobus
+        Log.logEvent("Creado el autobus " + this.id + " de " + this.aeropuerto.getCiudad());
+        personas = aeropuerto.busLlegaCiudad(id, personas);
+        aeropuerto.busVaAeropuerto(id);
+        aeropuerto.busBajaPasajerosAeropuerto(id, personas);
         this.personas = 0;
-    }
-
-    public String getCiudad(){
-        return this.aeropuerto.getCiudad();
+        this.personas = aeropuerto.busSubePasajerosAeropuerto(id);
+        aeropuerto.busVaCiudad(id);
+        aeropuerto.busBajaPasajerosCiudad(id, personas);       
     }
 }

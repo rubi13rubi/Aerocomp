@@ -8,6 +8,8 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Clase encargada de gestionar el fichero de log y añadir entradas garantizando
@@ -21,23 +23,35 @@ public class Log {
     private static final Object lock = new Object();
     private static BufferedWriter writer;
 
-    public static void initialize() throws IOException {
+    public static void initialize(){
         synchronized (lock) {
-            writer = new BufferedWriter(new FileWriter(LOG_FILE_NAME));
+            try {
+                writer = new BufferedWriter(new FileWriter(LOG_FILE_NAME));
+            } catch (IOException ex) {
+                Logger.getLogger(Log.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
 
-    public static void logEvent(String event) throws IOException {
+    public static void logEvent(String event){
         synchronized (lock) {
-            writer.write(new Date().toString() + " - " + event);
-            writer.newLine();
-            writer.flush();
+            try {
+                writer.write(new Date().toString() + " - " + event);
+                writer.newLine();
+                writer.flush();
+            } catch (IOException ex) {
+                Logger.getLogger(Log.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
 
-    public static void close() throws IOException {
+    public static void close(){
         synchronized (lock) {
-            writer.close();
+            try {
+                writer.close();
+            } catch (IOException ex) {
+                Logger.getLogger(Log.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
 }

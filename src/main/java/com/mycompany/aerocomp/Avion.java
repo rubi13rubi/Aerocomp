@@ -23,35 +23,29 @@ public class Avion extends Thread {
     int capacidad;
     Random rand = new Random();
     int ubicacion;
-        private static AerocompInterfaz interfaz;
+    private static AerocompInterfaz interfaz;
     ArrayList<String> zonas = new ArrayList<>();
 
-    public Avion(String identificador, Aeropuerto madrid, Aeropuerto barcelona, boolean cuidad) {
+    public Avion(String identificador, Aeropuerto madrid, Aeropuerto barcelona, boolean ciudad) {
         this.identificador = identificador;
         this.madrid = madrid;
         this.barcelona = barcelona;
-        this.ciudad = cuidad;
+        this.ciudad = ciudad;
         this.capacidad = rand.nextInt(201) + 100;
-        this.ubicacion = 1; 
+        this.ubicacion = 1;
     }
 
     public void run() {
-        try {
-            //codigo del hilo avion
-            Log.logEvent("Creado el avion " + this.identificador + " de " + this.getAeropuerto(this.ciudad).getCiudad() + " con capacidad " + this.capacidad);
-        } catch (IOException ex) {
-            Logger.getLogger(Avion.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        //codigo del hilo avion
+        Log.logEvent("Creado el avion " + this.identificador + " de " + this.getAeropuerto(this.ciudad).getCiudad() + " con capacidad " + this.capacidad);
         interfaz.actualizarHangar(this, true);
-        if (this.ciudad){
+        if (this.ciudad) {
             madrid.entrarAreaEstacionamiento(this);
-        }
-        else{
+        } else {
             barcelona.entrarAreaEstacionamiento(this);
         }
     }
 
-    
     public Aeropuerto getAeropuerto(boolean ubicacion) {
         //Funcion que devuelve el nombre del aeropuerto en el que se encuentra. True es madrid y false Barcelona
         if (ubicacion == true) {
