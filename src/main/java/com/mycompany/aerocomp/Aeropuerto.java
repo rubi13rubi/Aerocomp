@@ -96,7 +96,8 @@ public class Aeropuerto {
         if (max > personasAeropuerto) {
             max = personasAeropuerto;//Se sacan como maximo el numero de personas del aeropuerto
         }
-        int pasajerosSalir = rand.nextInt(max);
+        int pasajerosSalir = 0; //Fix para cuando hay 0 personas que no de excepcion el random
+        if (max > 0) pasajerosSalir = rand.nextInt(max);
         Log.logEvent("autobus " + id + " sube " + pasajerosSalir + " pasajeros del aeropuerto de " + this.ciudad);
         //Restar las personas del sistema del aeropuerto
         int personasaeropuerto = numPersonasAerop.addAndGet(-pasajerosSalir);
@@ -141,7 +142,9 @@ public class Aeropuerto {
                     Log.logEvent("El avion " + id + " accede al area de estacionamiento del aeropuerto de " + this.ciudad + " esperando a embarcar");
                 } else {
                     //Interfaz rodaje
-                    Log.logEvent("El avion " + id + " accede al area de rodaje del aeropuerto de " + this.ciudad + " esperando a desembarcar");
+                    Log.logEvent("El avion " + id + " accede al area de rodaje del aeropuerto de " + this.ciudad + " y se dirige a las puertas de desembarque");
+                    Thread.sleep(rand.nextInt(3000, 5000));
+                    Log.logEvent("El avion " + id + " esta esperando a desembarcar en " + this.ciudad);
                 }
 
                 Log.logEvent("Hay " + colaEmbarque.size() + " aviones esperando en la cola de embarque/desembarque");
@@ -160,7 +163,7 @@ public class Aeropuerto {
 
     }
 
-    public int Embarcar(String id, int capacidad, int puerta) {
+    public int embarcar(String id, int capacidad, int puerta) {
         int personasenavion = 0;
         try {
             int intento = 1;
@@ -200,7 +203,7 @@ public class Aeropuerto {
         return personasenavion;
     }
 
-    public void Desembarcar(String id, int personasenavion, int puerta) {
+    public void desembarcar(String id, int personasenavion, int puerta) {
         try {
             //Quitar interfaz rodaje
             //Interfaz puerta

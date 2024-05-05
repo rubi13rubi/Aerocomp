@@ -3,12 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.aerocomp;
-
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Random;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -16,13 +11,12 @@ import java.util.logging.Logger;
  */
 public class Avion extends Thread {
 
-    String identificador;
-    Aeropuerto madrid;
-    Aeropuerto barcelona;
-    Aeropuerto aeropuerto;
+    private String identificador;
+    private Aeropuerto madrid;
+    private Aeropuerto barcelona;
+    private Aeropuerto aeropuerto;
     private Random rand = new Random();
     
-
     private int capacidad;
     
     private int puerta; //puerta de embarque
@@ -39,18 +33,31 @@ public class Avion extends Thread {
     public void run() {
         //codigo del hilo avion
         Log.logEvent("Creado el avion " + this.identificador + " de " + this.aeropuerto.getCiudad() + " con capacidad " + this.capacidad);
-        //Va al hangar
+        aeropuerto.aparecerEnHangar(identificador);
+        int vuelos = 0;
         while (true) {
-            
+            aeropuerto.esperarEmbarqueDesembarque(this, identificador, true);
+            int pasajeros = aeropuerto.embarcar(identificador, capacidad, puerta);
+            int pista = aeropuerto.esperarPistaDespegue(identificador);
+            aeropuerto.despegar(identificador, pista);
+            aeropuerto.volar(identificador);
+            this.cambiarAeropuerto();
+            vuelos++;
+            aeropuerto.aterrizar(identificador);
+            aeropuerto.esperarEmbarqueDesembarque(this, identificador, false);
+            aeropuerto.desembarcar(identificador, pasajeros, puerta);
+            aeropuerto.comprobacionesAreadeEstacionamiento(identificador);
+            aeropuerto.inspeccionTaller(identificador, (vuelos%15==0));
+            if (rand.nextBoolean()) aeropuerto.iraHangar(identificador);
         }
     }
-
-    public Aeropuerto getAeropuerto(boolean ubicacion) {
-        //Funcion que devuelve el nombre del aeropuerto en el que se encuentra. True es madrid y false Barcelona
-        if (ubicacion == true) {
-            return this.madrid;
-        } else {
-            return this.barcelona;
+    
+    private void cambiarAeropuerto(){
+        if (this.aeropuerto == madrid){
+            this.aeropuerto = barcelona;
+        }
+        else{
+            this.aeropuerto = madrid;
         }
     }
 
