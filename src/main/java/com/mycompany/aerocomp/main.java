@@ -21,7 +21,7 @@ public class main {
         AerocompInterfaz interfaz = new AerocompInterfaz();
         interfaz.setVisible(true);
 
-        Generador generador = new Generador();
+        Generador generador = new Generador(interfaz);
         int nAviones = 100;
         int nBus = 100;
         generador.generar(nAviones, nBus);

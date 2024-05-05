@@ -88,7 +88,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         gate1BCN = new javax.swing.JTextField();
         tallerBCN = new javax.swing.JTextField();
         gate2BCN = new javax.swing.JTextField();
-        pasajerosBCN = new javax.swing.JTextField();
+        numPasajBar = new javax.swing.JTextField();
         gate3BCN = new javax.swing.JTextField();
         gate5BCN = new javax.swing.JTextField();
         gate6BCN = new javax.swing.JTextField();
@@ -298,9 +298,9 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             }
         });
 
-        pasajerosBCN.addActionListener(new java.awt.event.ActionListener() {
+        numPasajBar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pasajerosBCNActionPerformed(evt);
+                numPasajBarActionPerformed(evt);
             }
         });
 
@@ -537,7 +537,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
                                         .addGap(217, 217, 217))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(18, 18, 18)
-                                        .addComponent(pasajerosBCN, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(numPasajBar, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addGap(0, 0, Short.MAX_VALUE)
@@ -679,7 +679,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
                                     .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                             .addComponent(jLabel34)
-                                            .addComponent(pasajerosBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(numPasajBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(21, 21, 21)
                                         .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(18, 18, 18)
@@ -849,9 +849,9 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_gate2BCNActionPerformed
 
-    private void pasajerosBCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pasajerosBCNActionPerformed
+    private void numPasajBarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_numPasajBarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pasajerosBCNActionPerformed
+    }//GEN-LAST:event_numPasajBarActionPerformed
 
     private void gate3BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate3BCNActionPerformed
         // TODO add your handling code here:
@@ -1005,8 +1005,8 @@ public class AerocompInterfaz extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JTextField numPasajBar;
     private javax.swing.JTextField numPasajMad;
-    private javax.swing.JTextField pasajerosBCN;
     private javax.swing.JTextField pista1BCN;
     private javax.swing.JTextField pista1mad;
     private javax.swing.JTextField pista2BCN;
@@ -1023,62 +1023,76 @@ public class AerocompInterfaz extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
 //Meter 1 si se quiere meter, 0 si no
-    public synchronized void actualizarTransfersAeropuerto(Autobus bus, boolean meter) {
+    public void actualizarTransfersAeropuerto(String ciudad, String idBus, boolean meter) {
         //Cambiar caja de madrid
-        if (bus.getCiudad().equals("Madrid")) {
-            String texto = cajaTransfersAeropMad.getText();
-            String idBus = bus.identificador;
-            if (meter) {
-                texto += " " + idBus;
-            } else {
-                texto = texto.replace(idBus, "");
+        if (ciudad.equals("Madrid")) {
+            synchronized (cajaTransfersAeropMad) {
+                String texto = cajaTransfersAeropMad.getText();
+                if (meter) {
+                    texto += idBus + " ";
+                } else {
+                    texto = texto.replace(idBus + " ", "");
+                }
+                cajaTransfersAeropMad.setText(texto);
             }
-            cajaTransfersAeropMad.setText(texto);
-        } 
-        //Cambiar caja de barcelona
-        else if(bus.getCiudad().equals("Barcelona")){
-            String texto = cajaTransfersAeropBar.getText();
-            String idBus = bus.identificador;
-            if (meter) {
-                texto += " " + idBus;
-            } else {
-                texto = texto.replace(idBus, "");
+
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            synchronized (cajaTransfersAeropBar) {
+                String texto = cajaTransfersAeropBar.getText();
+                if (meter) {
+                    texto += idBus + " ";
+                } else {
+                    texto = texto.replace(idBus + " ", "");
+                }
+                cajaTransfersAeropBar.setText(texto);
             }
-            cajaTransfersAeropBar.setText(texto);
         }
     }
 
-    public synchronized void actualizarTransfersCiudad(Autobus bus, boolean meter) {
-        //Cambiar caja madrid
-        if (bus.getCiudad().equals("Madrid")) {
-            String texto = cajaTransfersCiudadMad.getText();
-            String idBus = bus.identificador;
-            if (meter) {
-                texto += " " + idBus;
-            } else {
-                texto = texto.replace(idBus, "");
+    public void actualizarTransfersCiudad(String ciudad, String idBus, boolean meter) {
+        //Cambiar caja de madrid
+        if (ciudad.equals("Madrid")) {
+            synchronized (cajaTransfersCiudadMad) {
+                String texto = cajaTransfersCiudadMad.getText();
+                if (meter) {
+                    texto += " " + idBus;
+                } else {
+                    texto = texto.replace(idBus, "");
+                }
+                cajaTransfersCiudadMad.setText(texto);
             }
-            cajaTransfersCiudadMad.setText(texto);
-        } 
-        //Cambiar caja de barcelona
-        else if(bus.getCiudad().equals("Barcelona")){
-            String texto = cajaTransfersCiudadBar.getText();
-            String idBus = bus.identificador;
-            if (meter) {
-                texto += " " + idBus;
-            } else {
-                texto = texto.replace(idBus, "");
+
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            synchronized (cajaTransfersCiudadBar) {
+                String texto = cajaTransfersCiudadBar.getText();
+                if (meter) {
+                    texto += " " + idBus;
+                } else {
+                    texto = texto.replace(idBus, "");
+                }
+                cajaTransfersCiudadBar.setText(texto);
             }
-            cajaTransfersCiudadBar.setText(texto);
         }
     }
 
-    public synchronized void actualizarPersonasAeropuerto(int cuantas) {
+    public void actualizarPersonasAeropuerto(String ciudad, int personas) {
+        //Cambiar caja de madrid
+        if (ciudad.equals("Madrid")) {
+            synchronized (cajaTransfersCiudadMad) {
+                numPasajMad.setText(String.valueOf(personas));
+            }
 
-        numPasajMad.setText(String.valueOf(cuantas));
-
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            synchronized (cajaTransfersCiudadBar) {
+                numPasajBar.setText(String.valueOf(personas));
+            }
+        }
     }
     
+
     public synchronized void actualizarHangar(Avion avion, boolean meter) {
         //Cambiar caja madrid
         if (avion.ciudad) {
@@ -1090,9 +1104,8 @@ public class AerocompInterfaz extends javax.swing.JFrame {
                 texto = texto.replace(idAvion, "");
             }
             hangarMad.setText(texto);
-        } 
-        //Cambiar caja de barcelona
-        else if(!avion.ciudad){
+        } //Cambiar caja de barcelona
+        else if (!avion.ciudad) {
             String texto = hangarBCN.getText();
             String idAvion = avion.identificador;
             if (meter) {
@@ -1103,6 +1116,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             hangarBCN.setText(texto);
         }
     }
+
     public synchronized void actualizarAreaEstacionamiento(Avion avion, boolean meter) {
         //Cambiar caja madrid
         if (avion.ciudad) {
@@ -1114,9 +1128,8 @@ public class AerocompInterfaz extends javax.swing.JFrame {
                 texto = texto.replace(idAvion, "");
             }
             areaEstMad.setText(texto);
-        } 
-        //Cambiar caja de barcelona
-        else if(!avion.ciudad){
+        } //Cambiar caja de barcelona
+        else if (!avion.ciudad) {
             String texto = areaEstBCN.getText();
             String idAvion = avion.identificador;
             if (meter) {

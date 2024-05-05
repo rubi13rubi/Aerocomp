@@ -13,9 +13,14 @@ import java.util.logging.Logger;
  * @author alvarocamacho
  */
 public class Generador {
-    private static Random rand = new Random();
-    Aeropuerto madrid = new Aeropuerto("Madrid");
-    Aeropuerto barcelona = new Aeropuerto("Barcelona");
+    private Random rand = new Random();
+    private Aeropuerto madrid;
+    private Aeropuerto barcelona;
+    
+    public Generador (AerocompInterfaz interfaz){
+        this.madrid = new Aeropuerto("Madrid", interfaz);
+        this.barcelona = new Aeropuerto("Barcelona", interfaz);
+    }
     
     public void generar(int nAviones, int nBus){
         Thread hiloAviones = new Thread(new Runnable() {

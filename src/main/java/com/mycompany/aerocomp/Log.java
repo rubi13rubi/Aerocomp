@@ -36,6 +36,7 @@ public class Log {
     public static void logEvent(String event){
         synchronized (lock) {
             try {
+                System.out.println(event);
                 writer.write(new Date().toString() + " - " + event);
                 writer.newLine();
                 writer.flush();

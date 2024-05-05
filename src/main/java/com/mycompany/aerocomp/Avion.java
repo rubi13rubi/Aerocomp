@@ -19,30 +19,29 @@ public class Avion extends Thread {
     String identificador;
     Aeropuerto madrid;
     Aeropuerto barcelona;
-    boolean ciudad;
-    int capacidad;
-    Random rand = new Random();
-    int ubicacion;
-    private static AerocompInterfaz interfaz;
-    ArrayList<String> zonas = new ArrayList<>();
+    Aeropuerto aeropuerto;
+    private Random rand = new Random();
+    
+
+    private int capacidad;
+    
+    private int puerta; //puerta de embarque
+    private boolean embarque; //determina si va a embarcar o no
 
     public Avion(String identificador, Aeropuerto madrid, Aeropuerto barcelona, boolean ciudad) {
         this.identificador = identificador;
         this.madrid = madrid;
         this.barcelona = barcelona;
-        this.ciudad = ciudad;
+        this.aeropuerto = ciudad ? madrid : barcelona;
         this.capacidad = rand.nextInt(201) + 100;
-        this.ubicacion = 1;
     }
 
     public void run() {
         //codigo del hilo avion
-        Log.logEvent("Creado el avion " + this.identificador + " de " + this.getAeropuerto(this.ciudad).getCiudad() + " con capacidad " + this.capacidad);
-        interfaz.actualizarHangar(this, true);
-        if (this.ciudad) {
-            madrid.entrarAreaEstacionamiento(this);
-        } else {
-            barcelona.entrarAreaEstacionamiento(this);
+        Log.logEvent("Creado el avion " + this.identificador + " de " + this.aeropuerto.getCiudad() + " con capacidad " + this.capacidad);
+        //Va al hangar
+        while (true) {
+            
         }
     }
 
@@ -55,8 +54,22 @@ public class Avion extends Thread {
         }
     }
 
-    public String getIdentificador() {
-        return identificador;
+    public int getPuerta() {
+        return puerta;
     }
+
+    public void setPuerta(int puerta) {
+        this.puerta = puerta;
+    }
+
+    public boolean isEmbarque() {
+        return embarque;
+    }
+
+    public void setEmbarque(boolean embarque) {
+        this.embarque = embarque;
+    }
+
+    
 
 }
