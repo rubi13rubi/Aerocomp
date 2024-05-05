@@ -1,246 +1,994 @@
-Sun May 05 13:43:30 CEST 2024 - Abre el Aeropuerto
-Sun May 05 13:43:31 CEST 2024 - Creado el autobus B-0001 de Barcelona
-Sun May 05 13:43:31 CEST 2024 - autobus B-0001 llega a Barcelona con 0 personas
-Sun May 05 13:43:31 CEST 2024 - Creado el avion RU-0001 de Barcelona con capacidad 283
-Sun May 05 13:43:31 CEST 2024 - El avion RU-0001 aparece en el hangar del aeropuerto de Barcelona
-Sun May 05 13:43:31 CEST 2024 - El avion RU-0001 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
-Sun May 05 13:43:31 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:31 CEST 2024 - El avion RU-0001 entra a embarcar en la puerta 5 del aeropuerto de Barcelona
-Sun May 05 13:43:31 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:32 CEST 2024 - Creado el autobus B-0002 de Madrid
-Sun May 05 13:43:32 CEST 2024 - autobus B-0002 llega a Madrid con 0 personas
-Sun May 05 13:43:32 CEST 2024 - Creado el autobus B-0003 de Barcelona
-Sun May 05 13:43:32 CEST 2024 - autobus B-0003 llega a Barcelona con 0 personas
-Sun May 05 13:43:33 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:33 CEST 2024 - autobus B-0001 recoge 29 pasajeros de Barcelona
-Sun May 05 13:43:33 CEST 2024 - autobus B-0001 va al aeropuerto de Barcelona
-Sun May 05 13:43:33 CEST 2024 - Creado el autobus B-0004 de Madrid
-Sun May 05 13:43:33 CEST 2024 - autobus B-0004 llega a Madrid con 0 personas
-Sun May 05 13:43:34 CEST 2024 - Creado el avion NH-0002 de Madrid con capacidad 107
-Sun May 05 13:43:34 CEST 2024 - El avion NH-0002 aparece en el hangar del aeropuerto de Madrid
-Sun May 05 13:43:34 CEST 2024 - El avion NH-0002 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
-Sun May 05 13:43:34 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:34 CEST 2024 - El avion NH-0002 entra a embarcar en la puerta 5 del aeropuerto de Madrid
-Sun May 05 13:43:34 CEST 2024 - El avion NH-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:34 CEST 2024 - Creado el autobus B-0005 de Barcelona
-Sun May 05 13:43:34 CEST 2024 - autobus B-0005 llega a Barcelona con 0 personas
-Sun May 05 13:43:34 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:34 CEST 2024 - autobus B-0002 recoge 43 pasajeros de Madrid
-Sun May 05 13:43:34 CEST 2024 - autobus B-0002 va al aeropuerto de Madrid
-Sun May 05 13:43:34 CEST 2024 - Creado el autobus B-0006 de Madrid
-Sun May 05 13:43:34 CEST 2024 - autobus B-0006 llega a Madrid con 0 personas
-Sun May 05 13:43:35 CEST 2024 - Creado el autobus B-0007 de Barcelona
-Sun May 05 13:43:35 CEST 2024 - autobus B-0007 llega a Barcelona con 0 personas
-Sun May 05 13:43:35 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:36 CEST 2024 - autobus B-0003 recoge 19 pasajeros de Barcelona
-Sun May 05 13:43:36 CEST 2024 - autobus B-0003 va al aeropuerto de Barcelona
-Sun May 05 13:43:36 CEST 2024 - Creado el avion EU-0003 de Barcelona con capacidad 248
-Sun May 05 13:43:36 CEST 2024 - El avion EU-0003 aparece en el hangar del aeropuerto de Barcelona
-Sun May 05 13:43:36 CEST 2024 - El avion EU-0003 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
-Sun May 05 13:43:36 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:36 CEST 2024 - El avion EU-0003 entra a embarcar en la puerta 4 del aeropuerto de Barcelona
-Sun May 05 13:43:36 CEST 2024 - El avion EU-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:37 CEST 2024 - El avion NH-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:37 CEST 2024 - Creado el autobus B-0008 de Madrid
-Sun May 05 13:43:37 CEST 2024 - autobus B-0008 llega a Madrid con 0 personas
-Sun May 05 13:43:37 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:38 CEST 2024 - autobus B-0005 recoge 29 pasajeros de Barcelona
-Sun May 05 13:43:38 CEST 2024 - autobus B-0005 va al aeropuerto de Barcelona
-Sun May 05 13:43:38 CEST 2024 - Creado el autobus B-0009 de Barcelona
-Sun May 05 13:43:38 CEST 2024 - autobus B-0009 llega a Barcelona con 0 personas
-Sun May 05 13:43:38 CEST 2024 - autobus B-0003 baja 19 pasajeros en el aeropuerto de Barcelona
-Sun May 05 13:43:38 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 19 personas
-Sun May 05 13:43:38 CEST 2024 - bus B-0003 Esperando nuevos pasajeros
-Sun May 05 13:43:38 CEST 2024 - autobus B-0004 recoge 13 pasajeros de Madrid
-Sun May 05 13:43:38 CEST 2024 - autobus B-0004 va al aeropuerto de Madrid
-Sun May 05 13:43:38 CEST 2024 - El avion EU-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:38 CEST 2024 - Creado el avion OK-0004 de Madrid con capacidad 137
-Sun May 05 13:43:38 CEST 2024 - El avion OK-0004 aparece en el hangar del aeropuerto de Madrid
-Sun May 05 13:43:38 CEST 2024 - El avion OK-0004 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
-Sun May 05 13:43:38 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:38 CEST 2024 - El avion OK-0004 entra a embarcar en la puerta 4 del aeropuerto de Madrid
-Sun May 05 13:43:38 CEST 2024 - El avion OK-0004 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:38 CEST 2024 - Creado el autobus B-0010 de Madrid
-Sun May 05 13:43:38 CEST 2024 - autobus B-0010 llega a Madrid con 0 personas
-Sun May 05 13:43:39 CEST 2024 - El avion NH-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:39 CEST 2024 - autobus B-0001 baja 29 pasajeros en el aeropuerto de Barcelona
-Sun May 05 13:43:39 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 29 personas
-Sun May 05 13:43:39 CEST 2024 - bus B-0001 Esperando nuevos pasajeros
-Sun May 05 13:43:39 CEST 2024 - Creado el autobus B-0011 de Barcelona
-Sun May 05 13:43:39 CEST 2024 - autobus B-0011 llega a Barcelona con 0 personas
-Sun May 05 13:43:40 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:40 CEST 2024 - El avion OK-0004 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:40 CEST 2024 - autobus B-0006 recoge 18 pasajeros de Madrid
-Sun May 05 13:43:40 CEST 2024 - autobus B-0006 va al aeropuerto de Madrid
-Sun May 05 13:43:40 CEST 2024 - Creado el autobus B-0012 de Madrid
-Sun May 05 13:43:40 CEST 2024 - autobus B-0012 llega a Madrid con 0 personas
-Sun May 05 13:43:40 CEST 2024 - autobus B-0002 baja 43 pasajeros en el aeropuerto de Madrid
-Sun May 05 13:43:40 CEST 2024 - Ahora en el aeropuerto de Madrid hay 43 personas
-Sun May 05 13:43:40 CEST 2024 - bus B-0002 Esperando nuevos pasajeros
-Sun May 05 13:43:41 CEST 2024 - El avion EU-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:41 CEST 2024 - autobus B-0004 baja 13 pasajeros en el aeropuerto de Madrid
-Sun May 05 13:43:41 CEST 2024 - Ahora en el aeropuerto de Madrid hay 56 personas
-Sun May 05 13:43:41 CEST 2024 - bus B-0004 Esperando nuevos pasajeros
-Sun May 05 13:43:41 CEST 2024 - Creado el autobus B-0013 de Barcelona
-Sun May 05 13:43:41 CEST 2024 - autobus B-0013 llega a Barcelona con 0 personas
-Sun May 05 13:43:42 CEST 2024 - El avion NH-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:42 CEST 2024 - Creado el avion MT-0005 de Barcelona con capacidad 193
-Sun May 05 13:43:42 CEST 2024 - El avion MT-0005 aparece en el hangar del aeropuerto de Barcelona
-Sun May 05 13:43:42 CEST 2024 - El avion MT-0005 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
-Sun May 05 13:43:42 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:42 CEST 2024 - El avion MT-0005 entra a embarcar en la puerta 3 del aeropuerto de Barcelona
-Sun May 05 13:43:42 CEST 2024 - El avion MT-0005 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:42 CEST 2024 - autobus B-0011 recoge 47 pasajeros de Barcelona
-Sun May 05 13:43:42 CEST 2024 - autobus B-0011 va al aeropuerto de Barcelona
-Sun May 05 13:43:42 CEST 2024 - autobus B-0003 sube 0 pasajeros del aeropuerto de Barcelona
-Sun May 05 13:43:42 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
-Sun May 05 13:43:42 CEST 2024 - autobus B-0003 va a Barcelona
-Sun May 05 13:43:42 CEST 2024 - El avion OK-0004 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:42 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:42 CEST 2024 - autobus B-0001 sube 0 pasajeros del aeropuerto de Barcelona
-Sun May 05 13:43:42 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
-Sun May 05 13:43:42 CEST 2024 - autobus B-0001 va a Barcelona
-Sun May 05 13:43:42 CEST 2024 - Creado el autobus B-0014 de Madrid
-Sun May 05 13:43:42 CEST 2024 - autobus B-0014 llega a Madrid con 0 personas
-Sun May 05 13:43:42 CEST 2024 - autobus B-0006 baja 18 pasajeros en el aeropuerto de Madrid
-Sun May 05 13:43:42 CEST 2024 - Ahora en el aeropuerto de Madrid hay 18 personas
-Sun May 05 13:43:42 CEST 2024 - bus B-0006 Esperando nuevos pasajeros
-Sun May 05 13:43:42 CEST 2024 - autobus B-0007 recoge 29 pasajeros de Barcelona
-Sun May 05 13:43:42 CEST 2024 - autobus B-0007 va al aeropuerto de Barcelona
-Sun May 05 13:43:43 CEST 2024 - autobus B-0005 baja 29 pasajeros en el aeropuerto de Barcelona
-Sun May 05 13:43:43 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 29 personas
-Sun May 05 13:43:43 CEST 2024 - bus B-0005 Esperando nuevos pasajeros
-Sun May 05 13:43:43 CEST 2024 - El avion NH-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:43 CEST 2024 - autobus B-0002 sube 0 pasajeros del aeropuerto de Madrid
-Sun May 05 13:43:43 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
-Sun May 05 13:43:43 CEST 2024 - autobus B-0002 va a Madrid
-Sun May 05 13:43:43 CEST 2024 - Creado el avion EU-0006 de Madrid con capacidad 270
-Sun May 05 13:43:43 CEST 2024 - El avion EU-0006 aparece en el hangar del aeropuerto de Madrid
-Sun May 05 13:43:43 CEST 2024 - El avion EU-0006 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
-Sun May 05 13:43:43 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:43 CEST 2024 - El avion EU-0006 entra a embarcar en la puerta 3 del aeropuerto de Madrid
-Sun May 05 13:43:43 CEST 2024 - El avion EU-0006 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:43 CEST 2024 - Creado el autobus B-0015 de Barcelona
-Sun May 05 13:43:43 CEST 2024 - autobus B-0015 llega a Barcelona con 0 personas
-Sun May 05 13:43:43 CEST 2024 - El avion EU-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:43 CEST 2024 - autobus B-0010 recoge 18 pasajeros de Madrid
-Sun May 05 13:43:43 CEST 2024 - autobus B-0010 va al aeropuerto de Madrid
-Sun May 05 13:43:44 CEST 2024 - autobus B-0008 recoge 9 pasajeros de Madrid
-Sun May 05 13:43:44 CEST 2024 - autobus B-0008 va al aeropuerto de Madrid
-Sun May 05 13:43:44 CEST 2024 - El avion MT-0005 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:44 CEST 2024 - autobus B-0009 recoge 43 pasajeros de Barcelona
-Sun May 05 13:43:44 CEST 2024 - Creado el autobus B-0016 de Madrid
-Sun May 05 13:43:44 CEST 2024 - autobus B-0016 llega a Madrid con 0 personas
-Sun May 05 13:43:44 CEST 2024 - autobus B-0009 va al aeropuerto de Barcelona
-Sun May 05 13:43:44 CEST 2024 - El avion EU-0006 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:44 CEST 2024 - autobus B-0004 sube 0 pasajeros del aeropuerto de Madrid
-Sun May 05 13:43:44 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
-Sun May 05 13:43:44 CEST 2024 - autobus B-0004 va a Madrid
-Sun May 05 13:43:44 CEST 2024 - Creado el avion PV-0007 de Barcelona con capacidad 244
-Sun May 05 13:43:44 CEST 2024 - El avion PV-0007 aparece en el hangar del aeropuerto de Barcelona
-Sun May 05 13:43:44 CEST 2024 - El avion PV-0007 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
-Sun May 05 13:43:44 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:44 CEST 2024 - El avion PV-0007 entra a embarcar en la puerta 2 del aeropuerto de Barcelona
-Sun May 05 13:43:44 CEST 2024 - El avion PV-0007 intenta embarcar en la puerta 2 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:45 CEST 2024 - Creado el autobus B-0017 de Barcelona
-Sun May 05 13:43:45 CEST 2024 - autobus B-0017 llega a Barcelona con 0 personas
-Sun May 05 13:43:45 CEST 2024 - El avion NH-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:45 CEST 2024 - El avion OK-0004 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:45 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:45 CEST 2024 - El avion EU-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:45 CEST 2024 - Creado el avion AR-0008 de Madrid con capacidad 270
-Sun May 05 13:43:45 CEST 2024 - El avion AR-0008 aparece en el hangar del aeropuerto de Madrid
-Sun May 05 13:43:45 CEST 2024 - El avion AR-0008 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
-Sun May 05 13:43:45 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:45 CEST 2024 - El avion AR-0008 entra a embarcar en la puerta 2 del aeropuerto de Madrid
-Sun May 05 13:43:45 CEST 2024 - El avion AR-0008 intenta embarcar en la puerta 2 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:45 CEST 2024 - autobus B-0012 recoge 1 pasajeros de Madrid
-Sun May 05 13:43:45 CEST 2024 - autobus B-0012 va al aeropuerto de Madrid
-Sun May 05 13:43:46 CEST 2024 - El avion PV-0007 intenta embarcar en la puerta 2 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:46 CEST 2024 - El avion EU-0006 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:46 CEST 2024 - Creado el autobus B-0018 de Madrid
-Sun May 05 13:43:46 CEST 2024 - autobus B-0018 llega a Madrid con 0 personas
-Sun May 05 13:43:46 CEST 2024 - El avion MT-0005 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:46 CEST 2024 - El avion EU-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:46 CEST 2024 - El avion OK-0004 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:47 CEST 2024 - autobus B-0008 baja 9 pasajeros en el aeropuerto de Madrid
-Sun May 05 13:43:47 CEST 2024 - Ahora en el aeropuerto de Madrid hay 9 personas
-Sun May 05 13:43:47 CEST 2024 - bus B-0008 Esperando nuevos pasajeros
-Sun May 05 13:43:47 CEST 2024 - El avion PV-0007 intenta embarcar en la puerta 2 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:47 CEST 2024 - autobus B-0013 recoge 44 pasajeros de Barcelona
-Sun May 05 13:43:47 CEST 2024 - autobus B-0006 sube 3 pasajeros del aeropuerto de Madrid
-Sun May 05 13:43:47 CEST 2024 - autobus B-0013 va al aeropuerto de Barcelona
-Sun May 05 13:43:47 CEST 2024 - Ahora en el aeropuerto de Madrid hay 6 personas
-Sun May 05 13:43:47 CEST 2024 - autobus B-0006 va a Madrid
-Sun May 05 13:43:47 CEST 2024 - autobus B-0017 recoge 7 pasajeros de Barcelona
-Sun May 05 13:43:47 CEST 2024 - autobus B-0007 baja 29 pasajeros en el aeropuerto de Barcelona
-Sun May 05 13:43:47 CEST 2024 - autobus B-0017 va al aeropuerto de Barcelona
-Sun May 05 13:43:47 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 29 personas
-Sun May 05 13:43:47 CEST 2024 - bus B-0007 Esperando nuevos pasajeros
-Sun May 05 13:43:47 CEST 2024 - autobus B-0005 sube 22 pasajeros del aeropuerto de Barcelona
-Sun May 05 13:43:47 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 7 personas
-Sun May 05 13:43:47 CEST 2024 - autobus B-0005 va a Barcelona
-Sun May 05 13:43:47 CEST 2024 - Creado el autobus B-0019 de Barcelona
-Sun May 05 13:43:47 CEST 2024 - autobus B-0019 llega a Barcelona con 0 personas
-Sun May 05 13:43:47 CEST 2024 - El avion MT-0005 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:47 CEST 2024 - Creado el avion AL-0009 de Barcelona con capacidad 129
-Sun May 05 13:43:47 CEST 2024 - El avion AL-0009 aparece en el hangar del aeropuerto de Barcelona
-Sun May 05 13:43:47 CEST 2024 - El avion AL-0009 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
-Sun May 05 13:43:47 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:47 CEST 2024 - El avion AL-0009 entra a embarcar en la puerta 0 del aeropuerto de Barcelona
-Sun May 05 13:43:47 CEST 2024 - El avion AL-0009 intenta embarcar en la puerta 0 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:47 CEST 2024 - El avion EU-0006 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:47 CEST 2024 - autobus B-0016 recoge 24 pasajeros de Madrid
-Sun May 05 13:43:47 CEST 2024 - autobus B-0016 va al aeropuerto de Madrid
-Sun May 05 13:43:48 CEST 2024 - El avion NH-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:48 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:48 CEST 2024 - El avion PV-0007 intenta embarcar en la puerta 2 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:48 CEST 2024 - autobus B-0011 baja 47 pasajeros en el aeropuerto de Barcelona
-Sun May 05 13:43:48 CEST 2024 - Creado el autobus B-0020 de Madrid
-Sun May 05 13:43:48 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 47 personas
-Sun May 05 13:43:48 CEST 2024 - bus B-0011 Esperando nuevos pasajeros
-Sun May 05 13:43:48 CEST 2024 - autobus B-0020 llega a Madrid con 0 personas
-Sun May 05 13:43:48 CEST 2024 - El avion OK-0004 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:48 CEST 2024 - El avion EU-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:48 CEST 2024 - autobus B-0009 baja 43 pasajeros en el aeropuerto de Barcelona
-Sun May 05 13:43:48 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 43 personas
-Sun May 05 13:43:48 CEST 2024 - bus B-0009 Esperando nuevos pasajeros
-Sun May 05 13:43:48 CEST 2024 - El avion AR-0008 intenta embarcar en la puerta 2 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:49 CEST 2024 - autobus B-0014 recoge 21 pasajeros de Madrid
-Sun May 05 13:43:49 CEST 2024 - autobus B-0014 va al aeropuerto de Madrid
-Sun May 05 13:43:49 CEST 2024 - autobus B-0010 baja 18 pasajeros en el aeropuerto de Madrid
-Sun May 05 13:43:49 CEST 2024 - Ahora en el aeropuerto de Madrid hay 18 personas
-Sun May 05 13:43:49 CEST 2024 - bus B-0010 Esperando nuevos pasajeros
-Sun May 05 13:43:49 CEST 2024 - Creado el autobus B-0021 de Barcelona
-Sun May 05 13:43:49 CEST 2024 - autobus B-0021 llega a Barcelona con 0 personas
-Sun May 05 13:43:49 CEST 2024 - El avion PV-0007 intenta embarcar en la puerta 2 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:49 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:49 CEST 2024 - autobus B-0008 sube 10 pasajeros del aeropuerto de Madrid
-Sun May 05 13:43:49 CEST 2024 - Ahora en el aeropuerto de Madrid hay 8 personas
-Sun May 05 13:43:49 CEST 2024 - autobus B-0008 va a Madrid
-Sun May 05 13:43:49 CEST 2024 - El avion EU-0006 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:49 CEST 2024 - El avion MT-0005 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:49 CEST 2024 - autobus B-0015 recoge 22 pasajeros de Barcelona
-Sun May 05 13:43:49 CEST 2024 - autobus B-0015 va al aeropuerto de Barcelona
-Sun May 05 13:43:49 CEST 2024 - El avion EU-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:49 CEST 2024 - El avion OK-0004 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:50 CEST 2024 - Creado el autobus B-0022 de Madrid
-Sun May 05 13:43:50 CEST 2024 - autobus B-0022 llega a Madrid con 0 personas
-Sun May 05 13:43:50 CEST 2024 - Creado el avion BF-0010 de Madrid con capacidad 286
-Sun May 05 13:43:50 CEST 2024 - El avion BF-0010 aparece en el hangar del aeropuerto de Madrid
-Sun May 05 13:43:50 CEST 2024 - El avion BF-0010 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
-Sun May 05 13:43:50 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
-Sun May 05 13:43:50 CEST 2024 - El avion BF-0010 entra a embarcar en la puerta 0 del aeropuerto de Madrid
-Sun May 05 13:43:50 CEST 2024 - El avion BF-0010 intenta embarcar en la puerta 0 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:50 CEST 2024 - autobus B-0018 recoge 4 pasajeros de Madrid
-Sun May 05 13:43:50 CEST 2024 - autobus B-0018 va al aeropuerto de Madrid
-Sun May 05 13:43:50 CEST 2024 - El avion RU-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:50 CEST 2024 - El avion EU-0006 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:50 CEST 2024 - El avion AR-0008 intenta embarcar en la puerta 2 del aeropuerto de Madrid(intento 1)
-Sun May 05 13:43:50 CEST 2024 - El avion AL-0009 intenta embarcar en la puerta 0 del aeropuerto de Barcelona(intento 1)
-Sun May 05 13:43:50 CEST 2024 - autobus B-0013 baja 44 pasajeros en el aeropuerto de Barcelona
-Sun May 05 13:43:50 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 44 personas
-Sun May 05 13:43:50 CEST 2024 - bus B-0013 Esperando nuevos pasajeros
-Sun May 05 13:43:51 CEST 2024 - Creado el autobus B-0023 de Barcelona
-Sun May 05 13:43:51 CEST 2024 - autobus B-0023 llega a Barcelona con 0 personas
-Sun May 05 13:43:51 CEST 2024 - El avion NH-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:15 CEST 2024 - Abre el Aeropuerto
+Mon May 06 00:00:15 CEST 2024 - Creado el autobus B-0001 de Barcelona
+Mon May 06 00:00:15 CEST 2024 - autobus B-0001 llega a Barcelona con 0 personas
+Mon May 06 00:00:15 CEST 2024 - Creado el avion TC-0001 de Barcelona con capacidad 280
+Mon May 06 00:00:15 CEST 2024 - El avion TC-0001 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:15 CEST 2024 - El avion TC-0001 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:15 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:15 CEST 2024 - El avion TC-0001 entra a embarcar en la puerta 5 del aeropuerto de Barcelona
+Mon May 06 00:00:15 CEST 2024 - El avion TC-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:16 CEST 2024 - Creado el autobus B-0002 de Madrid
+Mon May 06 00:00:16 CEST 2024 - autobus B-0002 llega a Madrid con 0 personas
+Mon May 06 00:00:16 CEST 2024 - Creado el autobus B-0003 de Barcelona
+Mon May 06 00:00:16 CEST 2024 - autobus B-0003 llega a Barcelona con 0 personas
+Mon May 06 00:00:17 CEST 2024 - Creado el autobus B-0004 de Madrid
+Mon May 06 00:00:17 CEST 2024 - autobus B-0004 llega a Madrid con 0 personas
+Mon May 06 00:00:18 CEST 2024 - El avion TC-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:18 CEST 2024 - Creado el avion IX-0002 de Madrid con capacidad 239
+Mon May 06 00:00:18 CEST 2024 - El avion IX-0002 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:18 CEST 2024 - Creado el autobus B-0005 de Barcelona
+Mon May 06 00:00:18 CEST 2024 - autobus B-0005 llega a Barcelona con 0 personas
+Mon May 06 00:00:18 CEST 2024 - El avion IX-0002 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:18 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:18 CEST 2024 - El avion IX-0002 entra a embarcar en la puerta 5 del aeropuerto de Madrid
+Mon May 06 00:00:18 CEST 2024 - El avion IX-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:19 CEST 2024 - Creado el autobus B-0006 de Madrid
+Mon May 06 00:00:19 CEST 2024 - autobus B-0006 llega a Madrid con 0 personas
+Mon May 06 00:00:19 CEST 2024 - El avion IX-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:19 CEST 2024 - El avion TC-0001 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:00:19 CEST 2024 - autobus B-0003 recoge 13 pasajeros de Barcelona
+Mon May 06 00:00:19 CEST 2024 - autobus B-0003 va al aeropuerto de Barcelona
+Mon May 06 00:00:20 CEST 2024 - autobus B-0001 recoge 33 pasajeros de Barcelona
+Mon May 06 00:00:20 CEST 2024 - autobus B-0001 va al aeropuerto de Barcelona
+Mon May 06 00:00:20 CEST 2024 - Creado el autobus B-0007 de Barcelona
+Mon May 06 00:00:20 CEST 2024 - autobus B-0007 llega a Barcelona con 0 personas
+Mon May 06 00:00:20 CEST 2024 - Creado el avion GK-0003 de Barcelona con capacidad 101
+Mon May 06 00:00:20 CEST 2024 - El avion GK-0003 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:20 CEST 2024 - El avion GK-0003 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:20 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:20 CEST 2024 - El avion GK-0003 entra a embarcar en la puerta 4 del aeropuerto de Barcelona
+Mon May 06 00:00:20 CEST 2024 - El avion GK-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:21 CEST 2024 - El avion TC-0001 termina de embarcar en la puerta 5 del aeropuerto de Barcelona 0 personas
+Mon May 06 00:00:21 CEST 2024 - El avion TC-0001 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:21 CEST 2024 - Creado el autobus B-0008 de Madrid
+Mon May 06 00:00:21 CEST 2024 - autobus B-0008 llega a Madrid con 0 personas
+Mon May 06 00:00:22 CEST 2024 - autobus B-0002 recoge 28 pasajeros de Madrid
+Mon May 06 00:00:22 CEST 2024 - autobus B-0002 va al aeropuerto de Madrid
+Mon May 06 00:00:22 CEST 2024 - autobus B-0003 baja 13 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:22 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 13 personas
+Mon May 06 00:00:22 CEST 2024 - bus B-0003 Esperando nuevos pasajeros
+Mon May 06 00:00:22 CEST 2024 - El avion IX-0002 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:22 CEST 2024 - autobus B-0004 recoge 31 pasajeros de Madrid
+Mon May 06 00:00:22 CEST 2024 - autobus B-0004 va al aeropuerto de Madrid
+Mon May 06 00:00:22 CEST 2024 - autobus B-0005 recoge 10 pasajeros de Barcelona
+Mon May 06 00:00:22 CEST 2024 - autobus B-0005 va al aeropuerto de Barcelona
+Mon May 06 00:00:22 CEST 2024 - Creado el autobus B-0009 de Barcelona
+Mon May 06 00:00:22 CEST 2024 - autobus B-0009 llega a Barcelona con 0 personas
+Mon May 06 00:00:22 CEST 2024 - El avion GK-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:23 CEST 2024 - autobus B-0007 recoge 6 pasajeros de Barcelona
+Mon May 06 00:00:23 CEST 2024 - autobus B-0007 va al aeropuerto de Barcelona
+Mon May 06 00:00:23 CEST 2024 - autobus B-0001 baja 33 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:23 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 33 personas
+Mon May 06 00:00:23 CEST 2024 - bus B-0001 Esperando nuevos pasajeros
+Mon May 06 00:00:23 CEST 2024 - Creado el autobus B-0010 de Madrid
+Mon May 06 00:00:23 CEST 2024 - autobus B-0010 llega a Madrid con 0 personas
+Mon May 06 00:00:24 CEST 2024 - El avion IX-0002 termina de embarcar en la puerta 5 del aeropuerto de Madrid 0 personas
+Mon May 06 00:00:24 CEST 2024 - El avion IX-0002 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:24 CEST 2024 - Creado el avion AE-0004 de Madrid con capacidad 163
+Mon May 06 00:00:24 CEST 2024 - El avion AE-0004 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:24 CEST 2024 - El avion AE-0004 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:24 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:24 CEST 2024 - El avion AE-0004 entra a embarcar en la puerta 5 del aeropuerto de Madrid
+Mon May 06 00:00:24 CEST 2024 - El avion AE-0004 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:24 CEST 2024 - autobus B-0006 recoge 44 pasajeros de Madrid
+Mon May 06 00:00:24 CEST 2024 - autobus B-0006 va al aeropuerto de Madrid
+Mon May 06 00:00:25 CEST 2024 - autobus B-0003 sube 3 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:25 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 30 personas
+Mon May 06 00:00:25 CEST 2024 - autobus B-0003 va a Barcelona
+Mon May 06 00:00:25 CEST 2024 - Creado el autobus B-0011 de Barcelona
+Mon May 06 00:00:25 CEST 2024 - autobus B-0011 llega a Barcelona con 0 personas
+Mon May 06 00:00:25 CEST 2024 - autobus B-0008 recoge 9 pasajeros de Madrid
+Mon May 06 00:00:25 CEST 2024 - autobus B-0008 va al aeropuerto de Madrid
+Mon May 06 00:00:25 CEST 2024 - El avion TC-0001 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:00:25 CEST 2024 - El avion TC-0001 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:25 CEST 2024 - El avion TC-0001 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:25 CEST 2024 - Creado el autobus B-0012 de Madrid
+Mon May 06 00:00:25 CEST 2024 - autobus B-0012 llega a Madrid con 0 personas
+Mon May 06 00:00:25 CEST 2024 - El avion GK-0003 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:00:26 CEST 2024 - autobus B-0010 recoge 27 pasajeros de Madrid
+Mon May 06 00:00:26 CEST 2024 - autobus B-0010 va al aeropuerto de Madrid
+Mon May 06 00:00:26 CEST 2024 - autobus B-0004 baja 31 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:26 CEST 2024 - Ahora en el aeropuerto de Madrid hay 31 personas
+Mon May 06 00:00:26 CEST 2024 - bus B-0004 Esperando nuevos pasajeros
+Mon May 06 00:00:26 CEST 2024 - Creado el autobus B-0013 de Barcelona
+Mon May 06 00:00:26 CEST 2024 - autobus B-0013 llega a Barcelona con 0 personas
+Mon May 06 00:00:26 CEST 2024 - El avion TC-0001 comienza el despegue desde la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:00:27 CEST 2024 - El avion IX-0002 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:00:27 CEST 2024 - El avion IX-0002 accede a la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:27 CEST 2024 - El avion IX-0002 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:27 CEST 2024 - autobus B-0001 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:27 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:27 CEST 2024 - autobus B-0001 va a Barcelona
+Mon May 06 00:00:27 CEST 2024 - autobus B-0005 baja 10 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:27 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 10 personas
+Mon May 06 00:00:27 CEST 2024 - bus B-0005 Esperando nuevos pasajeros
+Mon May 06 00:00:27 CEST 2024 - El avion AE-0004 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:27 CEST 2024 - Creado el avion RG-0005 de Barcelona con capacidad 238
+Mon May 06 00:00:27 CEST 2024 - El avion RG-0005 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:27 CEST 2024 - El avion RG-0005 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:27 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:27 CEST 2024 - El avion RG-0005 entra a embarcar en la puerta 5 del aeropuerto de Barcelona
+Mon May 06 00:00:27 CEST 2024 - El avion RG-0005 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:28 CEST 2024 - autobus B-0011 recoge 10 pasajeros de Barcelona
+Mon May 06 00:00:28 CEST 2024 - autobus B-0011 va al aeropuerto de Barcelona
+Mon May 06 00:00:28 CEST 2024 - autobus B-0002 baja 28 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:28 CEST 2024 - Ahora en el aeropuerto de Madrid hay 28 personas
+Mon May 06 00:00:28 CEST 2024 - bus B-0002 Esperando nuevos pasajeros
+Mon May 06 00:00:28 CEST 2024 - El avion GK-0003 termina de embarcar en la puerta 4 del aeropuerto de Barcelona 53 personas
+Mon May 06 00:00:28 CEST 2024 - El avion GK-0003 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:28 CEST 2024 - Creado el autobus B-0014 de Madrid
+Mon May 06 00:00:28 CEST 2024 - autobus B-0014 llega a Madrid con 0 personas
+Mon May 06 00:00:28 CEST 2024 - autobus B-0007 baja 6 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:28 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 6 personas
+Mon May 06 00:00:28 CEST 2024 - bus B-0007 Esperando nuevos pasajeros
+Mon May 06 00:00:28 CEST 2024 - El avion TC-0001 despega exitosamente de la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:00:28 CEST 2024 - El avion TC-0001 accede a la aerovia de Barcelona
+Mon May 06 00:00:29 CEST 2024 - Creado el autobus B-0015 de Barcelona
+Mon May 06 00:00:29 CEST 2024 - autobus B-0015 llega a Barcelona con 0 personas
+Mon May 06 00:00:29 CEST 2024 - autobus B-0009 recoge 6 pasajeros de Barcelona
+Mon May 06 00:00:29 CEST 2024 - autobus B-0009 va al aeropuerto de Barcelona
+Mon May 06 00:00:29 CEST 2024 - Creado el autobus B-0016 de Madrid
+Mon May 06 00:00:29 CEST 2024 - autobus B-0016 llega a Madrid con 0 personas
+Mon May 06 00:00:29 CEST 2024 - El avion IX-0002 comienza el despegue desde la pista 0 del aeropuerto de Madrid
+Mon May 06 00:00:29 CEST 2024 - Creado el avion OD-0006 de Madrid con capacidad 157
+Mon May 06 00:00:29 CEST 2024 - El avion OD-0006 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:29 CEST 2024 - El avion OD-0006 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:29 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:29 CEST 2024 - El avion OD-0006 entra a embarcar en la puerta 4 del aeropuerto de Madrid
+Mon May 06 00:00:29 CEST 2024 - El avion OD-0006 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:29 CEST 2024 - autobus B-0004 sube 25 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:29 CEST 2024 - Ahora en el aeropuerto de Madrid hay 3 personas
+Mon May 06 00:00:29 CEST 2024 - autobus B-0004 va a Madrid
+Mon May 06 00:00:29 CEST 2024 - El avion AE-0004 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:30 CEST 2024 - autobus B-0012 recoge 2 pasajeros de Madrid
+Mon May 06 00:00:30 CEST 2024 - autobus B-0012 va al aeropuerto de Madrid
+Mon May 06 00:00:30 CEST 2024 - autobus B-0002 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:30 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:30 CEST 2024 - autobus B-0002 va a Madrid
+Mon May 06 00:00:30 CEST 2024 - autobus B-0005 sube 1 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:30 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 5 personas
+Mon May 06 00:00:30 CEST 2024 - autobus B-0005 va a Barcelona
+Mon May 06 00:00:30 CEST 2024 - El avion RG-0005 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:30 CEST 2024 - autobus B-0008 baja 9 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:30 CEST 2024 - Ahora en el aeropuerto de Madrid hay 9 personas
+Mon May 06 00:00:30 CEST 2024 - bus B-0008 Esperando nuevos pasajeros
+Mon May 06 00:00:30 CEST 2024 - autobus B-0014 recoge 7 pasajeros de Madrid
+Mon May 06 00:00:30 CEST 2024 - autobus B-0014 va al aeropuerto de Madrid
+Mon May 06 00:00:30 CEST 2024 - Creado el autobus B-0017 de Barcelona
+Mon May 06 00:00:30 CEST 2024 - autobus B-0017 llega a Barcelona con 0 personas
+Mon May 06 00:00:31 CEST 2024 - autobus B-0006 baja 44 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:31 CEST 2024 - Ahora en el aeropuerto de Madrid hay 53 personas
+Mon May 06 00:00:31 CEST 2024 - bus B-0006 Esperando nuevos pasajeros
+Mon May 06 00:00:31 CEST 2024 - El avion AE-0004 termina de embarcar en la puerta 5 del aeropuerto de Madrid 87 personas
+Mon May 06 00:00:31 CEST 2024 - El avion AE-0004 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:31 CEST 2024 - Creado el avion ZO-0007 de Barcelona con capacidad 161
+Mon May 06 00:00:31 CEST 2024 - El avion ZO-0007 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:31 CEST 2024 - El avion ZO-0007 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:31 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:31 CEST 2024 - El avion ZO-0007 entra a embarcar en la puerta 4 del aeropuerto de Barcelona
+Mon May 06 00:00:31 CEST 2024 - El avion ZO-0007 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:31 CEST 2024 - autobus B-0010 baja 27 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:31 CEST 2024 - Ahora en el aeropuerto de Madrid hay 27 personas
+Mon May 06 00:00:31 CEST 2024 - bus B-0010 Esperando nuevos pasajeros
+Mon May 06 00:00:31 CEST 2024 - autobus B-0013 recoge 42 pasajeros de Barcelona
+Mon May 06 00:00:31 CEST 2024 - autobus B-0013 va al aeropuerto de Barcelona
+Mon May 06 00:00:31 CEST 2024 - autobus B-0007 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:31 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:31 CEST 2024 - autobus B-0007 va a Barcelona
+Mon May 06 00:00:31 CEST 2024 - autobus B-0011 baja 10 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:31 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 10 personas
+Mon May 06 00:00:31 CEST 2024 - bus B-0011 Esperando nuevos pasajeros
+Mon May 06 00:00:32 CEST 2024 - Creado el autobus B-0018 de Madrid
+Mon May 06 00:00:32 CEST 2024 - autobus B-0018 llega a Madrid con 0 personas
+Mon May 06 00:00:32 CEST 2024 - El avion AE-0004 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:00:32 CEST 2024 - El avion AE-0004 accede a la pista 2 del aeropuerto de Madrid
+Mon May 06 00:00:32 CEST 2024 - El avion AE-0004 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:32 CEST 2024 - El avion OD-0006 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:32 CEST 2024 - Creado el avion PY-0008 de Madrid con capacidad 180
+Mon May 06 00:00:32 CEST 2024 - El avion PY-0008 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:32 CEST 2024 - El avion PY-0008 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:32 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:32 CEST 2024 - El avion PY-0008 entra a embarcar en la puerta 5 del aeropuerto de Madrid
+Mon May 06 00:00:32 CEST 2024 - El avion PY-0008 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:32 CEST 2024 - El avion GK-0003 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:00:32 CEST 2024 - El avion GK-0003 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:32 CEST 2024 - El avion GK-0003 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:32 CEST 2024 - autobus B-0012 baja 2 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:32 CEST 2024 - Ahora en el aeropuerto de Madrid hay 2 personas
+Mon May 06 00:00:32 CEST 2024 - bus B-0012 Esperando nuevos pasajeros
+Mon May 06 00:00:33 CEST 2024 - El avion RG-0005 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:00:33 CEST 2024 - autobus B-0017 recoge 46 pasajeros de Barcelona
+Mon May 06 00:00:33 CEST 2024 - autobus B-0017 va al aeropuerto de Barcelona
+Mon May 06 00:00:33 CEST 2024 - Creado el autobus B-0019 de Barcelona
+Mon May 06 00:00:33 CEST 2024 - autobus B-0019 llega a Barcelona con 0 personas
+Mon May 06 00:00:33 CEST 2024 - El avion AE-0004 comienza el despegue desde la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:33 CEST 2024 - El avion ZO-0007 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:33 CEST 2024 - autobus B-0011 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:33 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:33 CEST 2024 - autobus B-0011 va a Barcelona
+Mon May 06 00:00:34 CEST 2024 - El avion GK-0003 comienza el despegue desde la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:00:34 CEST 2024 - autobus B-0014 baja 7 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:34 CEST 2024 - Ahora en el aeropuerto de Madrid hay 9 personas
+Mon May 06 00:00:34 CEST 2024 - bus B-0014 Esperando nuevos pasajeros
+Mon May 06 00:00:34 CEST 2024 - El avion IX-0002 despega exitosamente de la pista 0 del aeropuerto de Madrid
+Mon May 06 00:00:34 CEST 2024 - El avion IX-0002 accede a la aerovia de Madrid
+Mon May 06 00:00:34 CEST 2024 - Creado el avion FY-0009 de Barcelona con capacidad 231
+Mon May 06 00:00:34 CEST 2024 - El avion FY-0009 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:34 CEST 2024 - El avion FY-0009 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:34 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:34 CEST 2024 - El avion FY-0009 entra a embarcar en la puerta 3 del aeropuerto de Barcelona
+Mon May 06 00:00:34 CEST 2024 - El avion FY-0009 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:34 CEST 2024 - autobus B-0015 recoge 8 pasajeros de Barcelona
+Mon May 06 00:00:34 CEST 2024 - autobus B-0015 va al aeropuerto de Barcelona
+Mon May 06 00:00:34 CEST 2024 - El avion PY-0008 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:34 CEST 2024 - Creado el autobus B-0020 de Madrid
+Mon May 06 00:00:34 CEST 2024 - autobus B-0020 llega a Madrid con 0 personas
+Mon May 06 00:00:34 CEST 2024 - autobus B-0008 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:34 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:34 CEST 2024 - autobus B-0008 va a Madrid
+Mon May 06 00:00:34 CEST 2024 - autobus B-0006 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:34 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:34 CEST 2024 - autobus B-0006 va a Madrid
+Mon May 06 00:00:35 CEST 2024 - El avion RG-0005 termina de embarcar en la puerta 5 del aeropuerto de Barcelona 15 personas
+Mon May 06 00:00:35 CEST 2024 - El avion RG-0005 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:35 CEST 2024 - El avion OD-0006 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:35 CEST 2024 - El avion ZO-0007 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:00:35 CEST 2024 - autobus B-0009 baja 6 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:35 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 6 personas
+Mon May 06 00:00:35 CEST 2024 - bus B-0009 Esperando nuevos pasajeros
+Mon May 06 00:00:35 CEST 2024 - Creado el autobus B-0021 de Barcelona
+Mon May 06 00:00:35 CEST 2024 - autobus B-0021 llega a Barcelona con 0 personas
+Mon May 06 00:00:35 CEST 2024 - autobus B-0016 recoge 46 pasajeros de Madrid
+Mon May 06 00:00:35 CEST 2024 - autobus B-0016 va al aeropuerto de Madrid
+Mon May 06 00:00:35 CEST 2024 - autobus B-0018 recoge 37 pasajeros de Madrid
+Mon May 06 00:00:35 CEST 2024 - autobus B-0018 va al aeropuerto de Madrid
+Mon May 06 00:00:35 CEST 2024 - Creado el avion KM-0010 de Madrid con capacidad 223
+Mon May 06 00:00:35 CEST 2024 - El avion KM-0010 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:35 CEST 2024 - El avion KM-0010 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:35 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:35 CEST 2024 - El avion KM-0010 entra a embarcar en la puerta 3 del aeropuerto de Madrid
+Mon May 06 00:00:35 CEST 2024 - El avion KM-0010 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:35 CEST 2024 - autobus B-0003 baja 3 pasajeros en Barcelona
+Mon May 06 00:00:36 CEST 2024 - autobus B-0010 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:36 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:36 CEST 2024 - autobus B-0010 va a Madrid
+Mon May 06 00:00:36 CEST 2024 - autobus B-0013 baja 42 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:36 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 48 personas
+Mon May 06 00:00:36 CEST 2024 - bus B-0013 Esperando nuevos pasajeros
+Mon May 06 00:00:36 CEST 2024 - Creado el autobus B-0022 de Madrid
+Mon May 06 00:00:36 CEST 2024 - autobus B-0022 llega a Madrid con 0 personas
+Mon May 06 00:00:36 CEST 2024 - El avion OD-0006 termina de embarcar en la puerta 4 del aeropuerto de Madrid 27 personas
+Mon May 06 00:00:36 CEST 2024 - El avion OD-0006 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:36 CEST 2024 - El avion FY-0009 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:36 CEST 2024 - El avion ZO-0007 termina de embarcar en la puerta 4 del aeropuerto de Barcelona 0 personas
+Mon May 06 00:00:36 CEST 2024 - El avion ZO-0007 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:36 CEST 2024 - autobus B-0014 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:36 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:36 CEST 2024 - autobus B-0014 va a Madrid
+Mon May 06 00:00:37 CEST 2024 - El avion KM-0010 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:37 CEST 2024 - autobus B-0017 baja 46 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:37 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 46 personas
+Mon May 06 00:00:37 CEST 2024 - bus B-0017 Esperando nuevos pasajeros
+Mon May 06 00:00:37 CEST 2024 - El avion AE-0004 despega exitosamente de la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:37 CEST 2024 - El avion AE-0004 accede a la aerovia de Madrid
+Mon May 06 00:00:37 CEST 2024 - Creado el autobus B-0023 de Barcelona
+Mon May 06 00:00:37 CEST 2024 - autobus B-0023 llega a Barcelona con 0 personas
+Mon May 06 00:00:37 CEST 2024 - El avion PY-0008 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:37 CEST 2024 - El avion GK-0003 despega exitosamente de la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:00:37 CEST 2024 - El avion GK-0003 accede a la aerovia de Barcelona
+Mon May 06 00:00:37 CEST 2024 - Creado el avion WW-0011 de Barcelona con capacidad 179
+Mon May 06 00:00:37 CEST 2024 - El avion WW-0011 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:37 CEST 2024 - El avion WW-0011 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:37 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:37 CEST 2024 - El avion WW-0011 entra a embarcar en la puerta 5 del aeropuerto de Barcelona
+Mon May 06 00:00:37 CEST 2024 - El avion WW-0011 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:37 CEST 2024 - autobus B-0012 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:37 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:37 CEST 2024 - autobus B-0012 va a Madrid
+Mon May 06 00:00:37 CEST 2024 - Creado el autobus B-0024 de Madrid
+Mon May 06 00:00:37 CEST 2024 - autobus B-0024 llega a Madrid con 0 personas
+Mon May 06 00:00:38 CEST 2024 - El avion FY-0009 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:00:38 CEST 2024 - autobus B-0020 recoge 19 pasajeros de Madrid
+Mon May 06 00:00:38 CEST 2024 - autobus B-0020 va al aeropuerto de Madrid
+Mon May 06 00:00:38 CEST 2024 - autobus B-0019 recoge 32 pasajeros de Barcelona
+Mon May 06 00:00:38 CEST 2024 - autobus B-0019 va al aeropuerto de Barcelona
+Mon May 06 00:00:38 CEST 2024 - El avion RG-0005 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:00:38 CEST 2024 - El avion RG-0005 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:38 CEST 2024 - El avion RG-0005 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:38 CEST 2024 - autobus B-0009 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:38 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:38 CEST 2024 - autobus B-0009 va a Barcelona
+Mon May 06 00:00:38 CEST 2024 - Creado el autobus B-0025 de Barcelona
+Mon May 06 00:00:38 CEST 2024 - autobus B-0025 llega a Barcelona con 0 personas
+Mon May 06 00:00:38 CEST 2024 - autobus B-0022 recoge 39 pasajeros de Madrid
+Mon May 06 00:00:38 CEST 2024 - autobus B-0022 va al aeropuerto de Madrid
+Mon May 06 00:00:39 CEST 2024 - autobus B-0016 baja 46 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:39 CEST 2024 - Ahora en el aeropuerto de Madrid hay 46 personas
+Mon May 06 00:00:39 CEST 2024 - bus B-0016 Esperando nuevos pasajeros
+Mon May 06 00:00:39 CEST 2024 - El avion WW-0011 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:39 CEST 2024 - El avion OD-0006 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:00:39 CEST 2024 - El avion OD-0006 accede a la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:39 CEST 2024 - El avion OD-0006 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:39 CEST 2024 - El avion KM-0010 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:39 CEST 2024 - El avion PY-0008 termina de embarcar en la puerta 5 del aeropuerto de Madrid 9 personas
+Mon May 06 00:00:39 CEST 2024 - El avion PY-0008 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:39 CEST 2024 - Creado el avion YO-0012 de Madrid con capacidad 160
+Mon May 06 00:00:39 CEST 2024 - El avion YO-0012 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:39 CEST 2024 - El avion YO-0012 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:39 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:39 CEST 2024 - El avion YO-0012 entra a embarcar en la puerta 5 del aeropuerto de Madrid
+Mon May 06 00:00:39 CEST 2024 - El avion YO-0012 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:40 CEST 2024 - autobus B-0015 baja 8 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:40 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 8 personas
+Mon May 06 00:00:40 CEST 2024 - bus B-0015 Esperando nuevos pasajeros
+Mon May 06 00:00:40 CEST 2024 - Creado el autobus B-0026 de Madrid
+Mon May 06 00:00:40 CEST 2024 - autobus B-0026 llega a Madrid con 0 personas
+Mon May 06 00:00:40 CEST 2024 - El avion FY-0009 termina de embarcar en la puerta 3 del aeropuerto de Barcelona 102 personas
+Mon May 06 00:00:40 CEST 2024 - El avion FY-0009 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:40 CEST 2024 - autobus B-0018 baja 37 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:40 CEST 2024 - Ahora en el aeropuerto de Madrid hay 37 personas
+Mon May 06 00:00:40 CEST 2024 - bus B-0018 Esperando nuevos pasajeros
+Mon May 06 00:00:40 CEST 2024 - autobus B-0001 baja 0 pasajeros en Barcelona
+Mon May 06 00:00:40 CEST 2024 - autobus B-0017 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:40 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:40 CEST 2024 - autobus B-0017 va a Barcelona
+Mon May 06 00:00:40 CEST 2024 - autobus B-0013 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:40 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:40 CEST 2024 - autobus B-0013 va a Barcelona
+Mon May 06 00:00:40 CEST 2024 - autobus B-0005 baja 1 pasajeros en Barcelona
+Mon May 06 00:00:40 CEST 2024 - autobus B-0021 recoge 12 pasajeros de Barcelona
+Mon May 06 00:00:40 CEST 2024 - autobus B-0021 va al aeropuerto de Barcelona
+Mon May 06 00:00:40 CEST 2024 - El avion WW-0011 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:00:40 CEST 2024 - autobus B-0004 baja 25 pasajeros en Madrid
+Mon May 06 00:00:40 CEST 2024 - autobus B-0023 recoge 27 pasajeros de Barcelona
+Mon May 06 00:00:40 CEST 2024 - autobus B-0023 va al aeropuerto de Barcelona
+Mon May 06 00:00:40 CEST 2024 - El avion PY-0008 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:00:40 CEST 2024 - El avion PY-0008 accede a la pista 2 del aeropuerto de Madrid
+Mon May 06 00:00:40 CEST 2024 - El avion PY-0008 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:41 CEST 2024 - El avion RG-0005 comienza el despegue desde la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:00:41 CEST 2024 - autobus B-0019 baja 32 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:41 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 32 personas
+Mon May 06 00:00:41 CEST 2024 - bus B-0019 Esperando nuevos pasajeros
+Mon May 06 00:00:41 CEST 2024 - Creado el avion QJ-0013 de Barcelona con capacidad 114
+Mon May 06 00:00:41 CEST 2024 - El avion QJ-0013 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:41 CEST 2024 - El avion QJ-0013 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:41 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:41 CEST 2024 - El avion QJ-0013 entra a embarcar en la puerta 4 del aeropuerto de Barcelona
+Mon May 06 00:00:41 CEST 2024 - El avion QJ-0013 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:41 CEST 2024 - Creado el autobus B-0027 de Barcelona
+Mon May 06 00:00:41 CEST 2024 - autobus B-0027 llega a Barcelona con 0 personas
+Mon May 06 00:00:41 CEST 2024 - El avion ZO-0007 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:00:41 CEST 2024 - El avion ZO-0007 accede a la pista 2 del aeropuerto de Barcelona
+Mon May 06 00:00:41 CEST 2024 - El avion ZO-0007 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:42 CEST 2024 - autobus B-0024 recoge 12 pasajeros de Madrid
+Mon May 06 00:00:42 CEST 2024 - autobus B-0024 va al aeropuerto de Madrid
+Mon May 06 00:00:42 CEST 2024 - El avion KM-0010 termina de embarcar en la puerta 3 del aeropuerto de Madrid 83 personas
+Mon May 06 00:00:42 CEST 2024 - El avion KM-0010 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:42 CEST 2024 - Creado el autobus B-0028 de Madrid
+Mon May 06 00:00:42 CEST 2024 - autobus B-0028 llega a Madrid con 0 personas
+Mon May 06 00:00:42 CEST 2024 - autobus B-0020 baja 19 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:42 CEST 2024 - Ahora en el aeropuerto de Madrid hay 19 personas
+Mon May 06 00:00:42 CEST 2024 - bus B-0020 Esperando nuevos pasajeros
+Mon May 06 00:00:42 CEST 2024 - El avion OD-0006 comienza el despegue desde la pista 0 del aeropuerto de Madrid
+Mon May 06 00:00:42 CEST 2024 - El avion YO-0012 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:42 CEST 2024 - autobus B-0016 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:42 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:42 CEST 2024 - autobus B-0016 va a Madrid
+Mon May 06 00:00:42 CEST 2024 - Creado el autobus B-0029 de Barcelona
+Mon May 06 00:00:42 CEST 2024 - autobus B-0029 llega a Barcelona con 0 personas
+Mon May 06 00:00:43 CEST 2024 - El avion PY-0008 comienza el despegue desde la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:43 CEST 2024 - autobus B-0018 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:43 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:43 CEST 2024 - autobus B-0018 va a Madrid
+Mon May 06 00:00:43 CEST 2024 - El avion ZO-0007 comienza el despegue desde la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:43 CEST 2024 - El avion WW-0011 termina de embarcar en la puerta 5 del aeropuerto de Barcelona 32 personas
+Mon May 06 00:00:43 CEST 2024 - El avion WW-0011 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:43 CEST 2024 - El avion QJ-0013 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:43 CEST 2024 - autobus B-0007 baja 0 pasajeros en Barcelona
+Mon May 06 00:00:44 CEST 2024 - autobus B-0002 baja 0 pasajeros en Madrid
+Mon May 06 00:00:44 CEST 2024 - Creado el autobus B-0030 de Madrid
+Mon May 06 00:00:44 CEST 2024 - autobus B-0030 llega a Madrid con 0 personas
+Mon May 06 00:00:44 CEST 2024 - El avion KM-0010 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:00:44 CEST 2024 - El avion KM-0010 accede a la pista 3 del aeropuerto de Madrid
+Mon May 06 00:00:44 CEST 2024 - El avion KM-0010 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:44 CEST 2024 - Creado el avion IZ-0014 de Madrid con capacidad 185
+Mon May 06 00:00:44 CEST 2024 - El avion IZ-0014 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:44 CEST 2024 - El avion IZ-0014 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:44 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:44 CEST 2024 - El avion IZ-0014 entra a embarcar en la puerta 4 del aeropuerto de Madrid
+Mon May 06 00:00:44 CEST 2024 - El avion IZ-0014 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:44 CEST 2024 - El avion PY-0008 despega exitosamente de la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:44 CEST 2024 - El avion PY-0008 accede a la aerovia de Madrid
+Mon May 06 00:00:44 CEST 2024 - El avion YO-0012 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:44 CEST 2024 - autobus B-0015 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:44 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:44 CEST 2024 - autobus B-0015 va a Barcelona
+Mon May 06 00:00:44 CEST 2024 - El avion FY-0009 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:00:44 CEST 2024 - El avion FY-0009 accede a la pista 3 del aeropuerto de Barcelona
+Mon May 06 00:00:44 CEST 2024 - El avion FY-0009 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:44 CEST 2024 - autobus B-0008 baja 0 pasajeros en Madrid
+Mon May 06 00:00:44 CEST 2024 - El avion OD-0006 despega exitosamente de la pista 0 del aeropuerto de Madrid
+Mon May 06 00:00:44 CEST 2024 - El avion OD-0006 accede a la aerovia de Madrid
+Mon May 06 00:00:44 CEST 2024 - autobus B-0006 baja 0 pasajeros en Madrid
+Mon May 06 00:00:45 CEST 2024 - autobus B-0019 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:45 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:45 CEST 2024 - autobus B-0019 va a Barcelona
+Mon May 06 00:00:45 CEST 2024 - Creado el autobus B-0031 de Barcelona
+Mon May 06 00:00:45 CEST 2024 - autobus B-0031 llega a Barcelona con 0 personas
+Mon May 06 00:00:45 CEST 2024 - autobus B-0024 baja 12 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:45 CEST 2024 - Ahora en el aeropuerto de Madrid hay 12 personas
+Mon May 06 00:00:45 CEST 2024 - bus B-0024 Esperando nuevos pasajeros
+Mon May 06 00:00:45 CEST 2024 - El avion RG-0005 despega exitosamente de la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:00:45 CEST 2024 - El avion RG-0005 accede a la aerovia de Barcelona
+Mon May 06 00:00:45 CEST 2024 - autobus B-0026 recoge 17 pasajeros de Madrid
+Mon May 06 00:00:45 CEST 2024 - autobus B-0026 va al aeropuerto de Madrid
+Mon May 06 00:00:45 CEST 2024 - autobus B-0022 baja 39 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:45 CEST 2024 - Ahora en el aeropuerto de Madrid hay 51 personas
+Mon May 06 00:00:45 CEST 2024 - bus B-0022 Esperando nuevos pasajeros
+Mon May 06 00:00:45 CEST 2024 - El avion ZO-0007 despega exitosamente de la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:45 CEST 2024 - El avion ZO-0007 accede a la aerovia de Barcelona
+Mon May 06 00:00:45 CEST 2024 - autobus B-0025 recoge 32 pasajeros de Barcelona
+Mon May 06 00:00:45 CEST 2024 - autobus B-0025 va al aeropuerto de Barcelona
+Mon May 06 00:00:45 CEST 2024 - El avion YO-0012 termina de embarcar en la puerta 5 del aeropuerto de Madrid 70 personas
+Mon May 06 00:00:45 CEST 2024 - El avion YO-0012 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:45 CEST 2024 - El avion KM-0010 comienza el despegue desde la pista 2 del aeropuerto de Madrid
+Mon May 06 00:00:46 CEST 2024 - autobus B-0027 recoge 22 pasajeros de Barcelona
+Mon May 06 00:00:46 CEST 2024 - autobus B-0027 va al aeropuerto de Barcelona
+Mon May 06 00:00:46 CEST 2024 - autobus B-0028 recoge 8 pasajeros de Madrid
+Mon May 06 00:00:46 CEST 2024 - autobus B-0028 va al aeropuerto de Madrid
+Mon May 06 00:00:46 CEST 2024 - El avion IZ-0014 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:46 CEST 2024 - Creado el autobus B-0032 de Madrid
+Mon May 06 00:00:46 CEST 2024 - autobus B-0032 llega a Madrid con 0 personas
+Mon May 06 00:00:46 CEST 2024 - autobus B-0029 recoge 48 pasajeros de Barcelona
+Mon May 06 00:00:46 CEST 2024 - autobus B-0029 va al aeropuerto de Barcelona
+Mon May 06 00:00:46 CEST 2024 - El avion QJ-0013 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:00:46 CEST 2024 - El avion FY-0009 comienza el despegue desde la pista 2 del aeropuerto de Barcelona
+Mon May 06 00:00:46 CEST 2024 - El avion WW-0011 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:00:46 CEST 2024 - El avion WW-0011 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:46 CEST 2024 - El avion WW-0011 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:46 CEST 2024 - autobus B-0020 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:46 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:46 CEST 2024 - autobus B-0020 va a Madrid
+Mon May 06 00:00:46 CEST 2024 - autobus B-0010 baja 0 pasajeros en Madrid
+Mon May 06 00:00:47 CEST 2024 - autobus B-0021 baja 12 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:47 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 12 personas
+Mon May 06 00:00:47 CEST 2024 - bus B-0021 Esperando nuevos pasajeros
+Mon May 06 00:00:47 CEST 2024 - El avion IZ-0014 intenta embarcar en la puerta 4 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:47 CEST 2024 - autobus B-0023 baja 27 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:47 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 39 personas
+Mon May 06 00:00:47 CEST 2024 - bus B-0023 Esperando nuevos pasajeros
+Mon May 06 00:00:47 CEST 2024 - Creado el avion AR-0015 de Barcelona con capacidad 255
+Mon May 06 00:00:47 CEST 2024 - El avion AR-0015 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:47 CEST 2024 - El avion AR-0015 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:47 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:47 CEST 2024 - El avion AR-0015 entra a embarcar en la puerta 5 del aeropuerto de Barcelona
+Mon May 06 00:00:47 CEST 2024 - El avion AR-0015 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:47 CEST 2024 - Creado el autobus B-0033 de Barcelona
+Mon May 06 00:00:47 CEST 2024 - autobus B-0033 llega a Barcelona con 0 personas
+Mon May 06 00:00:47 CEST 2024 - autobus B-0024 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:47 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:47 CEST 2024 - autobus B-0024 va a Madrid
+Mon May 06 00:00:47 CEST 2024 - autobus B-0025 baja 32 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:47 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 71 personas
+Mon May 06 00:00:47 CEST 2024 - bus B-0025 Esperando nuevos pasajeros
+Mon May 06 00:00:47 CEST 2024 - autobus B-0022 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:47 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:47 CEST 2024 - autobus B-0022 va a Madrid
+Mon May 06 00:00:48 CEST 2024 - Creado el autobus B-0034 de Madrid
+Mon May 06 00:00:48 CEST 2024 - autobus B-0034 llega a Madrid con 0 personas
+Mon May 06 00:00:48 CEST 2024 - autobus B-0032 recoge 2 pasajeros de Madrid
+Mon May 06 00:00:48 CEST 2024 - autobus B-0032 va al aeropuerto de Madrid
+Mon May 06 00:00:48 CEST 2024 - autobus B-0011 baja 0 pasajeros en Barcelona
+Mon May 06 00:00:48 CEST 2024 - autobus B-0030 recoge 31 pasajeros de Madrid
+Mon May 06 00:00:48 CEST 2024 - autobus B-0030 va al aeropuerto de Madrid
+Mon May 06 00:00:48 CEST 2024 - El avion WW-0011 comienza el despegue desde la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:00:48 CEST 2024 - El avion AR-0015 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:48 CEST 2024 - El avion FY-0009 despega exitosamente de la pista 2 del aeropuerto de Barcelona
+Mon May 06 00:00:48 CEST 2024 - El avion FY-0009 accede a la aerovia de Barcelona
+Mon May 06 00:00:48 CEST 2024 - El avion QJ-0013 termina de embarcar en la puerta 4 del aeropuerto de Barcelona 0 personas
+Mon May 06 00:00:48 CEST 2024 - El avion QJ-0013 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:48 CEST 2024 - autobus B-0028 baja 8 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:48 CEST 2024 - Ahora en el aeropuerto de Madrid hay 8 personas
+Mon May 06 00:00:48 CEST 2024 - bus B-0028 Esperando nuevos pasajeros
+Mon May 06 00:00:49 CEST 2024 - El avion KM-0010 despega exitosamente de la pista 2 del aeropuerto de Madrid
+Mon May 06 00:00:49 CEST 2024 - El avion KM-0010 accede a la aerovia de Madrid
+Mon May 06 00:00:49 CEST 2024 - Creado el autobus B-0035 de Barcelona
+Mon May 06 00:00:49 CEST 2024 - autobus B-0035 llega a Barcelona con 0 personas
+Mon May 06 00:00:49 CEST 2024 - autobus B-0031 recoge 43 pasajeros de Barcelona
+Mon May 06 00:00:49 CEST 2024 - autobus B-0031 va al aeropuerto de Barcelona
+Mon May 06 00:00:49 CEST 2024 - autobus B-0021 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:49 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:49 CEST 2024 - autobus B-0021 va a Barcelona
+Mon May 06 00:00:49 CEST 2024 - autobus B-0023 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:49 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:49 CEST 2024 - autobus B-0023 va a Barcelona
+Mon May 06 00:00:49 CEST 2024 - El avion YO-0012 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:00:49 CEST 2024 - El avion YO-0012 accede a la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:49 CEST 2024 - El avion YO-0012 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:49 CEST 2024 - autobus B-0029 baja 48 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:49 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 48 personas
+Mon May 06 00:00:49 CEST 2024 - bus B-0029 Esperando nuevos pasajeros
+Mon May 06 00:00:49 CEST 2024 - autobus B-0009 baja 0 pasajeros en Barcelona
+Mon May 06 00:00:49 CEST 2024 - El avion IZ-0014 termina de embarcar en la puerta 4 del aeropuerto de Madrid 8 personas
+Mon May 06 00:00:49 CEST 2024 - El avion IZ-0014 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:49 CEST 2024 - El avion AR-0015 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:00:50 CEST 2024 - Creado el autobus B-0036 de Madrid
+Mon May 06 00:00:50 CEST 2024 - autobus B-0036 llega a Madrid con 0 personas
+Mon May 06 00:00:50 CEST 2024 - El avion QJ-0013 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:00:50 CEST 2024 - El avion QJ-0013 accede a la pista 2 del aeropuerto de Barcelona
+Mon May 06 00:00:50 CEST 2024 - El avion QJ-0013 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:50 CEST 2024 - autobus B-0034 recoge 24 pasajeros de Madrid
+Mon May 06 00:00:50 CEST 2024 - autobus B-0034 va al aeropuerto de Madrid
+Mon May 06 00:00:50 CEST 2024 - autobus B-0026 baja 17 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:50 CEST 2024 - Ahora en el aeropuerto de Madrid hay 17 personas
+Mon May 06 00:00:50 CEST 2024 - bus B-0026 Esperando nuevos pasajeros
+Mon May 06 00:00:51 CEST 2024 - El avion YO-0012 comienza el despegue desde la pista 0 del aeropuerto de Madrid
+Mon May 06 00:00:51 CEST 2024 - Creado el autobus B-0037 de Barcelona
+Mon May 06 00:00:51 CEST 2024 - autobus B-0037 llega a Barcelona con 0 personas
+Mon May 06 00:00:51 CEST 2024 - autobus B-0030 baja 31 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:51 CEST 2024 - Ahora en el aeropuerto de Madrid hay 48 personas
+Mon May 06 00:00:51 CEST 2024 - bus B-0030 Esperando nuevos pasajeros
+Mon May 06 00:00:51 CEST 2024 - Creado el avion DL-0016 de Madrid con capacidad 141
+Mon May 06 00:00:51 CEST 2024 - El avion DL-0016 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:51 CEST 2024 - El avion DL-0016 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:51 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:51 CEST 2024 - El avion DL-0016 entra a embarcar en la puerta 5 del aeropuerto de Madrid
+Mon May 06 00:00:51 CEST 2024 - El avion DL-0016 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:51 CEST 2024 - autobus B-0012 baja 0 pasajeros en Madrid
+Mon May 06 00:00:51 CEST 2024 - El avion QJ-0013 comienza el despegue desde la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:51 CEST 2024 - autobus B-0025 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:51 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:00:51 CEST 2024 - autobus B-0025 va a Barcelona
+Mon May 06 00:00:51 CEST 2024 - El avion WW-0011 despega exitosamente de la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:00:51 CEST 2024 - El avion WW-0011 accede a la aerovia de Barcelona
+Mon May 06 00:00:51 CEST 2024 - El avion IZ-0014 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:00:51 CEST 2024 - El avion IZ-0014 accede a la pista 2 del aeropuerto de Madrid
+Mon May 06 00:00:51 CEST 2024 - El avion IZ-0014 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:51 CEST 2024 - autobus B-0014 baja 0 pasajeros en Madrid
+Mon May 06 00:00:51 CEST 2024 - El avion IX-0002 solicita una pista para aterrizar en el aeropuerto de Barcelona
+Mon May 06 00:00:51 CEST 2024 - El avion IX-0002 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:51 CEST 2024 - El avion AR-0015 termina de embarcar en la puerta 5 del aeropuerto de Barcelona 119 personas
+Mon May 06 00:00:51 CEST 2024 - El avion AR-0015 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:52 CEST 2024 - autobus B-0032 baja 2 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:52 CEST 2024 - Ahora en el aeropuerto de Madrid hay 50 personas
+Mon May 06 00:00:52 CEST 2024 - bus B-0032 Esperando nuevos pasajeros
+Mon May 06 00:00:52 CEST 2024 - Creado el autobus B-0038 de Madrid
+Mon May 06 00:00:52 CEST 2024 - autobus B-0038 llega a Madrid con 0 personas
+Mon May 06 00:00:52 CEST 2024 - autobus B-0027 baja 22 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:52 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 22 personas
+Mon May 06 00:00:52 CEST 2024 - bus B-0027 Esperando nuevos pasajeros
+Mon May 06 00:00:52 CEST 2024 - El avion TC-0001 solicita una pista para aterrizar en el aeropuerto de Madrid
+Mon May 06 00:00:52 CEST 2024 - El avion TC-0001 accede a la pista 3 del aeropuerto de Madrid
+Mon May 06 00:00:52 CEST 2024 - autobus B-0033 recoge 12 pasajeros de Barcelona
+Mon May 06 00:00:52 CEST 2024 - autobus B-0033 va al aeropuerto de Barcelona
+Mon May 06 00:00:52 CEST 2024 - El avion YO-0012 despega exitosamente de la pista 0 del aeropuerto de Madrid
+Mon May 06 00:00:52 CEST 2024 - El avion YO-0012 accede a la aerovia de Madrid
+Mon May 06 00:00:52 CEST 2024 - El avion DL-0016 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:52 CEST 2024 - El avion IZ-0014 comienza el despegue desde la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:53 CEST 2024 - autobus B-0013 baja 0 pasajeros en Barcelona
+Mon May 06 00:00:53 CEST 2024 - autobus B-0031 baja 43 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:53 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 65 personas
+Mon May 06 00:00:53 CEST 2024 - bus B-0031 Esperando nuevos pasajeros
+Mon May 06 00:00:53 CEST 2024 - Creado el autobus B-0039 de Barcelona
+Mon May 06 00:00:53 CEST 2024 - autobus B-0039 llega a Barcelona con 0 personas
+Mon May 06 00:00:53 CEST 2024 - autobus B-0016 baja 0 pasajeros en Madrid
+Mon May 06 00:00:53 CEST 2024 - El avion IX-0002 aterriza con exito en la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:53 CEST 2024 - El avion IX-0002 accede al area de rodaje del aeropuerto de Barcelona y se dirige a las puertas de desembarque
+Mon May 06 00:00:53 CEST 2024 - El avion QJ-0013 despega exitosamente de la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:53 CEST 2024 - El avion QJ-0013 accede a la aerovia de Barcelona
+Mon May 06 00:00:53 CEST 2024 - autobus B-0026 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:53 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:53 CEST 2024 - autobus B-0026 va a Madrid
+Mon May 06 00:00:53 CEST 2024 - autobus B-0028 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:53 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:53 CEST 2024 - autobus B-0028 va a Madrid
+Mon May 06 00:00:54 CEST 2024 - El avion AE-0004 solicita una pista para aterrizar en el aeropuerto de Barcelona
+Mon May 06 00:00:54 CEST 2024 - El avion AE-0004 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:54 CEST 2024 - autobus B-0034 baja 24 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:54 CEST 2024 - Ahora en el aeropuerto de Madrid hay 24 personas
+Mon May 06 00:00:54 CEST 2024 - bus B-0034 Esperando nuevos pasajeros
+Mon May 06 00:00:54 CEST 2024 - autobus B-0017 baja 0 pasajeros en Barcelona
+Mon May 06 00:00:54 CEST 2024 - autobus B-0029 sube 3 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:54 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 62 personas
+Mon May 06 00:00:54 CEST 2024 - autobus B-0029 va a Barcelona
+Mon May 06 00:00:54 CEST 2024 - Creado el autobus B-0040 de Madrid
+Mon May 06 00:00:54 CEST 2024 - autobus B-0040 llega a Madrid con 0 personas
+Mon May 06 00:00:54 CEST 2024 - Creado el avion DA-0017 de Barcelona con capacidad 288
+Mon May 06 00:00:54 CEST 2024 - El avion DA-0017 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:54 CEST 2024 - El avion AR-0015 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:00:54 CEST 2024 - El avion AR-0015 accede a la pista 2 del aeropuerto de Barcelona
+Mon May 06 00:00:54 CEST 2024 - El avion AR-0015 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:54 CEST 2024 - El avion DL-0016 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:55 CEST 2024 - autobus B-0035 recoge 9 pasajeros de Barcelona
+Mon May 06 00:00:55 CEST 2024 - autobus B-0035 va al aeropuerto de Barcelona
+Mon May 06 00:00:55 CEST 2024 - El avion IZ-0014 despega exitosamente de la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:55 CEST 2024 - El avion IZ-0014 accede a la aerovia de Madrid
+Mon May 06 00:00:55 CEST 2024 - autobus B-0030 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:55 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:55 CEST 2024 - autobus B-0030 va a Madrid
+Mon May 06 00:00:55 CEST 2024 - autobus B-0031 sube 15 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:55 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 47 personas
+Mon May 06 00:00:55 CEST 2024 - autobus B-0031 va a Barcelona
+Mon May 06 00:00:55 CEST 2024 - autobus B-0037 recoge 43 pasajeros de Barcelona
+Mon May 06 00:00:55 CEST 2024 - autobus B-0037 va al aeropuerto de Barcelona
+Mon May 06 00:00:55 CEST 2024 - autobus B-0038 recoge 38 pasajeros de Madrid
+Mon May 06 00:00:55 CEST 2024 - autobus B-0038 va al aeropuerto de Madrid
+Mon May 06 00:00:55 CEST 2024 - El avion DL-0016 termina de embarcar en la puerta 5 del aeropuerto de Madrid 74 personas
+Mon May 06 00:00:55 CEST 2024 - El avion DL-0016 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:00:55 CEST 2024 - Creado el autobus B-0041 de Barcelona
+Mon May 06 00:00:55 CEST 2024 - autobus B-0041 llega a Barcelona con 0 personas
+Mon May 06 00:00:55 CEST 2024 - autobus B-0015 baja 0 pasajeros en Barcelona
+Mon May 06 00:00:55 CEST 2024 - autobus B-0036 recoge 27 pasajeros de Madrid
+Mon May 06 00:00:55 CEST 2024 - autobus B-0036 va al aeropuerto de Madrid
+Mon May 06 00:00:56 CEST 2024 - autobus B-0032 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:56 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:56 CEST 2024 - autobus B-0032 va a Madrid
+Mon May 06 00:00:56 CEST 2024 - autobus B-0027 sube 29 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:56 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 18 personas
+Mon May 06 00:00:56 CEST 2024 - autobus B-0027 va a Barcelona
+Mon May 06 00:00:56 CEST 2024 - El avion AR-0015 comienza el despegue desde la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:56 CEST 2024 - Creado el avion IY-0018 de Madrid con capacidad 157
+Mon May 06 00:00:56 CEST 2024 - El avion IY-0018 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:00:56 CEST 2024 - El avion IY-0018 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:00:56 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:56 CEST 2024 - El avion IY-0018 entra a embarcar en la puerta 5 del aeropuerto de Madrid
+Mon May 06 00:00:56 CEST 2024 - El avion IY-0018 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:00:56 CEST 2024 - autobus B-0018 baja 0 pasajeros en Madrid
+Mon May 06 00:00:56 CEST 2024 - El avion TC-0001 aterriza con exito en la pista 3 del aeropuerto de Madrid
+Mon May 06 00:00:56 CEST 2024 - El avion TC-0001 accede al area de rodaje del aeropuerto de Madrid y se dirige a las puertas de desembarque
+Mon May 06 00:00:56 CEST 2024 - autobus B-0034 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:00:56 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:00:56 CEST 2024 - autobus B-0034 va a Madrid
+Mon May 06 00:00:56 CEST 2024 - autobus B-0039 recoge 0 pasajeros de Barcelona
+Mon May 06 00:00:56 CEST 2024 - autobus B-0039 va al aeropuerto de Barcelona
+Mon May 06 00:00:56 CEST 2024 - Creado el autobus B-0042 de Madrid
+Mon May 06 00:00:56 CEST 2024 - autobus B-0042 llega a Madrid con 0 personas
+Mon May 06 00:00:56 CEST 2024 - autobus B-0033 baja 12 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:56 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 30 personas
+Mon May 06 00:00:56 CEST 2024 - bus B-0033 Esperando nuevos pasajeros
+Mon May 06 00:00:57 CEST 2024 - El avion IX-0002 esta esperando a desembarcar en Barcelona
+Mon May 06 00:00:57 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:57 CEST 2024 - El avion DA-0017 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:00:57 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:00:57 CEST 2024 - El avion DA-0017 entra a embarcar en la puerta 4 del aeropuerto de Barcelona
+Mon May 06 00:00:57 CEST 2024 - El avion DA-0017 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:00:57 CEST 2024 - El avion IX-0002 entra a desembarcar en la puerta 5 del aeropuerto de Barcelona
+Mon May 06 00:00:57 CEST 2024 - El avion GK-0003 solicita una pista para aterrizar en el aeropuerto de Madrid
+Mon May 06 00:00:57 CEST 2024 - El avion GK-0003 accede a la pista 1 del aeropuerto de Madrid
+Mon May 06 00:00:57 CEST 2024 - El avion AE-0004 aterriza con exito en la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:57 CEST 2024 - El avion AE-0004 accede al area de rodaje del aeropuerto de Barcelona y se dirige a las puertas de desembarque
+Mon May 06 00:00:57 CEST 2024 - Creado el avion ZD-0019 de Barcelona con capacidad 152
+Mon May 06 00:00:57 CEST 2024 - El avion ZD-0019 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:00:58 CEST 2024 - El avion IY-0018 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:00:58 CEST 2024 - Creado el autobus B-0043 de Barcelona
+Mon May 06 00:00:58 CEST 2024 - autobus B-0043 llega a Barcelona con 0 personas
+Mon May 06 00:00:58 CEST 2024 - El avion AR-0015 despega exitosamente de la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:00:58 CEST 2024 - El avion AR-0015 accede a la aerovia de Barcelona
+Mon May 06 00:00:58 CEST 2024 - autobus B-0020 baja 0 pasajeros en Madrid
+Mon May 06 00:00:58 CEST 2024 - autobus B-0036 baja 27 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:00:58 CEST 2024 - Ahora en el aeropuerto de Madrid hay 27 personas
+Mon May 06 00:00:58 CEST 2024 - bus B-0036 Esperando nuevos pasajeros
+Mon May 06 00:00:59 CEST 2024 - autobus B-0024 baja 0 pasajeros en Madrid
+Mon May 06 00:00:59 CEST 2024 - autobus B-0022 baja 0 pasajeros en Madrid
+Mon May 06 00:00:59 CEST 2024 - Creado el autobus B-0044 de Madrid
+Mon May 06 00:00:59 CEST 2024 - autobus B-0044 llega a Madrid con 0 personas
+Mon May 06 00:00:59 CEST 2024 - El avion DA-0017 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:00:59 CEST 2024 - autobus B-0019 baja 0 pasajeros en Barcelona
+Mon May 06 00:00:59 CEST 2024 - El avion DL-0016 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:00:59 CEST 2024 - El avion DL-0016 accede a la pista 2 del aeropuerto de Madrid
+Mon May 06 00:00:59 CEST 2024 - El avion DL-0016 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:00:59 CEST 2024 - autobus B-0035 baja 9 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:00:59 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 9 personas
+Mon May 06 00:00:59 CEST 2024 - bus B-0035 Esperando nuevos pasajeros
+Mon May 06 00:00:59 CEST 2024 - El avion IY-0018 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:00:59 CEST 2024 - autobus B-0033 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:00:59 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 9 personas
+Mon May 06 00:00:59 CEST 2024 - autobus B-0033 va a Barcelona
+Mon May 06 00:01:00 CEST 2024 - autobus B-0040 recoge 2 pasajeros de Madrid
+Mon May 06 00:01:00 CEST 2024 - autobus B-0040 va al aeropuerto de Madrid
+Mon May 06 00:01:00 CEST 2024 - Creado el autobus B-0045 de Barcelona
+Mon May 06 00:01:00 CEST 2024 - autobus B-0045 llega a Barcelona con 0 personas
+Mon May 06 00:01:00 CEST 2024 - autobus B-0038 baja 38 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:01:00 CEST 2024 - Ahora en el aeropuerto de Madrid hay 38 personas
+Mon May 06 00:01:00 CEST 2024 - bus B-0038 Esperando nuevos pasajeros
+Mon May 06 00:01:00 CEST 2024 - autobus B-0037 baja 43 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:01:00 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 52 personas
+Mon May 06 00:01:00 CEST 2024 - bus B-0037 Esperando nuevos pasajeros
+Mon May 06 00:01:00 CEST 2024 - autobus B-0021 baja 0 pasajeros en Barcelona
+Mon May 06 00:01:01 CEST 2024 - El avion TC-0001 esta esperando a desembarcar en Madrid
+Mon May 06 00:01:01 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:01 CEST 2024 - El avion TC-0001 entra a desembarcar en la puerta 4 del aeropuerto de Madrid
+Mon May 06 00:01:01 CEST 2024 - El avion AE-0004 esta esperando a desembarcar en Barcelona
+Mon May 06 00:01:01 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:01 CEST 2024 - El avion ZD-0019 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:01:01 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:01 CEST 2024 - El avion AE-0004 entra a desembarcar en la puerta 3 del aeropuerto de Barcelona
+Mon May 06 00:01:01 CEST 2024 - El avion ZD-0019 entra a embarcar en la puerta 2 del aeropuerto de Barcelona
+Mon May 06 00:01:01 CEST 2024 - El avion ZD-0019 intenta embarcar en la puerta 2 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:01:01 CEST 2024 - El avion IX-0002 termina de desembarcar en la puerta 5 del aeropuerto de Barcelona 0 personas
+Mon May 06 00:01:01 CEST 2024 - El avion IX-0002 accede al area de estacionamiento de Barcelona para realizar comprobaciones
+Mon May 06 00:01:01 CEST 2024 - Creado el autobus B-0046 de Madrid
+Mon May 06 00:01:01 CEST 2024 - autobus B-0046 llega a Madrid con 0 personas
+Mon May 06 00:01:01 CEST 2024 - El avion GK-0003 aterriza con exito en la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:01 CEST 2024 - El avion GK-0003 accede al area de rodaje del aeropuerto de Madrid y se dirige a las puertas de desembarque
+Mon May 06 00:01:01 CEST 2024 - Creado el avion UM-0020 de Madrid con capacidad 149
+Mon May 06 00:01:01 CEST 2024 - El avion UM-0020 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:01:01 CEST 2024 - El avion DL-0016 comienza el despegue desde la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:01 CEST 2024 - autobus B-0041 recoge 42 pasajeros de Barcelona
+Mon May 06 00:01:01 CEST 2024 - autobus B-0041 va al aeropuerto de Barcelona
+Mon May 06 00:01:01 CEST 2024 - El avion DA-0017 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:01:01 CEST 2024 - autobus B-0023 baja 0 pasajeros en Barcelona
+Mon May 06 00:01:02 CEST 2024 - autobus B-0036 sube 30 pasajeros del aeropuerto de Madrid
+Mon May 06 00:01:02 CEST 2024 - Ahora en el aeropuerto de Madrid hay 8 personas
+Mon May 06 00:01:02 CEST 2024 - autobus B-0036 va a Madrid
+Mon May 06 00:01:02 CEST 2024 - autobus B-0042 recoge 5 pasajeros de Madrid
+Mon May 06 00:01:02 CEST 2024 - autobus B-0042 va al aeropuerto de Madrid
+Mon May 06 00:01:02 CEST 2024 - Creado el autobus B-0047 de Barcelona
+Mon May 06 00:01:02 CEST 2024 - autobus B-0047 llega a Barcelona con 0 personas
+Mon May 06 00:01:02 CEST 2024 - autobus B-0038 sube 5 pasajeros del aeropuerto de Madrid
+Mon May 06 00:01:02 CEST 2024 - Ahora en el aeropuerto de Madrid hay 3 personas
+Mon May 06 00:01:02 CEST 2024 - autobus B-0038 va a Madrid
+Mon May 06 00:01:02 CEST 2024 - Creado el avion JJ-0021 de Barcelona con capacidad 270
+Mon May 06 00:01:02 CEST 2024 - El avion JJ-0021 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:01:02 CEST 2024 - El avion JJ-0021 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:01:02 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:02 CEST 2024 - El avion JJ-0021 entra a embarcar en la puerta 5 del aeropuerto de Barcelona
+Mon May 06 00:01:02 CEST 2024 - El avion JJ-0021 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:01:02 CEST 2024 - El avion OD-0006 solicita una pista para aterrizar en el aeropuerto de Barcelona
+Mon May 06 00:01:02 CEST 2024 - El avion OD-0006 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:01:02 CEST 2024 - autobus B-0039 baja 0 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:01:02 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:01:02 CEST 2024 - bus B-0039 Esperando nuevos pasajeros
+Mon May 06 00:01:02 CEST 2024 - autobus B-0043 recoge 49 pasajeros de Barcelona
+Mon May 06 00:01:02 CEST 2024 - autobus B-0043 va al aeropuerto de Barcelona
+Mon May 06 00:01:03 CEST 2024 - El avion ZD-0019 intenta embarcar en la puerta 2 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:01:03 CEST 2024 - autobus B-0037 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:01:03 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:01:03 CEST 2024 - autobus B-0037 va a Barcelona
+Mon May 06 00:01:03 CEST 2024 - Creado el autobus B-0048 de Madrid
+Mon May 06 00:01:03 CEST 2024 - autobus B-0048 llega a Madrid con 0 personas
+Mon May 06 00:01:03 CEST 2024 - El avion PY-0008 solicita una pista para aterrizar en el aeropuerto de Barcelona
+Mon May 06 00:01:03 CEST 2024 - El avion PY-0008 accede a la pista 2 del aeropuerto de Barcelona
+Mon May 06 00:01:03 CEST 2024 - autobus B-0040 baja 2 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:01:03 CEST 2024 - Ahora en el aeropuerto de Madrid hay 2 personas
+Mon May 06 00:01:03 CEST 2024 - bus B-0040 Esperando nuevos pasajeros
+Mon May 06 00:01:03 CEST 2024 - El avion IX-0002 accede al taller de Barcelona para realizar una revision rapida
+Mon May 06 00:01:03 CEST 2024 - El avion AE-0004 termina de desembarcar en la puerta 3 del aeropuerto de Barcelona 87 personas
+Mon May 06 00:01:03 CEST 2024 - El avion AE-0004 accede al area de estacionamiento de Barcelona para realizar comprobaciones
+Mon May 06 00:01:04 CEST 2024 - autobus B-0035 sube 17 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:01:04 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 70 personas
+Mon May 06 00:01:04 CEST 2024 - autobus B-0035 va a Barcelona
+Mon May 06 00:01:04 CEST 2024 - autobus B-0026 baja 0 pasajeros en Madrid
+Mon May 06 00:01:04 CEST 2024 - autobus B-0025 baja 0 pasajeros en Barcelona
+Mon May 06 00:01:04 CEST 2024 - autobus B-0045 recoge 3 pasajeros de Barcelona
+Mon May 06 00:01:04 CEST 2024 - autobus B-0045 va al aeropuerto de Barcelona
+Mon May 06 00:01:04 CEST 2024 - Creado el autobus B-0049 de Barcelona
+Mon May 06 00:01:04 CEST 2024 - autobus B-0049 llega a Barcelona con 0 personas
+Mon May 06 00:01:04 CEST 2024 - Creado el avion MH-0022 de Madrid con capacidad 270
+Mon May 06 00:01:04 CEST 2024 - El avion MH-0022 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:01:04 CEST 2024 - El avion DA-0017 termina de embarcar en la puerta 4 del aeropuerto de Barcelona 152 personas
+Mon May 06 00:01:04 CEST 2024 - El avion DA-0017 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:01:05 CEST 2024 - El avion ZD-0019 intenta embarcar en la puerta 2 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:01:05 CEST 2024 - El avion GK-0003 esta esperando a desembarcar en Madrid
+Mon May 06 00:01:05 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:05 CEST 2024 - El avion GK-0003 entra a desembarcar en la puerta 3 del aeropuerto de Madrid
+Mon May 06 00:01:05 CEST 2024 - El avion UM-0020 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:01:05 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:05 CEST 2024 - El avion IY-0018 termina de embarcar en la puerta 5 del aeropuerto de Madrid 30 personas
+Mon May 06 00:01:05 CEST 2024 - El avion UM-0020 entra a embarcar en la puerta 2 del aeropuerto de Madrid
+Mon May 06 00:01:05 CEST 2024 - El avion UM-0020 intenta embarcar en la puerta 2 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:01:05 CEST 2024 - El avion IY-0018 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:01:05 CEST 2024 - El avion TC-0001 termina de desembarcar en la puerta 4 del aeropuerto de Madrid 0 personas
+Mon May 06 00:01:05 CEST 2024 - El avion TC-0001 accede al area de estacionamiento de Madrid para realizar comprobaciones
+Mon May 06 00:01:05 CEST 2024 - El avion MH-0022 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:01:05 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:05 CEST 2024 - El avion MH-0022 entra a embarcar en la puerta 5 del aeropuerto de Madrid
+Mon May 06 00:01:05 CEST 2024 - El avion MH-0022 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:01:05 CEST 2024 - autobus B-0041 baja 42 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:01:05 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 42 personas
+Mon May 06 00:01:05 CEST 2024 - bus B-0041 Esperando nuevos pasajeros
+Mon May 06 00:01:05 CEST 2024 - autobus B-0046 recoge 3 pasajeros de Madrid
+Mon May 06 00:01:05 CEST 2024 - autobus B-0046 va al aeropuerto de Madrid
+Mon May 06 00:01:05 CEST 2024 - El avion JJ-0021 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:01:05 CEST 2024 - autobus B-0030 baja 0 pasajeros en Madrid
+Mon May 06 00:01:05 CEST 2024 - El avion DL-0016 despega exitosamente de la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:05 CEST 2024 - El avion DL-0016 accede a la aerovia de Madrid
+Mon May 06 00:01:06 CEST 2024 - autobus B-0044 recoge 9 pasajeros de Madrid
+Mon May 06 00:01:06 CEST 2024 - autobus B-0044 va al aeropuerto de Madrid
+Mon May 06 00:01:06 CEST 2024 - Creado el autobus B-0050 de Madrid
+Mon May 06 00:01:06 CEST 2024 - autobus B-0050 llega a Madrid con 0 personas
+Mon May 06 00:01:06 CEST 2024 - autobus B-0039 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:01:06 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:01:06 CEST 2024 - autobus B-0039 va a Barcelona
+Mon May 06 00:01:06 CEST 2024 - autobus B-0029 baja 3 pasajeros en Barcelona
+Mon May 06 00:01:06 CEST 2024 - El avion ZO-0007 solicita una pista para aterrizar en el aeropuerto de Madrid
+Mon May 06 00:01:06 CEST 2024 - El avion ZO-0007 accede a la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:06 CEST 2024 - El avion UM-0020 intenta embarcar en la puerta 2 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:01:06 CEST 2024 - Creado el autobus B-0051 de Barcelona
+Mon May 06 00:01:06 CEST 2024 - autobus B-0051 llega a Barcelona con 0 personas
+Mon May 06 00:01:06 CEST 2024 - autobus B-0040 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:01:06 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:01:06 CEST 2024 - autobus B-0040 va a Madrid
+Mon May 06 00:01:06 CEST 2024 - Creado el avion KH-0023 de Barcelona con capacidad 117
+Mon May 06 00:01:06 CEST 2024 - El avion KH-0023 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:01:06 CEST 2024 - El avion KH-0023 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:01:06 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:06 CEST 2024 - El avion KH-0023 entra a embarcar en la puerta 4 del aeropuerto de Barcelona
+Mon May 06 00:01:06 CEST 2024 - El avion KH-0023 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:01:07 CEST 2024 - El avion ZD-0019 termina de embarcar en la puerta 2 del aeropuerto de Barcelona 0 personas
+Mon May 06 00:01:07 CEST 2024 - El avion ZD-0019 entra al area de rodaje del aeropuerto de Barcelona para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:01:07 CEST 2024 - autobus B-0027 baja 29 pasajeros en Barcelona
+Mon May 06 00:01:07 CEST 2024 - El avion IX-0002 sale del taller de Barcelona
+Mon May 06 00:01:07 CEST 2024 - El avion IX-0002 accede al area de estacionamiento del aeropuerto de Barcelona esperando a embarcar
+Mon May 06 00:01:07 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:07 CEST 2024 - El avion IX-0002 entra a embarcar en la puerta 3 del aeropuerto de Barcelona
+Mon May 06 00:01:07 CEST 2024 - El avion IX-0002 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 1)
+Mon May 06 00:01:07 CEST 2024 - autobus B-0042 baja 5 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:01:07 CEST 2024 - Ahora en el aeropuerto de Madrid hay 5 personas
+Mon May 06 00:01:07 CEST 2024 - bus B-0042 Esperando nuevos pasajeros
+Mon May 06 00:01:07 CEST 2024 - El avion OD-0006 aterriza con exito en la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:01:07 CEST 2024 - El avion OD-0006 accede al area de rodaje del aeropuerto de Barcelona y se dirige a las puertas de desembarque
+Mon May 06 00:01:07 CEST 2024 - El avion MH-0022 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:01:07 CEST 2024 - Creado el autobus B-0052 de Madrid
+Mon May 06 00:01:07 CEST 2024 - autobus B-0052 llega a Madrid con 0 personas
+Mon May 06 00:01:07 CEST 2024 - autobus B-0041 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:01:07 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:01:07 CEST 2024 - autobus B-0041 va a Barcelona
+Mon May 06 00:01:07 CEST 2024 - autobus B-0047 recoge 10 pasajeros de Barcelona
+Mon May 06 00:01:07 CEST 2024 - autobus B-0047 va al aeropuerto de Barcelona
+Mon May 06 00:01:08 CEST 2024 - El avion PY-0008 aterriza con exito en la pista 2 del aeropuerto de Barcelona
+Mon May 06 00:01:08 CEST 2024 - El avion GK-0003 termina de desembarcar en la puerta 3 del aeropuerto de Madrid 53 personas
+Mon May 06 00:01:08 CEST 2024 - El avion GK-0003 accede al area de estacionamiento de Madrid para realizar comprobaciones
+Mon May 06 00:01:08 CEST 2024 - El avion AE-0004 accede al taller de Barcelona para realizar una revision rapida
+Mon May 06 00:01:08 CEST 2024 - El avion IY-0018 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:01:08 CEST 2024 - El avion IY-0018 accede a la pista 2 del aeropuerto de Madrid
+Mon May 06 00:01:08 CEST 2024 - El avion IY-0018 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:01:08 CEST 2024 - El avion JJ-0021 intenta embarcar en la puerta 5 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:01:08 CEST 2024 - El avion DA-0017 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:01:08 CEST 2024 - El avion DA-0017 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:01:08 CEST 2024 - El avion DA-0017 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:01:08 CEST 2024 - El avion IX-0002 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:01:08 CEST 2024 - Creado el autobus B-0053 de Barcelona
+Mon May 06 00:01:08 CEST 2024 - autobus B-0053 llega a Barcelona con 0 personas
+Mon May 06 00:01:08 CEST 2024 - El avion UM-0020 intenta embarcar en la puerta 2 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:01:08 CEST 2024 - El avion FY-0009 solicita una pista para aterrizar en el aeropuerto de Madrid
+Mon May 06 00:01:08 CEST 2024 - El avion FY-0009 accede a la pista 3 del aeropuerto de Madrid
+Mon May 06 00:01:08 CEST 2024 - autobus B-0043 baja 49 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:01:08 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 49 personas
+Mon May 06 00:01:08 CEST 2024 - bus B-0043 Esperando nuevos pasajeros
+Mon May 06 00:01:08 CEST 2024 - autobus B-0028 baja 0 pasajeros en Madrid
+Mon May 06 00:01:08 CEST 2024 - autobus B-0034 baja 0 pasajeros en Madrid
+Mon May 06 00:01:08 CEST 2024 - El avion KH-0023 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 2)
+Mon May 06 00:01:09 CEST 2024 - autobus B-0046 baja 3 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:01:09 CEST 2024 - Ahora en el aeropuerto de Madrid hay 3 personas
+Mon May 06 00:01:09 CEST 2024 - bus B-0046 Esperando nuevos pasajeros
+Mon May 06 00:01:09 CEST 2024 - El avion IX-0002 intenta embarcar en la puerta 3 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:01:09 CEST 2024 - autobus B-0031 baja 15 pasajeros en Barcelona
+Mon May 06 00:01:09 CEST 2024 - autobus B-0049 recoge 15 pasajeros de Barcelona
+Mon May 06 00:01:09 CEST 2024 - autobus B-0049 va al aeropuerto de Barcelona
+Mon May 06 00:01:09 CEST 2024 - autobus B-0048 recoge 28 pasajeros de Madrid
+Mon May 06 00:01:09 CEST 2024 - autobus B-0048 va al aeropuerto de Madrid
+Mon May 06 00:01:09 CEST 2024 - Creado el autobus B-0054 de Madrid
+Mon May 06 00:01:09 CEST 2024 - autobus B-0054 llega a Madrid con 0 personas
+Mon May 06 00:01:09 CEST 2024 - El avion ZO-0007 aterriza con exito en la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:09 CEST 2024 - El avion ZO-0007 accede al area de rodaje del aeropuerto de Madrid y se dirige a las puertas de desembarque
+Mon May 06 00:01:09 CEST 2024 - Creado el avion NY-0024 de Madrid con capacidad 169
+Mon May 06 00:01:09 CEST 2024 - El avion NY-0024 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:01:10 CEST 2024 - El avion ZD-0019 espera una pista para despegar en el area de rodaje del aeropuerto de Barcelona
+Mon May 06 00:01:10 CEST 2024 - El avion ZD-0019 accede a la pista 2 del aeropuerto de Barcelona
+Mon May 06 00:01:10 CEST 2024 - El avion ZD-0019 realiza unas ultimas comprobaciones antes de despegar
+Mon May 06 00:01:10 CEST 2024 - autobus B-0052 recoge 27 pasajeros de Madrid
+Mon May 06 00:01:10 CEST 2024 - autobus B-0052 va al aeropuerto de Madrid
+Mon May 06 00:01:10 CEST 2024 - El avion TC-0001 accede al taller de Madrid para realizar una revision rapida
+Mon May 06 00:01:10 CEST 2024 - autobus B-0045 baja 3 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:01:10 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 3 personas
+Mon May 06 00:01:10 CEST 2024 - bus B-0045 Esperando nuevos pasajeros
+Mon May 06 00:01:10 CEST 2024 - autobus B-0042 sube 2 pasajeros del aeropuerto de Madrid
+Mon May 06 00:01:10 CEST 2024 - Ahora en el aeropuerto de Madrid hay 1 personas
+Mon May 06 00:01:10 CEST 2024 - autobus B-0042 va a Madrid
+Mon May 06 00:01:10 CEST 2024 - autobus B-0051 recoge 21 pasajeros de Barcelona
+Mon May 06 00:01:10 CEST 2024 - autobus B-0051 va al aeropuerto de Barcelona
+Mon May 06 00:01:10 CEST 2024 - autobus B-0032 baja 0 pasajeros en Madrid
+Mon May 06 00:01:10 CEST 2024 - El avion MH-0022 intenta embarcar en la puerta 5 del aeropuerto de Madrid(intento 3)
+Mon May 06 00:01:10 CEST 2024 - El avion IY-0018 comienza el despegue desde la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:10 CEST 2024 - autobus B-0047 baja 10 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:01:10 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 13 personas
+Mon May 06 00:01:10 CEST 2024 - bus B-0047 Esperando nuevos pasajeros
+Mon May 06 00:01:10 CEST 2024 - autobus B-0050 recoge 37 pasajeros de Madrid
+Mon May 06 00:01:10 CEST 2024 - autobus B-0050 va al aeropuerto de Madrid
+Mon May 06 00:01:10 CEST 2024 - El avion GK-0003 accede al taller de Madrid para realizar una revision rapida
+Mon May 06 00:01:10 CEST 2024 - Creado el autobus B-0055 de Barcelona
+Mon May 06 00:01:10 CEST 2024 - autobus B-0055 llega a Barcelona con 0 personas
+Mon May 06 00:01:11 CEST 2024 - autobus B-0033 baja 0 pasajeros en Barcelona
+Mon May 06 00:01:11 CEST 2024 - El avion DA-0017 comienza el despegue desde la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:01:11 CEST 2024 - autobus B-0044 baja 9 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:01:11 CEST 2024 - Ahora en el aeropuerto de Madrid hay 9 personas
+Mon May 06 00:01:11 CEST 2024 - bus B-0044 Esperando nuevos pasajeros
+Mon May 06 00:01:11 CEST 2024 - El avion KH-0023 intenta embarcar en la puerta 4 del aeropuerto de Barcelona(intento 3)
+Mon May 06 00:01:11 CEST 2024 - autobus B-0043 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:01:11 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:01:11 CEST 2024 - autobus B-0043 va a Barcelona
+Mon May 06 00:01:11 CEST 2024 - El avion AE-0004 sale del taller de Barcelona
+Mon May 06 00:01:11 CEST 2024 - El avion AE-0004 va al hangar del aeropuerto de Barcelona
+Mon May 06 00:01:11 CEST 2024 - El avion OD-0006 esta esperando a desembarcar en Barcelona
+Mon May 06 00:01:11 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:11 CEST 2024 - El avion OD-0006 entra a desembarcar en la puerta 2 del aeropuerto de Barcelona
+Mon May 06 00:01:11 CEST 2024 - El avion PY-0008 accede al area de rodaje del aeropuerto de Barcelona y se dirige a las puertas de desembarque
+Mon May 06 00:01:12 CEST 2024 - Creado el avion CV-0025 de Barcelona con capacidad 222
+Mon May 06 00:01:12 CEST 2024 - El avion CV-0025 aparece en el hangar del aeropuerto de Barcelona
+Mon May 06 00:01:12 CEST 2024 - autobus B-0048 baja 28 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:01:12 CEST 2024 - Ahora en el aeropuerto de Madrid hay 28 personas
+Mon May 06 00:01:12 CEST 2024 - bus B-0048 Esperando nuevos pasajeros
+Mon May 06 00:01:12 CEST 2024 - Creado el autobus B-0056 de Madrid
+Mon May 06 00:01:12 CEST 2024 - autobus B-0056 llega a Madrid con 0 personas
+Mon May 06 00:01:12 CEST 2024 - El avion DA-0017 despega exitosamente de la pista 0 del aeropuerto de Barcelona
+Mon May 06 00:01:12 CEST 2024 - El avion DA-0017 accede a la aerovia de Barcelona
+Mon May 06 00:01:12 CEST 2024 - autobus B-0045 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:01:12 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:01:12 CEST 2024 - autobus B-0045 va a Barcelona
+Mon May 06 00:01:12 CEST 2024 - Creado el autobus B-0057 de Barcelona
+Mon May 06 00:01:12 CEST 2024 - autobus B-0057 llega a Barcelona con 0 personas
+Mon May 06 00:01:12 CEST 2024 - El avion IY-0018 despega exitosamente de la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:12 CEST 2024 - El avion IY-0018 accede a la aerovia de Madrid
+Mon May 06 00:01:13 CEST 2024 - El avion RG-0005 solicita una pista para aterrizar en el aeropuerto de Madrid
+Mon May 06 00:01:13 CEST 2024 - El avion RG-0005 accede a la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:13 CEST 2024 - autobus B-0047 sube 0 pasajeros del aeropuerto de Barcelona
+Mon May 06 00:01:13 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 0 personas
+Mon May 06 00:01:13 CEST 2024 - autobus B-0047 va a Barcelona
+Mon May 06 00:01:13 CEST 2024 - El avion ZD-0019 comienza el despegue desde la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:01:13 CEST 2024 - autobus B-0038 baja 5 pasajeros en Madrid
+Mon May 06 00:01:13 CEST 2024 - autobus B-0049 baja 15 pasajeros en el aeropuerto de Barcelona
+Mon May 06 00:01:13 CEST 2024 - Ahora en el aeropuerto de Barcelona hay 15 personas
+Mon May 06 00:01:13 CEST 2024 - bus B-0049 Esperando nuevos pasajeros
+Mon May 06 00:01:13 CEST 2024 - El avion FY-0009 aterriza con exito en la pista 3 del aeropuerto de Madrid
+Mon May 06 00:01:13 CEST 2024 - autobus B-0054 recoge 32 pasajeros de Madrid
+Mon May 06 00:01:13 CEST 2024 - autobus B-0054 va al aeropuerto de Madrid
+Mon May 06 00:01:13 CEST 2024 - El avion ZO-0007 esta esperando a desembarcar en Madrid
+Mon May 06 00:01:13 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:13 CEST 2024 - El avion ZO-0007 entra a desembarcar en la puerta 4 del aeropuerto de Madrid
+Mon May 06 00:01:13 CEST 2024 - El avion NY-0024 accede al area de estacionamiento del aeropuerto de Madrid esperando a embarcar
+Mon May 06 00:01:13 CEST 2024 - Hay 1 aviones esperando en la cola de embarque/desembarque
+Mon May 06 00:01:13 CEST 2024 - El avion UM-0020 termina de embarcar en la puerta 2 del aeropuerto de Madrid 64 personas
+Mon May 06 00:01:13 CEST 2024 - El avion NY-0024 entra a embarcar en la puerta 3 del aeropuerto de Madrid
+Mon May 06 00:01:13 CEST 2024 - El avion UM-0020 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:01:13 CEST 2024 - El avion NY-0024 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 1)
+Mon May 06 00:01:13 CEST 2024 - El avion MH-0022 termina de embarcar en la puerta 5 del aeropuerto de Madrid 34 personas
+Mon May 06 00:01:13 CEST 2024 - El avion MH-0022 entra al area de rodaje del aeropuerto de Madrid para realizar comprobaciones antes de solicitar una pista
+Mon May 06 00:01:13 CEST 2024 - El avion FY-0009 accede al area de rodaje del aeropuerto de Madrid y se dirige a las puertas de desembarque
+Mon May 06 00:01:13 CEST 2024 - El avion AR-0015 solicita una pista para aterrizar en el aeropuerto de Madrid
+Mon May 06 00:01:13 CEST 2024 - El avion AR-0015 accede a la pista 2 del aeropuerto de Madrid
+Mon May 06 00:01:13 CEST 2024 - El avion TC-0001 sale del taller de Madrid
+Mon May 06 00:01:14 CEST 2024 - autobus B-0046 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:01:14 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:01:14 CEST 2024 - autobus B-0046 va a Madrid
+Mon May 06 00:01:14 CEST 2024 - autobus B-0048 sube 0 pasajeros del aeropuerto de Madrid
+Mon May 06 00:01:14 CEST 2024 - Ahora en el aeropuerto de Madrid hay 0 personas
+Mon May 06 00:01:14 CEST 2024 - autobus B-0048 va a Madrid
+Mon May 06 00:01:14 CEST 2024 - El avion GK-0003 sale del taller de Madrid
+Mon May 06 00:01:14 CEST 2024 - Creado el autobus B-0058 de Madrid
+Mon May 06 00:01:14 CEST 2024 - autobus B-0058 llega a Madrid con 0 personas
+Mon May 06 00:01:14 CEST 2024 - autobus B-0036 baja 30 pasajeros en Madrid
+Mon May 06 00:01:14 CEST 2024 - Creado el avion HD-0026 de Madrid con capacidad 177
+Mon May 06 00:01:14 CEST 2024 - El avion HD-0026 aparece en el hangar del aeropuerto de Madrid
+Mon May 06 00:01:14 CEST 2024 - El avion QJ-0013 solicita una pista para aterrizar en el aeropuerto de Madrid
+Mon May 06 00:01:14 CEST 2024 - El avion QJ-0013 accede a la pista 3 del aeropuerto de Madrid
+Mon May 06 00:01:14 CEST 2024 - autobus B-0053 recoge 23 pasajeros de Barcelona
+Mon May 06 00:01:14 CEST 2024 - autobus B-0053 va al aeropuerto de Barcelona
+Mon May 06 00:01:15 CEST 2024 - Creado el autobus B-0059 de Barcelona
+Mon May 06 00:01:15 CEST 2024 - autobus B-0059 llega a Barcelona con 0 personas
+Mon May 06 00:01:15 CEST 2024 - autobus B-0052 baja 27 pasajeros en el aeropuerto de Madrid
+Mon May 06 00:01:15 CEST 2024 - Ahora en el aeropuerto de Madrid hay 27 personas
+Mon May 06 00:01:15 CEST 2024 - bus B-0052 Esperando nuevos pasajeros
+Mon May 06 00:01:15 CEST 2024 - autobus B-0056 recoge 4 pasajeros de Madrid
+Mon May 06 00:01:15 CEST 2024 - autobus B-0056 va al aeropuerto de Madrid
+Mon May 06 00:01:15 CEST 2024 - El avion YO-0012 solicita una pista para aterrizar en el aeropuerto de Barcelona
+Mon May 06 00:01:15 CEST 2024 - El avion YO-0012 accede a la pista 1 del aeropuerto de Barcelona
+Mon May 06 00:01:15 CEST 2024 - Creado el autobus B-0060 de Madrid
+Mon May 06 00:01:15 CEST 2024 - autobus B-0060 llega a Madrid con 0 personas
+Mon May 06 00:01:15 CEST 2024 - El avion KM-0010 solicita una pista para aterrizar en el aeropuerto de Barcelona
+Mon May 06 00:01:15 CEST 2024 - El avion KM-0010 accede a la pista 3 del aeropuerto de Barcelona
+Mon May 06 00:01:15 CEST 2024 - El avion RG-0005 aterriza con exito en la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:16 CEST 2024 - El avion NY-0024 intenta embarcar en la puerta 3 del aeropuerto de Madrid(intento 2)
+Mon May 06 00:01:16 CEST 2024 - El avion MH-0022 espera una pista para despegar en el area de rodaje del aeropuerto de Madrid
+Mon May 06 00:01:16 CEST 2024 - El avion MH-0022 accede a la pista 1 del aeropuerto de Madrid
+Mon May 06 00:01:16 CEST 2024 - El avion MH-0022 realiza unas ultimas comprobaciones antes de despegar

@@ -125,7 +125,7 @@ public class Aeropuerto {
 
     //______________METODOS DE AVIONES____________
     public void aparecerEnHangar(String id) {
-        //Interfaz
+        //Es solo un log pero se mantiene por claridad en el codigo
         Log.logEvent("El avion " + id + " aparece en el hangar del aeropuerto de " + this.ciudad);
     }
 
@@ -138,10 +138,10 @@ public class Aeropuerto {
             try {
                 colaEmbarque.put(avion);
                 if (embarque) {
-                    //Interfaz estacionamiento
+                    interfaz.actualizarAreaEstacionamiento(ciudad, id, true);
                     Log.logEvent("El avion " + id + " accede al area de estacionamiento del aeropuerto de " + this.ciudad + " esperando a embarcar");
                 } else {
-                    //Interfaz rodaje
+                    interfaz.actualizarAreaRodaje(ciudad, id, true);
                     Log.logEvent("El avion " + id + " accede al area de rodaje del aeropuerto de " + this.ciudad + " y se dirige a las puertas de desembarque");
                     Thread.sleep(rand.nextInt(3000, 5000));
                     Log.logEvent("El avion " + id + " esta esperando a desembarcar en " + this.ciudad);
@@ -167,10 +167,10 @@ public class Aeropuerto {
         int personasenavion = 0;
         try {
             int intento = 1;
-            //Quitar interfaz estacionamiento
-            //Interfaz puerta
+            interfaz.actualizarAreaEstacionamiento(ciudad, id, false);
+            interfaz.actualizarPuerta(ciudad, id, true, true, puerta);
             Log.logEvent("El avion " + id + " entra a embarcar en la puerta " + puerta + " del aeropuerto de " + this.ciudad);
-            while (intento <= 3 || personasenavion < capacidad) {
+            while (intento <= 3 && personasenavion < capacidad) {
                 Log.logEvent("El avion " + id + " intenta embarcar en la puerta " + puerta + " del aeropuerto de " + this.ciudad + "(intento " + intento + ")");
                 Thread.sleep(rand.nextInt(1000, 3000));
                 int personasrestantes = capacidad - personasenavion;
@@ -182,6 +182,7 @@ public class Aeropuerto {
                     numPersonasAerop.addAndGet(-personasrestantes);
                     personasenavion = capacidad;
                 }
+                intento++;
             }
             if (intento == 3) {
                 Log.logEvent("El avion " + id + " deja de intentar embarcar tras 3 intentos");
@@ -190,7 +191,7 @@ public class Aeropuerto {
             lockPuertas.lock();
             try {
                 puertasEmbarque[puerta] = false; //Libera la puerta
-                //Quitar interfaz puerta
+                interfaz.actualizarPuerta(ciudad, id, false, true, puerta);
                 Log.logEvent("El avion " + id + " termina de embarcar en la puerta " + puerta + " del aeropuerto de " + this.ciudad + " " + personasenavion + " personas");
                 actualizarEstadoPuertas();
             } finally {
@@ -205,8 +206,8 @@ public class Aeropuerto {
 
     public void desembarcar(String id, int personasenavion, int puerta) {
         try {
-            //Quitar interfaz rodaje
-            //Interfaz puerta
+            interfaz.actualizarAreaRodaje(ciudad, id, false);
+            interfaz.actualizarPuerta(ciudad, id, true, false, puerta);
             Log.logEvent("El avion " + id + " entra a desembarcar en la puerta " + puerta + " del aeropuerto de " + this.ciudad);
             Thread.sleep(rand.nextInt(1000, 5000));
             numPersonasAerop.addAndGet(personasenavion);
@@ -214,7 +215,7 @@ public class Aeropuerto {
             lockPuertas.lock();
             try {
                 puertasEmbarque[puerta] = false; //Libera la puerta
-                //Quitar interfaz puerta
+                interfaz.actualizarPuerta(ciudad, id, false, false, puerta);
                 Log.logEvent("El avion " + id + " termina de desembarcar en la puerta " + puerta + " del aeropuerto de " + this.ciudad + " " + personasenavion + " personas");
                 actualizarEstadoPuertas();
             } finally {
@@ -269,7 +270,7 @@ public class Aeropuerto {
     }
 
     public int esperarPistaDespegue(String id) {
-        //Interfaz area de rodaje
+        interfaz.actualizarAreaRodaje(ciudad, id, true);
         Log.logEvent("El avion " + id + " entra al area de rodaje" + " del aeropuerto de " + this.ciudad + " para realizar comprobaciones antes de solicitar una pista");
         try {
             Thread.sleep(rand.nextInt(1000, 5000));
@@ -294,8 +295,8 @@ public class Aeropuerto {
             lockPistas.unlock();
         }
         Log.logEvent("El avion " + id + " accede a la pista " + (pista + 1) + " del aeropuerto de " + this.ciudad);
-        //Quitar interfaz rodaje
-        //Interfaz pista
+        interfaz.actualizarAreaRodaje(ciudad, id, false);
+        interfaz.actualizarPista(ciudad, id, true, true, pista);
         return pista;
     }
 
@@ -306,7 +307,7 @@ public class Aeropuerto {
             Log.logEvent("El avion " + id + " comienza el despegue desde la pista " + pista + " del aeropuerto de " + this.ciudad);
             Thread.sleep(rand.nextInt(1000, 5000));
             Log.logEvent("El avion " + id + " despega exitosamente de la pista " + pista + " del aeropuerto de " + this.ciudad);
-            //Quitar interfaz pista
+            interfaz.actualizarPista(ciudad, id, false, true, pista);
             lockPistas.lock();
             if (estadoPistas[pista] == 1) {
                 estadoPistas[pista] = 0; //Libera la pista solo si seguia ocupada
@@ -327,9 +328,9 @@ public class Aeropuerto {
     public void volar(String id) {
         try {
             Log.logEvent("El avion " + id + " accede a la aerovia de " + this.ciudad);
-            //Interfaz aerovia
+            interfaz.actualizarAerovia(ciudad, id, true);
             Thread.sleep(rand.nextInt(15000, 30000));
-            //Quitar interfaz aerovia
+            interfaz.actualizarAerovia(ciudad, id, false);
         } catch (InterruptedException ex) {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -360,7 +361,7 @@ public class Aeropuerto {
         }
 
         Log.logEvent("El avion " + id + " accede a la pista " + (pista + 1) + " del aeropuerto de " + this.ciudad);
-        //Interfaz pista
+        interfaz.actualizarPista(ciudad, id, true, false, pista);
         try {
             Thread.sleep(rand.nextInt(1000, 5000));
             Log.logEvent("El avion " + id + " aterriza con exito en la pista " + (pista + 1) + " del aeropuerto de " + this.ciudad);
@@ -379,15 +380,15 @@ public class Aeropuerto {
         }
         if (pistasPendientesCerrar.get() > 0) pistasPendientesCerrar.decrementAndGet();
         else semaforoPistas.release();
-        //Quitar interfaz pista
+        interfaz.actualizarPista(ciudad, id, false, false, pista);
     }
 
     public void comprobacionesAreadeEstacionamiento(String id) {
         try {
-            //Interfaz area de estacionamiento
+            interfaz.actualizarAreaEstacionamiento(ciudad, id, true);
             Log.logEvent("El avion " + id + " accede al area de estacionamiento de " + this.ciudad + " para realizar comprobaciones");
             Thread.sleep(rand.nextInt(1000, 5000));
-            //Quitar interfaz area de estacionamiento
+            interfaz.actualizarAreaEstacionamiento(ciudad, id, false);
         } catch (InterruptedException ex) {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -395,21 +396,21 @@ public class Aeropuerto {
 
     public void inspeccionTaller(String id, boolean profundidad) {
         try {
-            //Interfaz area de estacionamiento
-            Log.logEvent("El avion " + id + " accede al taller de " + this.ciudad + " para realizar una revision " + (profundidad ? "en profundidad" : "rapida"));
             puertaTaller.acquire();
+            Log.logEvent("El avion " + id + " accede al taller de " + this.ciudad + " para realizar una revision " + (profundidad ? "en profundidad" : "rapida"));
+            interfaz.actualizarTaller(ciudad, id, true);
             int tiempo = profundidad ? rand.nextInt(5000, 10000) : rand.nextInt(1000, 5000);
             Thread.sleep(tiempo);
             puertaTaller.release();
             Log.logEvent("El avion " + id + " sale del taller de " + this.ciudad);
-            //Quitar interfaz area de estacionamiento
+            interfaz.actualizarTaller(ciudad, id, false);
         } catch (InterruptedException ex) {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
     public void iraHangar(String id) {
-        //Interfaz hangar
+        interfaz.actualizarHangar(ciudad, id, true);
         Log.logEvent("El avion " + id + " va al hangar del aeropuerto de " + this.ciudad);
         try {
             Thread.sleep(rand.nextInt(15000, 30000));
@@ -417,7 +418,7 @@ public class Aeropuerto {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
         Log.logEvent("El avion " + id + " sale del hangar del aeropuerto de " + this.ciudad);
-        //Quitar interfaz hangar
+        interfaz.actualizarHangar(ciudad, id, false);
     }
 
     public void cerrarPista(int pista) {

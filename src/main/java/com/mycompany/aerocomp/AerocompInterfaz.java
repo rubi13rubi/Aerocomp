@@ -33,750 +33,600 @@ public class AerocompInterfaz extends javax.swing.JFrame {
     private void initComponents() {
 
         titulo = new javax.swing.JLabel();
+        jPanelMadrid = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        cajaTransfersAeropMad = new javax.swing.JTextArea();
         jLabel6 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        cajaTransfersCiudadMad = new javax.swing.JTextArea();
+        numPasajMad = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        hangarMad = new javax.swing.JTextArea();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        areaEstMad = new javax.swing.JTextArea();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+        gate1Mad = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
+        gate2Mad = new javax.swing.JTextField();
+        gate4Mad = new javax.swing.JTextField();
+        gate5Mad = new javax.swing.JTextField();
+        gate6Mad = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        gate3Mad = new javax.swing.JTextField();
+        jLabel12 = new javax.swing.JLabel();
+        rodajeMad = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
+        pista1Mad = new javax.swing.JTextField();
+        pista2Mad = new javax.swing.JTextField();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        gate1Mad = new javax.swing.JTextField();
+        pista3Mad = new javax.swing.JTextField();
+        pista4Mad = new javax.swing.JTextField();
+        jLabel37 = new javax.swing.JLabel();
         tallerMad = new javax.swing.JTextField();
-        gate2Mad = new javax.swing.JTextField();
-        gate3Mad = new javax.swing.JTextField();
-        gate5Mad = new javax.swing.JTextField();
-        gate6Mad = new javax.swing.JTextField();
-        rodajeMad = new javax.swing.JTextField();
-        gate4Mad = new javax.swing.JTextField();
-        pista3mad = new javax.swing.JTextField();
-        pista1mad = new javax.swing.JTextField();
-        pista4mad = new javax.swing.JTextField();
-        pista2mad = new javax.swing.JTextField();
-        aeroviaMadBarc = new javax.swing.JTextField();
-        AeroviaBarcMad = new javax.swing.JTextField();
+        fondoMad = new javax.swing.JLabel();
+        jPanelBarcelona = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        cajaTransfersAeropBar = new javax.swing.JTextArea();
         jLabel23 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        cajaTransfersCiudadBar = new javax.swing.JTextArea();
+        numPasajBar = new javax.swing.JTextField();
         jLabel24 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        hangarBar = new javax.swing.JTextArea();
         jLabel25 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        areaEstBar = new javax.swing.JTextArea();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
+        gate1Bar = new javax.swing.JTextField();
         jLabel28 = new javax.swing.JLabel();
+        gate2Bar = new javax.swing.JTextField();
+        gate4Bar = new javax.swing.JTextField();
+        gate5Bar = new javax.swing.JTextField();
+        gate6Bar = new javax.swing.JTextField();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
+        gate3Bar = new javax.swing.JTextField();
         jLabel32 = new javax.swing.JLabel();
+        rodajeBar = new javax.swing.JTextField();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
+        pista1Bar = new javax.swing.JTextField();
+        pista2Bar = new javax.swing.JTextField();
         jLabel36 = new javax.swing.JLabel();
-        jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
+        pista3Bar = new javax.swing.JTextField();
+        pista4Bar = new javax.swing.JTextField();
         jLabel39 = new javax.swing.JLabel();
-        gate1BCN = new javax.swing.JTextField();
-        tallerBCN = new javax.swing.JTextField();
-        gate2BCN = new javax.swing.JTextField();
-        numPasajBar = new javax.swing.JTextField();
-        gate3BCN = new javax.swing.JTextField();
-        gate5BCN = new javax.swing.JTextField();
-        gate6BCN = new javax.swing.JTextField();
-        rodajeBCN = new javax.swing.JTextField();
-        gate4BCN = new javax.swing.JTextField();
-        pista3BCNç = new javax.swing.JTextField();
-        pista1BCN = new javax.swing.JTextField();
-        pista4BCN = new javax.swing.JTextField();
-        pista2BCN = new javax.swing.JTextField();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        cajaTransfersAeropMad = new javax.swing.JTextArea();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        cajaTransfersCiudadMad = new javax.swing.JTextArea();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        cajaTransfersAeropBar = new javax.swing.JTextArea();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        cajaTransfersCiudadBar = new javax.swing.JTextArea();
-        numPasajMad = new javax.swing.JTextField();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        areaEstMad = new javax.swing.JTextArea();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        areaEstBCN = new javax.swing.JTextArea();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        hangarMad = new javax.swing.JTextArea();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        hangarBCN = new javax.swing.JTextArea();
+        tallerBar = new javax.swing.JTextField();
+        fondoBar = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        aeroviaMadBar = new javax.swing.JTextField();
+        aeroviaBarMad = new javax.swing.JTextField();
+        imagenFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(1350, 800));
+        setMinimumSize(new java.awt.Dimension(1350, 800));
+        setPreferredSize(new java.awt.Dimension(1350, 800));
+        setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        titulo.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        titulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titulo.setText("Aerocomp");
+        titulo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        getContentPane().add(titulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(525, 10, 300, 31));
 
-        jLabel2.setText("Aeropuerto de Madrid");
+        jPanelMadrid.setOpaque(false);
+        jPanelMadrid.setPreferredSize(new java.awt.Dimension(960, 500));
+        jPanelMadrid.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setText("Aeropuerto de Barcelona");
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel2.setText("MADRID");
+        jPanelMadrid.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, -1, -1));
 
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Transfers Aeropuerto");
+        jPanelMadrid.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, -1));
 
-        jLabel5.setText("nº de Pasajeros en el Aeropuerto");
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
-        jLabel6.setText("Transfers Ciudad");
-
-        jLabel7.setText("Hangar");
-
-        jLabel8.setText("Taller");
-
-        jLabel9.setText("Area Estacionamiento");
-
-        jLabel10.setText("Gate 1");
-
-        jLabel11.setText("Gate 2");
-
-        jLabel12.setText("Gate 3");
-
-        jLabel13.setText("Gate 4");
-
-        jLabel14.setText("Gate 5");
-
-        jLabel15.setText("Gate 6");
-
-        jLabel16.setText("Area Rodaje");
-
-        jLabel17.setText("Pista 1");
-
-        jLabel18.setText("Pista 2");
-
-        jLabel19.setText("Pista 3");
-
-        jLabel20.setText("Pista 4");
-
-        jLabel21.setText("Aerovia Madrid-Barcelona");
-
-        jLabel22.setText("Aerovia Barcelona-Madrid");
-
-        gate1Mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate1MadActionPerformed(evt);
-            }
-        });
-
-        tallerMad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tallerMadActionPerformed(evt);
-            }
-        });
-
-        gate2Mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate2MadActionPerformed(evt);
-            }
-        });
-
-        gate3Mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate3MadActionPerformed(evt);
-            }
-        });
-
-        gate5Mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate5MadActionPerformed(evt);
-            }
-        });
-
-        gate6Mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate6MadActionPerformed(evt);
-            }
-        });
-
-        rodajeMad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                rodajeMadActionPerformed(evt);
-            }
-        });
-
-        gate4Mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate4MadActionPerformed(evt);
-            }
-        });
-
-        pista3mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pista3madActionPerformed(evt);
-            }
-        });
-
-        pista1mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pista1madActionPerformed(evt);
-            }
-        });
-
-        pista4mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pista4madActionPerformed(evt);
-            }
-        });
-
-        pista2mad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pista2madActionPerformed(evt);
-            }
-        });
-
-        aeroviaMadBarc.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                aeroviaMadBarcActionPerformed(evt);
-            }
-        });
-
-        AeroviaBarcMad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AeroviaBarcMadActionPerformed(evt);
-            }
-        });
-
-        jLabel23.setText("Area Estacionamiento");
-
-        jLabel24.setText("Gate 1");
-
-        jLabel25.setText("Gate 2");
-
-        jLabel26.setText("Gate 3");
-
-        jLabel27.setText("Gate 4");
-
-        jLabel28.setText("Gate 5");
-
-        jLabel29.setText("Gate 6");
-
-        jLabel30.setText("Area Rodaje");
-
-        jLabel31.setText("Pista 1");
-
-        jLabel32.setText("Pista 2");
-
-        jLabel33.setText("Transfers Aeropuerto");
-
-        jLabel34.setText("nº de Pasajeros en el Aeropuerto");
-
-        jLabel35.setText("Transfers Ciudad");
-
-        jLabel36.setText("Hangar");
-
-        jLabel37.setText("Taller");
-
-        jLabel38.setText("Pista 3");
-
-        jLabel39.setText("Pista 4");
-
-        gate1BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate1BCNActionPerformed(evt);
-            }
-        });
-
-        tallerBCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tallerBCNActionPerformed(evt);
-            }
-        });
-
-        gate2BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate2BCNActionPerformed(evt);
-            }
-        });
-
-        numPasajBar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                numPasajBarActionPerformed(evt);
-            }
-        });
-
-        gate3BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate3BCNActionPerformed(evt);
-            }
-        });
-
-        gate5BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate5BCNActionPerformed(evt);
-            }
-        });
-
-        gate6BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate6BCNActionPerformed(evt);
-            }
-        });
-
-        rodajeBCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                rodajeBCNActionPerformed(evt);
-            }
-        });
-
-        gate4BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gate4BCNActionPerformed(evt);
-            }
-        });
-
-        pista3BCNç.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pista3BCNçActionPerformed(evt);
-            }
-        });
-
-        pista1BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pista1BCNActionPerformed(evt);
-            }
-        });
-
-        pista4BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pista4BCNActionPerformed(evt);
-            }
-        });
-
-        pista2BCN.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pista2BCNActionPerformed(evt);
-            }
-        });
-
+        cajaTransfersAeropMad.setEditable(false);
         cajaTransfersAeropMad.setColumns(20);
+        cajaTransfersAeropMad.setLineWrap(true);
         cajaTransfersAeropMad.setRows(5);
         jScrollPane1.setViewportView(cajaTransfersAeropMad);
 
+        jPanelMadrid.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 250, 60));
+
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel6.setText("Transfers Ciudad");
+        jPanelMadrid.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 50, -1, -1));
+
+        jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        cajaTransfersCiudadMad.setEditable(false);
         cajaTransfersCiudadMad.setColumns(20);
         cajaTransfersCiudadMad.setRows(5);
         jScrollPane2.setViewportView(cajaTransfersCiudadMad);
 
-        cajaTransfersAeropBar.setColumns(20);
-        cajaTransfersAeropBar.setRows(5);
-        jScrollPane3.setViewportView(cajaTransfersAeropBar);
+        jPanelMadrid.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(364, 80, 250, 60));
 
-        cajaTransfersCiudadBar.setColumns(20);
-        cajaTransfersCiudadBar.setRows(5);
-        jScrollPane4.setViewportView(cajaTransfersCiudadBar);
-
+        numPasajMad.setEditable(false);
         numPasajMad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 numPasajMadActionPerformed(evt);
             }
         });
+        jPanelMadrid.add(numPasajMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, 90, -1));
 
-        areaEstMad.setColumns(20);
-        areaEstMad.setRows(5);
-        jScrollPane5.setViewportView(areaEstMad);
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel5.setText("nº de Pasajeros en el Aeropuerto");
+        jPanelMadrid.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
 
-        areaEstBCN.setColumns(20);
-        areaEstBCN.setRows(5);
-        jScrollPane6.setViewportView(areaEstBCN);
+        jScrollPane7.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
+        hangarMad.setEditable(false);
         hangarMad.setColumns(20);
         hangarMad.setRows(5);
         jScrollPane7.setViewportView(hangarMad);
 
-        hangarBCN.setColumns(20);
-        hangarBCN.setRows(5);
-        jScrollPane8.setViewportView(hangarBCN);
+        jPanelMadrid.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 260, 40));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(155, 155, 155)
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel3))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addComponent(jLabel7)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(370, 370, 370)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel6)
-                                    .addComponent(titulo))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(26, 26, 26)
-                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel8)
-                                .addGap(18, 18, 18)
-                                .addComponent(tallerMad, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addGap(161, 161, 161))
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(422, 422, 422)
-                        .addComponent(jLabel22))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(114, 114, 114)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(AeroviaBarcMad, javax.swing.GroupLayout.PREFERRED_SIZE, 818, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(aeroviaMadBarc, javax.swing.GroupLayout.PREFERRED_SIZE, 818, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(415, 415, 415)
-                        .addComponent(jLabel21)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(24, 24, 24)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(rodajeMad, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel12)
-                                .addGap(31, 31, 31)
-                                .addComponent(gate3Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                    .addComponent(jLabel18)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(pista2mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                    .addComponent(jLabel17)
-                                    .addGap(26, 26, 26)
-                                    .addComponent(pista1mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(273, 273, 273)
-                                .addComponent(jLabel15)
-                                .addGap(18, 18, 18)
-                                .addComponent(gate6Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(35, 35, 35)
-                                .addComponent(jLabel19)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pista3mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(37, 37, 37)
-                                .addComponent(jLabel20)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(pista4mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(numPasajMad, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                            .addComponent(jLabel9)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(123, 123, 123))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel10)
-                                .addComponent(jLabel11))
-                            .addGap(31, 31, 31)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(gate2Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(gate1Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGap(273, 273, 273)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jLabel13)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(gate4Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(jLabel14)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(gate5Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 464, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel37)
-                                .addGap(35, 35, 35)
-                                .addComponent(tallerBCN, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addContainerGap())
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel34)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jLabel33)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel35)
-                                        .addGap(217, 217, 217))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(18, 18, 18)
-                                        .addComponent(numPasajBar, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(jLabel24)
-                                                    .addComponent(jLabel25)
-                                                    .addComponent(jLabel26))
-                                                .addGap(31, 31, 31)
-                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(gate3BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(gate2BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(gate1BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                                    .addComponent(jLabel32)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                    .addComponent(pista2BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                                    .addComponent(jLabel31)
-                                                    .addGap(26, 26, 26)
-                                                    .addComponent(pista1BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                        .addGap(13, 13, 13)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(37, 37, 37)
-                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(layout.createSequentialGroup()
-                                                        .addComponent(jLabel29)
-                                                        .addGap(18, 18, 18)
-                                                        .addComponent(gate6BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                    .addGroup(layout.createSequentialGroup()
-                                                        .addComponent(jLabel27)
-                                                        .addGap(18, 18, 18)
-                                                        .addComponent(gate4BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                    .addGroup(layout.createSequentialGroup()
-                                                        .addComponent(jLabel28)
-                                                        .addGap(18, 18, 18)
-                                                        .addComponent(gate5BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(29, 29, 29)
-                                                .addComponent(jLabel38)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(pista3BCNç, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(31, 31, 31)
-                                                .addComponent(jLabel39)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(pista4BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(69, 69, 69)
-                                        .addComponent(jLabel30)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(rodajeBCN, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(148, 148, 148))))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel23)
-                            .addComponent(jLabel36))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(34, 34, 34)
-                                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(165, 165, 165))))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(15, 15, 15)
-                .addComponent(titulo)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel4)
-                                    .addComponent(jLabel6))
-                                .addGap(51, 51, 51))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(numPasajMad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(35, 35, 35)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(tallerMad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jLabel8)))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(29, 29, 29)
-                                        .addComponent(jLabel7)))
-                                .addGap(22, 22, 22)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addComponent(jLabel9)
-                                        .addGap(27, 27, 27))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(jLabel23)
-                                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel10)
-                                    .addComponent(jLabel13)
-                                    .addComponent(gate1Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(gate4Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel14)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(jLabel11)
-                                        .addComponent(gate2Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(gate5Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(18, 18, 18))
-                            .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel36))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                            .addComponent(jLabel34)
-                                            .addComponent(numPasajBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(21, 21, 21)
-                                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(18, 18, 18)
-                                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(68, 68, 68)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel15)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(gate6Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(gate3Mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jLabel12)))
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel16)
-                                    .addComponent(rodajeMad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel17)
-                                    .addComponent(pista1mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel19)
-                                    .addComponent(pista3mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel18)
-                            .addComponent(jLabel20)
-                            .addComponent(pista4mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(pista2mad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel21)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(aeroviaMadBarc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel22)
-                        .addGap(5, 5, 5)
-                        .addComponent(AeroviaBarcMad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(23, 23, 23)
-                                .addComponent(jLabel33))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(25, 25, 25)
-                                .addComponent(jLabel35))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(9, 9, 9)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel37)
-                            .addComponent(tallerBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(53, 53, 53)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel24)
-                            .addComponent(jLabel27)
-                            .addComponent(gate1BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(gate4BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel28)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jLabel25)
-                                .addComponent(gate2BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(gate5BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel29))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(8, 8, 8)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(gate6BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(gate3BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jLabel26)))
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel30)
-                                    .addComponent(rodajeBCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabel31)
-                                    .addComponent(pista1BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel38)
-                                    .addComponent(pista3BCNç, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel32)
-                            .addComponent(jLabel39)
-                            .addComponent(pista4BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(pista2BCN, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel7.setText("Hangar");
+        jPanelMadrid.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, -1, -1));
+
+        jScrollPane5.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        areaEstMad.setEditable(false);
+        areaEstMad.setColumns(20);
+        areaEstMad.setRows(5);
+        jScrollPane5.setViewportView(areaEstMad);
+
+        jPanelMadrid.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 240, 260, 40));
+
+        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel9.setText("Area Estacionamiento");
+        jPanelMadrid.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 220, -1, -1));
+
+        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel10.setText("Gate 1");
+        jPanelMadrid.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, -1));
+
+        gate1Mad.setEditable(false);
+        gate1Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate1MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(gate1Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, 90, -1));
+
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel11.setText("Gate 2");
+        jPanelMadrid.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, -1, -1));
+
+        gate2Mad.setEditable(false);
+        gate2Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate2MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(gate2Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 430, 90, -1));
+
+        gate4Mad.setEditable(false);
+        gate4Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate4MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(gate4Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 390, 90, -1));
+
+        gate5Mad.setEditable(false);
+        gate5Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate5MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(gate5Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 430, 90, -1));
+
+        gate6Mad.setEditable(false);
+        gate6Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate6MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(gate6Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 470, 90, -1));
+
+        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel15.setText("Gate 6");
+        jPanelMadrid.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 470, -1, -1));
+
+        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel14.setText("Gate 5");
+        jPanelMadrid.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 430, -1, -1));
+
+        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel13.setText("Gate 4");
+        jPanelMadrid.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, -1, -1));
+
+        gate3Mad.setEditable(false);
+        gate3Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate3MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(gate3Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 470, 90, -1));
+
+        jLabel12.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel12.setText("Gate 3");
+        jPanelMadrid.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, -1, -1));
+
+        rodajeMad.setEditable(false);
+        rodajeMad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rodajeMadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(rodajeMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 330, 460, -1));
+
+        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel16.setText("Area Rodaje");
+        jPanelMadrid.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 330, -1, -1));
+
+        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel17.setText("Pista 1");
+        jPanelMadrid.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 410, -1, -1));
+
+        jLabel18.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel18.setText("Pista 2");
+        jPanelMadrid.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 450, -1, -1));
+
+        pista1Mad.setEditable(false);
+        pista1Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pista1MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(pista1Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 410, 90, -1));
+
+        pista2Mad.setEditable(false);
+        pista2Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pista2MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(pista2Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 450, 90, -1));
+
+        jLabel19.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel19.setText("Pista 3");
+        jPanelMadrid.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 410, -1, -1));
+
+        jLabel20.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel20.setText("Pista 4");
+        jPanelMadrid.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 450, -1, -1));
+
+        pista3Mad.setEditable(false);
+        pista3Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pista3MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(pista3Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 410, 90, -1));
+
+        pista4Mad.setEditable(false);
+        pista4Mad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pista4MadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(pista4Mad, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 450, 90, -1));
+
+        jLabel37.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel37.setText("Taller");
+        jPanelMadrid.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 550, -1, -1));
+
+        tallerMad.setEditable(false);
+        tallerMad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tallerMadActionPerformed(evt);
+            }
+        });
+        jPanelMadrid.add(tallerMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 550, 460, -1));
+
+        fondoMad.setIcon(new javax.swing.ImageIcon("media/fondogris.png"));
+        jPanelMadrid.add(fondoMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 650, 600));
+
+        getContentPane().add(jPanelMadrid, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 50, 650, 600));
+
+        jPanelBarcelona.setOpaque(false);
+        jPanelBarcelona.setPreferredSize(new java.awt.Dimension(960, 500));
+        jPanelBarcelona.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel3.setText("BARCELONA");
+        jPanelBarcelona.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel8.setText("Transfers Aeropuerto");
+        jPanelBarcelona.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, -1));
+
+        jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        cajaTransfersAeropBar.setEditable(false);
+        cajaTransfersAeropBar.setColumns(20);
+        cajaTransfersAeropBar.setLineWrap(true);
+        cajaTransfersAeropBar.setRows(5);
+        jScrollPane3.setViewportView(cajaTransfersAeropBar);
+
+        jPanelBarcelona.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 250, 60));
+
+        jLabel23.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel23.setText("Transfers Ciudad");
+        jPanelBarcelona.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 50, -1, -1));
+
+        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        cajaTransfersCiudadBar.setEditable(false);
+        cajaTransfersCiudadBar.setColumns(20);
+        cajaTransfersCiudadBar.setRows(5);
+        jScrollPane4.setViewportView(cajaTransfersCiudadBar);
+
+        jPanelBarcelona.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(364, 80, 250, 60));
+
+        numPasajBar.setEditable(false);
+        numPasajBar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                numPasajBarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(numPasajBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, 90, -1));
+
+        jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel24.setText("nº de Pasajeros en el Aeropuerto");
+        jPanelBarcelona.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
+
+        jScrollPane8.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        hangarBar.setEditable(false);
+        hangarBar.setColumns(20);
+        hangarBar.setRows(5);
+        jScrollPane8.setViewportView(hangarBar);
+
+        jPanelBarcelona.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 260, 40));
+
+        jLabel25.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel25.setText("Hangar");
+        jPanelBarcelona.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, -1, -1));
+
+        jScrollPane6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        areaEstBar.setEditable(false);
+        areaEstBar.setColumns(20);
+        areaEstBar.setRows(5);
+        jScrollPane6.setViewportView(areaEstBar);
+
+        jPanelBarcelona.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 240, 260, 40));
+
+        jLabel26.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel26.setText("Area Estacionamiento");
+        jPanelBarcelona.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 220, -1, -1));
+
+        jLabel27.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel27.setText("Gate 1");
+        jPanelBarcelona.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, -1));
+
+        gate1Bar.setEditable(false);
+        gate1Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate1BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(gate1Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, 90, -1));
+
+        jLabel28.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel28.setText("Gate 2");
+        jPanelBarcelona.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, -1, -1));
+
+        gate2Bar.setEditable(false);
+        gate2Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate2BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(gate2Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 430, 90, -1));
+
+        gate4Bar.setEditable(false);
+        gate4Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate4BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(gate4Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 390, 90, -1));
+
+        gate5Bar.setEditable(false);
+        gate5Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate5BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(gate5Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 430, 90, -1));
+
+        gate6Bar.setEditable(false);
+        gate6Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate6BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(gate6Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 470, 90, -1));
+
+        jLabel29.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel29.setText("Gate 6");
+        jPanelBarcelona.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 470, -1, -1));
+
+        jLabel30.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel30.setText("Gate 5");
+        jPanelBarcelona.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 430, -1, -1));
+
+        jLabel31.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel31.setText("Gate 4");
+        jPanelBarcelona.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, -1, -1));
+
+        gate3Bar.setEditable(false);
+        gate3Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gate3BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(gate3Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 470, 90, -1));
+
+        jLabel32.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel32.setText("Gate 3");
+        jPanelBarcelona.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, -1, -1));
+
+        rodajeBar.setEditable(false);
+        rodajeBar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rodajeBarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(rodajeBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 330, 460, -1));
+
+        jLabel33.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel33.setText("Area Rodaje");
+        jPanelBarcelona.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 330, -1, -1));
+
+        jLabel34.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel34.setText("Pista 1");
+        jPanelBarcelona.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 410, -1, -1));
+
+        jLabel35.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel35.setText("Pista 2");
+        jPanelBarcelona.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 450, -1, -1));
+
+        pista1Bar.setEditable(false);
+        pista1Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pista1BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(pista1Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 410, 90, -1));
+
+        pista2Bar.setEditable(false);
+        pista2Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pista2BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(pista2Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 450, 90, -1));
+
+        jLabel36.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel36.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel36.setText("Pista 3");
+        jPanelBarcelona.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 410, -1, -1));
+
+        jLabel38.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel38.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel38.setText("Pista 4");
+        jPanelBarcelona.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 450, -1, -1));
+
+        pista3Bar.setEditable(false);
+        pista3Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pista3BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(pista3Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 410, 90, -1));
+
+        pista4Bar.setEditable(false);
+        pista4Bar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pista4BarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(pista4Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 450, 90, -1));
+
+        jLabel39.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel39.setText("Taller");
+        jPanelBarcelona.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 550, -1, -1));
+
+        tallerBar.setEditable(false);
+        tallerBar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tallerBarActionPerformed(evt);
+            }
+        });
+        jPanelBarcelona.add(tallerBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 550, 460, -1));
+
+        fondoBar.setIcon(new javax.swing.ImageIcon("media/fondogris.png"));
+        jPanelBarcelona.add(fondoBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 650, 600));
+
+        getContentPane().add(jPanelBarcelona, new org.netbeans.lib.awtextra.AbsoluteConstraints(685, 50, 650, 600));
+
+        jLabel21.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel21.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel21.setText("Aerovia Madrid-Barcelona");
+        jLabel21.setOpaque(true);
+        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 660, -1, -1));
+
+        jLabel22.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel22.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel22.setText("Aerovia Barcelona-Madrid");
+        jLabel22.setOpaque(true);
+        getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 710, -1, -1));
+
+        aeroviaMadBar.setEditable(false);
+        aeroviaMadBar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                aeroviaMadBarActionPerformed(evt);
+            }
+        });
+        getContentPane().add(aeroviaMadBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 680, 818, -1));
+
+        aeroviaBarMad.setEditable(false);
+        aeroviaBarMad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                aeroviaBarMadActionPerformed(evt);
+            }
+        });
+        getContentPane().add(aeroviaBarMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 730, 818, -1));
+
+        imagenFondo.setIcon(new javax.swing.ImageIcon("media/fondo.jpeg"));
+        getContentPane().add(imagenFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1350, 800));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -784,10 +634,6 @@ public class AerocompInterfaz extends javax.swing.JFrame {
     private void gate1MadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate1MadActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_gate1MadActionPerformed
-
-    private void tallerMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tallerMadActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tallerMadActionPerformed
 
     private void gate2MadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate2MadActionPerformed
         // TODO add your handling code here:
@@ -813,85 +659,89 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_gate4MadActionPerformed
 
-    private void pista3madActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista3madActionPerformed
+    private void pista3MadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista3MadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pista3madActionPerformed
+    }//GEN-LAST:event_pista3MadActionPerformed
 
-    private void pista1madActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista1madActionPerformed
+    private void pista1MadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista1MadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pista1madActionPerformed
+    }//GEN-LAST:event_pista1MadActionPerformed
 
-    private void pista4madActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista4madActionPerformed
+    private void pista4MadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista4MadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pista4madActionPerformed
+    }//GEN-LAST:event_pista4MadActionPerformed
 
-    private void pista2madActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista2madActionPerformed
+    private void pista2MadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista2MadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pista2madActionPerformed
+    }//GEN-LAST:event_pista2MadActionPerformed
 
-    private void aeroviaMadBarcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aeroviaMadBarcActionPerformed
+    private void aeroviaMadBarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aeroviaMadBarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_aeroviaMadBarcActionPerformed
+    }//GEN-LAST:event_aeroviaMadBarActionPerformed
 
-    private void AeroviaBarcMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AeroviaBarcMadActionPerformed
+    private void aeroviaBarMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aeroviaBarMadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_AeroviaBarcMadActionPerformed
+    }//GEN-LAST:event_aeroviaBarMadActionPerformed
 
-    private void gate1BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate1BCNActionPerformed
+    private void tallerMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tallerMadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_gate1BCNActionPerformed
+    }//GEN-LAST:event_tallerMadActionPerformed
 
-    private void tallerBCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tallerBCNActionPerformed
+    private void numPasajMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_numPasajMadActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tallerBCNActionPerformed
-
-    private void gate2BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate2BCNActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_gate2BCNActionPerformed
+    }//GEN-LAST:event_numPasajMadActionPerformed
 
     private void numPasajBarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_numPasajBarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_numPasajBarActionPerformed
 
-    private void gate3BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate3BCNActionPerformed
+    private void gate1BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate1BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_gate3BCNActionPerformed
+    }//GEN-LAST:event_gate1BarActionPerformed
 
-    private void gate5BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate5BCNActionPerformed
+    private void gate2BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate2BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_gate5BCNActionPerformed
+    }//GEN-LAST:event_gate2BarActionPerformed
 
-    private void gate6BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate6BCNActionPerformed
+    private void gate4BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate4BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_gate6BCNActionPerformed
+    }//GEN-LAST:event_gate4BarActionPerformed
 
-    private void rodajeBCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rodajeBCNActionPerformed
+    private void gate5BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate5BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_rodajeBCNActionPerformed
+    }//GEN-LAST:event_gate5BarActionPerformed
 
-    private void gate4BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate4BCNActionPerformed
+    private void gate6BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate6BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_gate4BCNActionPerformed
+    }//GEN-LAST:event_gate6BarActionPerformed
 
-    private void pista3BCNçActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista3BCNçActionPerformed
+    private void gate3BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gate3BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pista3BCNçActionPerformed
+    }//GEN-LAST:event_gate3BarActionPerformed
 
-    private void pista1BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista1BCNActionPerformed
+    private void rodajeBarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rodajeBarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pista1BCNActionPerformed
+    }//GEN-LAST:event_rodajeBarActionPerformed
 
-    private void pista4BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista4BCNActionPerformed
+    private void pista1BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista1BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pista4BCNActionPerformed
+    }//GEN-LAST:event_pista1BarActionPerformed
 
-    private void pista2BCNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista2BCNActionPerformed
+    private void pista2BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista2BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pista2BCNActionPerformed
+    }//GEN-LAST:event_pista2BarActionPerformed
 
-    private void numPasajMadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_numPasajMadActionPerformed
+    private void pista3BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista3BarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_numPasajMadActionPerformed
+    }//GEN-LAST:event_pista3BarActionPerformed
+
+    private void pista4BarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pista4BarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pista4BarActionPerformed
+
+    private void tallerBarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tallerBarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tallerBarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -937,28 +787,31 @@ public class AerocompInterfaz extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField AeroviaBarcMad;
-    private javax.swing.JTextField aeroviaMadBarc;
-    private javax.swing.JTextArea areaEstBCN;
+    private javax.swing.JTextField aeroviaBarMad;
+    private javax.swing.JTextField aeroviaMadBar;
+    private javax.swing.JTextArea areaEstBar;
     private javax.swing.JTextArea areaEstMad;
     private javax.swing.JTextArea cajaTransfersAeropBar;
     private javax.swing.JTextArea cajaTransfersAeropMad;
     private javax.swing.JTextArea cajaTransfersCiudadBar;
     private javax.swing.JTextArea cajaTransfersCiudadMad;
-    private javax.swing.JTextField gate1BCN;
+    private javax.swing.JLabel fondoBar;
+    private javax.swing.JLabel fondoMad;
+    private javax.swing.JTextField gate1Bar;
     private javax.swing.JTextField gate1Mad;
-    private javax.swing.JTextField gate2BCN;
+    private javax.swing.JTextField gate2Bar;
     private javax.swing.JTextField gate2Mad;
-    private javax.swing.JTextField gate3BCN;
+    private javax.swing.JTextField gate3Bar;
     private javax.swing.JTextField gate3Mad;
-    private javax.swing.JTextField gate4BCN;
+    private javax.swing.JTextField gate4Bar;
     private javax.swing.JTextField gate4Mad;
-    private javax.swing.JTextField gate5BCN;
+    private javax.swing.JTextField gate5Bar;
     private javax.swing.JTextField gate5Mad;
-    private javax.swing.JTextField gate6BCN;
+    private javax.swing.JTextField gate6Bar;
     private javax.swing.JTextField gate6Mad;
-    private javax.swing.JTextArea hangarBCN;
+    private javax.swing.JTextArea hangarBar;
     private javax.swing.JTextArea hangarMad;
+    private javax.swing.JLabel imagenFondo;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -997,6 +850,8 @@ public class AerocompInterfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanelBarcelona;
+    private javax.swing.JPanel jPanelMadrid;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
@@ -1007,17 +862,17 @@ public class AerocompInterfaz extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JTextField numPasajBar;
     private javax.swing.JTextField numPasajMad;
-    private javax.swing.JTextField pista1BCN;
-    private javax.swing.JTextField pista1mad;
-    private javax.swing.JTextField pista2BCN;
-    private javax.swing.JTextField pista2mad;
-    private javax.swing.JTextField pista3BCNç;
-    private javax.swing.JTextField pista3mad;
-    private javax.swing.JTextField pista4BCN;
-    private javax.swing.JTextField pista4mad;
-    private javax.swing.JTextField rodajeBCN;
+    private javax.swing.JTextField pista1Bar;
+    private javax.swing.JTextField pista1Mad;
+    private javax.swing.JTextField pista2Bar;
+    private javax.swing.JTextField pista2Mad;
+    private javax.swing.JTextField pista3Bar;
+    private javax.swing.JTextField pista3Mad;
+    private javax.swing.JTextField pista4Bar;
+    private javax.swing.JTextField pista4Mad;
+    private javax.swing.JTextField rodajeBar;
     private javax.swing.JTextField rodajeMad;
-    private javax.swing.JTextField tallerBCN;
+    private javax.swing.JTextField tallerBar;
     private javax.swing.JTextField tallerMad;
     private javax.swing.JLabel titulo;
     // End of variables declaration//GEN-END:variables
@@ -1056,9 +911,9 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (cajaTransfersCiudadMad) {
                 String texto = cajaTransfersCiudadMad.getText();
                 if (meter) {
-                    texto += " " + idBus;
+                    texto +=idBus + " ";
                 } else {
-                    texto = texto.replace(idBus, "");
+                    texto = texto.replace(idBus + " ", "");
                 }
                 cajaTransfersCiudadMad.setText(texto);
             }
@@ -1068,9 +923,9 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (cajaTransfersCiudadBar) {
                 String texto = cajaTransfersCiudadBar.getText();
                 if (meter) {
-                    texto += " " + idBus;
+                    texto +=idBus  + " ";
                 } else {
-                    texto = texto.replace(idBus, "");
+                    texto = texto.replace(idBus + " ", "");
                 }
                 cajaTransfersCiudadBar.setText(texto);
             }
@@ -1091,53 +946,268 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             }
         }
     }
-    
 
-    public synchronized void actualizarHangar(Avion avion, boolean meter) {
-        //Cambiar caja madrid
-        if (avion.ciudad) {
-            String texto = hangarMad.getText();
-            String idAvion = avion.identificador;
-            if (meter) {
-                texto += " " + idAvion;
-            } else {
-                texto = texto.replace(idAvion, "");
+    public void actualizarHangar(String ciudad, String id, boolean meter) {
+
+        //Cambiar caja de madrid
+        if (ciudad.equals("Madrid")) {
+            synchronized (hangarMad) {
+                String texto = hangarMad.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                hangarMad.setText(texto);
             }
-            hangarMad.setText(texto);
+
         } //Cambiar caja de barcelona
-        else if (!avion.ciudad) {
-            String texto = hangarBCN.getText();
-            String idAvion = avion.identificador;
-            if (meter) {
-                texto += " " + idAvion;
-            } else {
-                texto = texto.replace(idAvion, "");
+        else if (ciudad.equals("Barcelona")) {
+            synchronized (hangarBar) {
+                String texto = hangarBar.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                hangarBar.setText(texto);
             }
-            hangarBCN.setText(texto);
         }
     }
 
-    public synchronized void actualizarAreaEstacionamiento(Avion avion, boolean meter) {
-        //Cambiar caja madrid
-        if (avion.ciudad) {
-            String texto = areaEstMad.getText();
-            String idAvion = avion.identificador;
-            if (meter) {
-                texto += " " + idAvion;
-            } else {
-                texto = texto.replace(idAvion, "");
+    public void actualizarAreaEstacionamiento(String ciudad, String id, boolean meter) {
+        //Cambiar caja de madrid
+        if (ciudad.equals("Madrid")) {
+            synchronized (areaEstMad) {
+                String texto = areaEstMad.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                areaEstMad.setText(texto);
             }
-            areaEstMad.setText(texto);
+
         } //Cambiar caja de barcelona
-        else if (!avion.ciudad) {
-            String texto = areaEstBCN.getText();
-            String idAvion = avion.identificador;
-            if (meter) {
-                texto += " " + idAvion;
-            } else {
-                texto = texto.replace(idAvion, "");
+        else if (ciudad.equals("Barcelona")) {
+            synchronized (areaEstBar) {
+                String texto = areaEstBar.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                areaEstBar.setText(texto);
             }
-            areaEstBCN.setText(texto);
+        }
+    }
+
+    public void actualizarAreaRodaje(String ciudad, String id, boolean meter) {
+        //Cambiar caja de madrid
+        if (ciudad.equals("Madrid")) {
+            synchronized (rodajeMad) {
+                String texto = rodajeMad.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                rodajeMad.setText(texto);
+            }
+
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            synchronized (rodajeBar) {
+                String texto = rodajeBar.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                rodajeBar.setText(texto);
+            }
+        }
+    }
+
+    public void actualizarTaller(String ciudad, String id, boolean meter) {
+        //Cambiar caja de madrid
+        if (ciudad.equals("Madrid")) {
+            synchronized (tallerMad) {
+                String texto = tallerMad.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                tallerMad.setText(texto);
+            }
+
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            synchronized (tallerBar) {
+                String texto = tallerBar.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                tallerBar.setText(texto);
+            }
+        }
+    }
+    
+    public void actualizarAerovia(String ciudad, String id, boolean meter) {
+        //Cambiar caja de madrid
+        if (ciudad.equals("Madrid")) {
+            synchronized (aeroviaMadBar) {
+                String texto = aeroviaMadBar.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                aeroviaMadBar.setText(texto);
+            }
+
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            synchronized (aeroviaBarMad) {
+                String texto = aeroviaBarMad.getText();
+                if (meter) {
+                    texto +=id + " ";
+                } else {
+                    texto = texto.replace(id + " ", "");
+                }
+                aeroviaBarMad.setText(texto);
+            }
+        }
+    }
+
+    public void actualizarPuerta(String ciudad, String id, boolean meter, boolean embarque, int puerta) {
+        //Cambiar caja de madrid
+        String texto = meter ? (embarque ? "EMB: " : "DES: ") + id : "";
+        if (ciudad.equals("Madrid")) {
+            switch (puerta) {
+                case 0 -> {
+                    synchronized (gate1Mad) {
+                        gate1Mad.setText(texto);
+                    }
+                }
+                case 1 -> {
+                    synchronized (gate2Mad) {
+                        gate2Mad.setText(texto);
+                    }
+                }
+                case 2 -> {
+                    synchronized (gate3Mad) {
+                        gate3Mad.setText(texto);
+                    }
+                }
+                case 3 -> {
+                    synchronized (gate4Mad) {
+                        gate4Mad.setText(texto);
+                    }
+                }
+                case 4 -> {
+                    synchronized (gate5Mad) {
+                        gate5Mad.setText(texto);
+                    }
+                }
+                case 5 -> {
+                    synchronized (gate6Mad) {
+                        gate6Mad.setText(texto);
+                    }
+                }
+            }
+
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            switch (puerta) {
+                case 0 -> {
+                    synchronized (gate1Bar) {
+                        gate1Bar.setText(texto);
+                    }
+                }
+                case 1 -> {
+                    synchronized (gate2Bar) {
+                        gate2Bar.setText(texto);
+                    }
+                }
+                case 2 -> {
+                    synchronized (gate3Bar) {
+                        gate3Bar.setText(texto);
+                    }
+                }
+                case 3 -> {
+                    synchronized (gate4Bar) {
+                        gate4Bar.setText(texto);
+                    }
+                }
+                case 4 -> {
+                    synchronized (gate5Bar) {
+                        gate5Bar.setText(texto);
+                    }
+                }
+                case 5 -> {
+                    synchronized (gate6Bar) {
+                        gate6Mad.setText(texto);
+                    }
+                }
+            }
+        }
+    }
+    
+    public void actualizarPista(String ciudad, String id, boolean meter, boolean despegue, int pista) {
+        //Cambiar caja de madrid
+        String texto = meter ? (despegue ? "DESP: " : "ATER: ") + id : "";
+        if (ciudad.equals("Madrid")) {
+            switch (pista) {
+                case 0 -> {
+                    synchronized (pista1Mad) {
+                        pista1Mad.setText(texto);
+                    }
+                }
+                case 1 -> {
+                    synchronized (pista2Mad) {
+                        pista2Mad.setText(texto);
+                    }
+                }
+                case 2 -> {
+                    synchronized (pista3Mad) {
+                        pista3Mad.setText(texto);
+                    }
+                }
+                case 3 -> {
+                    synchronized (pista4Mad) {
+                        pista4Mad.setText(texto);
+                    }
+                }
+            }
+
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            switch (pista) {
+                case 0 -> {
+                    synchronized (pista1Bar) {
+                        pista1Bar.setText(texto);
+                    }
+                }
+                case 1 -> {
+                    synchronized (pista2Bar) {
+                        pista2Bar.setText(texto);
+                    }
+                }
+                case 2 -> {
+                    synchronized (pista3Bar) {
+                        pista3Bar.setText(texto);
+                    }
+                }
+                case 3 -> {
+                    synchronized (pista4Bar) {
+                        pista4Bar.setText(texto);
+                    }
+                }
+            }
         }
     }
 }
