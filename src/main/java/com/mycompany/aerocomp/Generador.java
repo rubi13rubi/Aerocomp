@@ -4,7 +4,9 @@
  */
 package com.mycompany.aerocomp;
 
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -20,6 +22,8 @@ public class Generador {
     public Generador (AerocompInterfaz interfaz){
         this.madrid = new Aeropuerto("Madrid", interfaz);
         this.barcelona = new Aeropuerto("Barcelona", interfaz);
+        interfaz.setVisible(true);
+        interfaz.setAeropuertos(madrid, barcelona);
     }
     
     public void generar(int nAviones, int nBus){

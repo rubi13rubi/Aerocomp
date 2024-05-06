@@ -15,12 +15,17 @@ import java.util.logging.Logger;
  * @author alvarocamacho
  */
 public class AerocompInterfaz extends javax.swing.JFrame {
+    
+    private Aeropuerto madrid;
+    private Aeropuerto barcelona;
 
     /**
      * Creates new form Aerocomp2
      */
     public AerocompInterfaz() throws InterruptedException {
         initComponents();
+        botonPausa.setEnabled(true);
+        botonContinuar.setEnabled(false);
     }
 
     /**
@@ -119,12 +124,13 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         jLabel22 = new javax.swing.JLabel();
         aeroviaMadBar = new javax.swing.JTextField();
         aeroviaBarMad = new javax.swing.JTextField();
+        botonPausa = new javax.swing.JButton();
+        botonContinuar = new javax.swing.JButton();
         imagenFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(1350, 800));
         setMinimumSize(new java.awt.Dimension(1350, 800));
-        setPreferredSize(new java.awt.Dimension(1350, 800));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -366,7 +372,6 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         jLabel3.setText("BARCELONA");
         jPanelBarcelona.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Transfers Aeropuerto");
         jPanelBarcelona.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, -1));
@@ -381,7 +386,6 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         jPanelBarcelona.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 250, 60));
 
-        jLabel23.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(0, 0, 0));
         jLabel23.setText("Transfers Ciudad");
         jPanelBarcelona.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 50, -1, -1));
@@ -403,7 +407,6 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         });
         jPanelBarcelona.add(numPasajBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, 90, -1));
 
-        jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(0, 0, 0));
         jLabel24.setText("nº de Pasajeros en el Aeropuerto");
         jPanelBarcelona.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
@@ -417,7 +420,6 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         jPanelBarcelona.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 260, 40));
 
-        jLabel25.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(0, 0, 0));
         jLabel25.setText("Hangar");
         jPanelBarcelona.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, -1, -1));
@@ -431,12 +433,10 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         jPanelBarcelona.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 240, 260, 40));
 
-        jLabel26.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel26.setForeground(new java.awt.Color(0, 0, 0));
         jLabel26.setText("Area Estacionamiento");
         jPanelBarcelona.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 220, -1, -1));
 
-        jLabel27.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel27.setForeground(new java.awt.Color(0, 0, 0));
         jLabel27.setText("Gate 1");
         jPanelBarcelona.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, -1));
@@ -449,7 +449,6 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         });
         jPanelBarcelona.add(gate1Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, 90, -1));
 
-        jLabel28.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel28.setForeground(new java.awt.Color(0, 0, 0));
         jLabel28.setText("Gate 2");
         jPanelBarcelona.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 430, -1, -1));
@@ -486,17 +485,14 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         });
         jPanelBarcelona.add(gate6Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 470, 90, -1));
 
-        jLabel29.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel29.setForeground(new java.awt.Color(0, 0, 0));
         jLabel29.setText("Gate 6");
         jPanelBarcelona.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 470, -1, -1));
 
-        jLabel30.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel30.setForeground(new java.awt.Color(0, 0, 0));
         jLabel30.setText("Gate 5");
         jPanelBarcelona.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 430, -1, -1));
 
-        jLabel31.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel31.setForeground(new java.awt.Color(0, 0, 0));
         jLabel31.setText("Gate 4");
         jPanelBarcelona.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, -1, -1));
@@ -509,7 +505,6 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         });
         jPanelBarcelona.add(gate3Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 470, 90, -1));
 
-        jLabel32.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel32.setForeground(new java.awt.Color(0, 0, 0));
         jLabel32.setText("Gate 3");
         jPanelBarcelona.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, -1, -1));
@@ -522,17 +517,14 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         });
         jPanelBarcelona.add(rodajeBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 330, 460, -1));
 
-        jLabel33.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel33.setForeground(new java.awt.Color(0, 0, 0));
         jLabel33.setText("Area Rodaje");
         jPanelBarcelona.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 330, -1, -1));
 
-        jLabel34.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel34.setForeground(new java.awt.Color(0, 0, 0));
         jLabel34.setText("Pista 1");
         jPanelBarcelona.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 410, -1, -1));
 
-        jLabel35.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel35.setForeground(new java.awt.Color(0, 0, 0));
         jLabel35.setText("Pista 2");
         jPanelBarcelona.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 450, -1, -1));
@@ -553,12 +545,10 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         });
         jPanelBarcelona.add(pista2Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 450, 90, -1));
 
-        jLabel36.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel36.setForeground(new java.awt.Color(0, 0, 0));
         jLabel36.setText("Pista 3");
         jPanelBarcelona.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 410, -1, -1));
 
-        jLabel38.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel38.setForeground(new java.awt.Color(0, 0, 0));
         jLabel38.setText("Pista 4");
         jPanelBarcelona.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 450, -1, -1));
@@ -579,7 +569,6 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         });
         jPanelBarcelona.add(pista4Bar, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 450, 90, -1));
 
-        jLabel39.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
         jLabel39.setForeground(new java.awt.Color(0, 0, 0));
         jLabel39.setText("Taller");
         jPanelBarcelona.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 550, -1, -1));
@@ -624,6 +613,22 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             }
         });
         getContentPane().add(aeroviaBarMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 730, 818, -1));
+
+        botonPausa.setText("Pausa");
+        botonPausa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonPausaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(botonPausa, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 670, 80, -1));
+
+        botonContinuar.setText("Continuar");
+        botonContinuar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonContinuarActionPerformed(evt);
+            }
+        });
+        getContentPane().add(botonContinuar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 730, -1, -1));
 
         imagenFondo.setIcon(new javax.swing.ImageIcon("media/fondo.jpeg"));
         getContentPane().add(imagenFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1350, 800));
@@ -743,54 +748,28 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_tallerBarActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(AerocompInterfaz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(AerocompInterfaz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(AerocompInterfaz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(AerocompInterfaz.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
+    private void botonPausaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonPausaActionPerformed
+        botonPausa.setEnabled(false);
+        botonContinuar.setEnabled(true);
+        madrid.pausa(true);
+        barcelona.pausa(true);
+    }//GEN-LAST:event_botonPausaActionPerformed
 
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    new AerocompInterfaz().setVisible(true);
-                } catch (InterruptedException ex) {
-                    System.out.println("error");
-                }
+    private void botonContinuarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonContinuarActionPerformed
+        botonPausa.setEnabled(true);
+        botonContinuar.setEnabled(false);
+        madrid.pausa(false);
+        barcelona.pausa(false);
+    }//GEN-LAST:event_botonContinuarActionPerformed
 
-            }
-        });
-
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField aeroviaBarMad;
     private javax.swing.JTextField aeroviaMadBar;
     private javax.swing.JTextArea areaEstBar;
     private javax.swing.JTextArea areaEstMad;
+    private javax.swing.JButton botonContinuar;
+    private javax.swing.JButton botonPausa;
     private javax.swing.JTextArea cajaTransfersAeropBar;
     private javax.swing.JTextArea cajaTransfersAeropMad;
     private javax.swing.JTextArea cajaTransfersCiudadBar;
@@ -1150,7 +1129,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
                 }
                 case 5 -> {
                     synchronized (gate6Bar) {
-                        gate6Mad.setText(texto);
+                        gate6Bar.setText(texto);
                     }
                 }
             }
@@ -1209,5 +1188,10 @@ public class AerocompInterfaz extends javax.swing.JFrame {
                 }
             }
         }
+    }
+    
+    public void setAeropuertos(Aeropuerto madrid, Aeropuerto barcelona){
+        this.madrid = madrid;
+        this.barcelona = barcelona;
     }
 }

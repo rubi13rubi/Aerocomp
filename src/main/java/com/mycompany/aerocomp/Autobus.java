@@ -28,12 +28,20 @@ public class Autobus extends Thread {
     public void run() {
         //codigo del hilo autobus
         Log.logEvent("Creado el autobus " + this.id + " de " + this.aeropuerto.getCiudad());
-        personas = aeropuerto.busLlegaCiudad(id, personas);
-        aeropuerto.busVaAeropuerto(id);
-        aeropuerto.busBajaPasajerosAeropuerto(id, personas);
-        this.personas = 0;
-        this.personas = aeropuerto.busSubePasajerosAeropuerto(id);
-        aeropuerto.busVaCiudad(id);
-        aeropuerto.busBajaPasajerosCiudad(id, personas);       
+        while (true) {
+            aeropuerto.comprobarPausa();
+            personas = aeropuerto.busLlegaCiudad(id, personas);
+            aeropuerto.comprobarPausa();
+            aeropuerto.busVaAeropuerto(id);
+            aeropuerto.comprobarPausa();
+            aeropuerto.busBajaPasajerosAeropuerto(id, personas);
+            aeropuerto.comprobarPausa();
+            this.personas = 0;
+            this.personas = aeropuerto.busSubePasajerosAeropuerto(id);
+            aeropuerto.comprobarPausa();
+            aeropuerto.busVaCiudad(id);
+            aeropuerto.comprobarPausa();
+            aeropuerto.busBajaPasajerosCiudad(id, personas);
+        }
     }
 }

@@ -33,21 +33,33 @@ public class Avion extends Thread {
     public void run() {
         //codigo del hilo avion
         Log.logEvent("Creado el avion " + this.identificador + " de " + this.aeropuerto.getCiudad() + " con capacidad " + this.capacidad);
+        aeropuerto.comprobarPausa();
         aeropuerto.aparecerEnHangar(identificador);
         int vuelos = 0;
         while (true) {
+            aeropuerto.comprobarPausa();
             aeropuerto.esperarEmbarqueDesembarque(this, identificador, true);
+            aeropuerto.comprobarPausa();
             int pasajeros = aeropuerto.embarcar(identificador, capacidad, puerta);
+            aeropuerto.comprobarPausa();
             int pista = aeropuerto.esperarPistaDespegue(identificador);
+            aeropuerto.comprobarPausa();
             aeropuerto.despegar(identificador, pista);
+            aeropuerto.comprobarPausa();
             aeropuerto.volar(identificador);
+            aeropuerto.comprobarPausa();
             this.cambiarAeropuerto();
             vuelos++;
             aeropuerto.aterrizar(identificador);
+            aeropuerto.comprobarPausa();
             aeropuerto.esperarEmbarqueDesembarque(this, identificador, false);
+            aeropuerto.comprobarPausa();
             aeropuerto.desembarcar(identificador, pasajeros, puerta);
+            aeropuerto.comprobarPausa();
             aeropuerto.comprobacionesAreadeEstacionamiento(identificador);
+            aeropuerto.comprobarPausa();
             aeropuerto.inspeccionTaller(identificador, (vuelos%15==0));
+            aeropuerto.comprobarPausa();
             if (rand.nextBoolean()) aeropuerto.iraHangar(identificador);
         }
     }

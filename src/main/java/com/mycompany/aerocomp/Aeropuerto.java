@@ -39,6 +39,10 @@ public class Aeropuerto {
     private AtomicInteger pistasPendientesCerrar = new AtomicInteger(0);
 
     private Semaphore puertaTaller = new Semaphore(20, true);
+    
+    private Lock lockPausa = new ReentrantLock();
+    private Condition condicionPausa = lockPausa.newCondition();
+    private boolean pausado;
 
     public Aeropuerto(String ciudad, AerocompInterfaz interfaz) {
         this.ciudad = ciudad;
@@ -451,6 +455,32 @@ public class Aeropuerto {
             }
         } finally {
             lockPistas.unlock();
+        }
+    }
+    
+    public void comprobarPausa() {
+
+        lockPausa.lock();
+        try {
+            if (pausado) {
+                condicionPausa.await();
+            }
+        } catch (InterruptedException ex) {
+        } finally {
+            lockPausa.unlock();
+        }
+    }
+    
+    public void pausa(boolean p) {
+
+        pausado = p;
+        if (!pausado) {
+            lockPausa.lock();
+            try {
+                condicionPausa.signalAll();
+            } finally {
+                lockPausa.unlock();
+            }
         }
     }
 
