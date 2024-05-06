@@ -172,6 +172,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         cajaTransfersCiudadMad.setEditable(false);
         cajaTransfersCiudadMad.setColumns(20);
+        cajaTransfersCiudadMad.setLineWrap(true);
         cajaTransfersCiudadMad.setRows(5);
         jScrollPane2.setViewportView(cajaTransfersCiudadMad);
 
@@ -193,6 +194,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         hangarMad.setEditable(false);
         hangarMad.setColumns(20);
+        hangarMad.setLineWrap(true);
         hangarMad.setRows(5);
         jScrollPane7.setViewportView(hangarMad);
 
@@ -206,6 +208,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         areaEstMad.setEditable(false);
         areaEstMad.setColumns(20);
+        areaEstMad.setLineWrap(true);
         areaEstMad.setRows(5);
         jScrollPane5.setViewportView(areaEstMad);
 
@@ -395,6 +398,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         cajaTransfersCiudadBar.setEditable(false);
         cajaTransfersCiudadBar.setColumns(20);
+        cajaTransfersCiudadBar.setLineWrap(true);
         cajaTransfersCiudadBar.setRows(5);
         jScrollPane4.setViewportView(cajaTransfersCiudadBar);
 
@@ -416,6 +420,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         hangarBar.setEditable(false);
         hangarBar.setColumns(20);
+        hangarBar.setLineWrap(true);
         hangarBar.setRows(5);
         jScrollPane8.setViewportView(hangarBar);
 
@@ -429,6 +434,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
 
         areaEstBar.setEditable(false);
         areaEstBar.setColumns(20);
+        areaEstBar.setLineWrap(true);
         areaEstBar.setRows(5);
         jScrollPane6.setViewportView(areaEstBar);
 
@@ -631,7 +637,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
         });
         getContentPane().add(botonContinuar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 730, -1, -1));
 
-        imagenFondo.setIcon(new javax.swing.ImageIcon("media/fondo.jpeg"));
+        imagenFondo.setIcon(new javax.swing.ImageIcon("media/fondo.png"));
         getContentPane().add(imagenFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1350, 800));
 
         pack();

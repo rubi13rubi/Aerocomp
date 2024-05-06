@@ -44,6 +44,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         cerrarPista2 = new javax.swing.JToggleButton();
         cerrarPista3 = new javax.swing.JToggleButton();
         cerrarPista4 = new javax.swing.JToggleButton();
+        fondo2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         panelBar = new javax.swing.JPanel();
         numPasajBar = new javax.swing.JTextField();
@@ -61,10 +62,12 @@ public class InterfazCliente extends javax.swing.JFrame {
         cerrarPista6 = new javax.swing.JToggleButton();
         cerrarPista7 = new javax.swing.JToggleButton();
         cerrarPista8 = new javax.swing.JToggleButton();
+        fondo1 = new javax.swing.JLabel();
         aeroviaMad = new javax.swing.JTextField();
         jLabel14 = new javax.swing.JLabel();
         aeroviaBar = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
+        fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(600, 600));
@@ -72,6 +75,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        panelMad.setOpaque(false);
         panelMad.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         numPasajMad.setEditable(false);
@@ -82,6 +86,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelMad.add(numPasajMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, 90, 20));
 
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Aviones en el hangar");
         panelMad.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, -1, -1));
 
@@ -93,6 +98,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelMad.add(avionesHangarMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, 90, 20));
 
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Aviones en el taller");
         panelMad.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, -1, -1));
 
@@ -104,6 +110,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelMad.add(avionesTallerMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 200, 90, 20));
 
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Aviones en area de estacionamiento");
         panelMad.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, -1, -1));
 
@@ -115,13 +122,16 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelMad.add(avionesEstMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 90, 20));
 
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Pasajeros en el aeropuerto");
         panelMad.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("MADRID");
         panelMad.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, -1, -1));
 
+        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Aviones en area de rodaje");
         panelMad.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 290, -1, -1));
 
@@ -160,12 +170,18 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelMad.add(cerrarPista4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 410, -1, -1));
 
+        fondo2.setIcon(new javax.swing.ImageIcon("media/fondogris.png"));
+        panelMad.add(fondo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 440));
+
         getContentPane().add(panelMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 260, 450));
 
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("CLIENTE AEROCOMP");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 20, -1, -1));
 
+        panelBar.setOpaque(false);
         panelBar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         numPasajBar.setEditable(false);
@@ -176,6 +192,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelBar.add(numPasajBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, 90, 20));
 
+        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Aviones en el hangar");
         panelBar.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, -1, -1));
 
@@ -187,6 +204,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelBar.add(avionesHangarBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, 90, 20));
 
+        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("Aviones en el taller");
         panelBar.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, -1, -1));
 
@@ -198,6 +216,7 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelBar.add(avionesTallerBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 200, 90, 20));
 
+        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setText("Aviones en area de estacionamiento");
         panelBar.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, -1, -1));
 
@@ -209,13 +228,16 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelBar.add(avionesEstBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 90, 20));
 
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setText("Pasajeros en el aeropuerto");
         panelBar.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setText("BARCELONA");
         panelBar.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
 
+        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("Aviones en area de rodaje");
         panelBar.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 290, -1, -1));
 
@@ -244,6 +266,9 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         panelBar.add(cerrarPista8, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 410, -1, -1));
 
+        fondo1.setIcon(new javax.swing.ImageIcon("media/fondogris.png"));
+        panelBar.add(fondo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 440));
+
         getContentPane().add(panelBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 60, 260, 450));
 
         aeroviaMad.setEditable(false);
@@ -254,7 +279,10 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         getContentPane().add(aeroviaMad, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 510, 400, 20));
 
+        jLabel14.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setText("Aerovía Madrid");
+        jLabel14.setOpaque(true);
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 510, -1, -1));
 
         aeroviaBar.setEditable(false);
@@ -265,8 +293,14 @@ public class InterfazCliente extends javax.swing.JFrame {
         });
         getContentPane().add(aeroviaBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 550, 400, 20));
 
+        jLabel15.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("Aerovía Madrid");
+        jLabel15.setOpaque(true);
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, -1, -1));
+
+        fondo.setIcon(new javax.swing.ImageIcon("media/fondocliente.png"));
+        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 600, 600));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -355,6 +389,9 @@ public class InterfazCliente extends javax.swing.JFrame {
     private javax.swing.JToggleButton cerrarPista6;
     private javax.swing.JToggleButton cerrarPista7;
     private javax.swing.JToggleButton cerrarPista8;
+    private javax.swing.JLabel fondo;
+    private javax.swing.JLabel fondo1;
+    private javax.swing.JLabel fondo2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
