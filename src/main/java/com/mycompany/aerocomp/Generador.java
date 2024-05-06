@@ -19,11 +19,9 @@ public class Generador {
     private Aeropuerto madrid;
     private Aeropuerto barcelona;
     
-    public Generador (AerocompInterfaz interfaz){
-        this.madrid = new Aeropuerto("Madrid", interfaz);
-        this.barcelona = new Aeropuerto("Barcelona", interfaz);
-        interfaz.setVisible(true);
-        interfaz.setAeropuertos(madrid, barcelona);
+    public Generador (Aeropuerto madrid, Aeropuerto barcelona){
+        this.madrid = madrid;
+        this.barcelona = barcelona;
     }
     
     public void generar(int nAviones, int nBus){

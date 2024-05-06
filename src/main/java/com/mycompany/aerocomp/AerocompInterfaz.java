@@ -4,6 +4,7 @@
  */
 package com.mycompany.aerocomp;
 
+import java.awt.Color;
 import java.io.IOException;
 import static java.lang.Thread.sleep;
 import java.util.Random;
@@ -15,7 +16,7 @@ import java.util.logging.Logger;
  * @author alvarocamacho
  */
 public class AerocompInterfaz extends javax.swing.JFrame {
-    
+
     private Aeropuerto madrid;
     private Aeropuerto barcelona;
 
@@ -890,7 +891,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (cajaTransfersCiudadMad) {
                 String texto = cajaTransfersCiudadMad.getText();
                 if (meter) {
-                    texto +=idBus + " ";
+                    texto += idBus + " ";
                 } else {
                     texto = texto.replace(idBus + " ", "");
                 }
@@ -902,7 +903,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (cajaTransfersCiudadBar) {
                 String texto = cajaTransfersCiudadBar.getText();
                 if (meter) {
-                    texto +=idBus  + " ";
+                    texto += idBus + " ";
                 } else {
                     texto = texto.replace(idBus + " ", "");
                 }
@@ -933,7 +934,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (hangarMad) {
                 String texto = hangarMad.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -945,7 +946,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (hangarBar) {
                 String texto = hangarBar.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -960,7 +961,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (areaEstMad) {
                 String texto = areaEstMad.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -972,7 +973,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (areaEstBar) {
                 String texto = areaEstBar.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -987,7 +988,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (rodajeMad) {
                 String texto = rodajeMad.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -999,7 +1000,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (rodajeBar) {
                 String texto = rodajeBar.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -1014,7 +1015,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (tallerMad) {
                 String texto = tallerMad.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -1026,7 +1027,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (tallerBar) {
                 String texto = tallerBar.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -1034,14 +1035,14 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             }
         }
     }
-    
+
     public void actualizarAerovia(String ciudad, String id, boolean meter) {
         //Cambiar caja de madrid
         if (ciudad.equals("Madrid")) {
             synchronized (aeroviaMadBar) {
                 String texto = aeroviaMadBar.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -1053,7 +1054,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             synchronized (aeroviaBarMad) {
                 String texto = aeroviaBarMad.getText();
                 if (meter) {
-                    texto +=id + " ";
+                    texto += id + " ";
                 } else {
                     texto = texto.replace(id + " ", "");
                 }
@@ -1135,7 +1136,7 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             }
         }
     }
-    
+
     public void actualizarPista(String ciudad, String id, boolean meter, boolean despegue, int pista) {
         //Cambiar caja de madrid
         String texto = meter ? (despegue ? "DESP: " : "ATER: ") + id : "";
@@ -1189,9 +1190,88 @@ public class AerocompInterfaz extends javax.swing.JFrame {
             }
         }
     }
-    
-    public void setAeropuertos(Aeropuerto madrid, Aeropuerto barcelona){
+
+    public void setAeropuertos(Aeropuerto madrid, Aeropuerto barcelona) {
         this.madrid = madrid;
         this.barcelona = barcelona;
+    }
+
+    public String getAerovia(String ciudad) {
+        String texto = "";
+        if (ciudad.equals("Madrid")) {
+            synchronized (aeroviaMadBar) {
+                texto = aeroviaMadBar.getText();
+            }
+        } else if (ciudad.equals("Barcelona")) {
+            synchronized (aeroviaBarMad) {
+                texto = aeroviaBarMad.getText();
+            }
+        }
+        return texto;
+    }
+
+    public void setColorPistas(String ciudad, int pista, int estado) {
+        //Cambiar caja de madrid
+        Color color;
+        switch (estado) {
+            case -1 -> {//Cerrado
+                color = Color.red;
+            }
+            case -2 -> {//Cerrando
+                color = Color.orange;
+            }
+            default -> {
+                color = Color.white;
+            }
+        }
+        if (ciudad.equals("Madrid")) {
+            switch (pista) {
+                case 0 -> {
+                    synchronized (pista1Mad) {
+                        pista1Mad.setBackground(color);
+                    }
+                }
+                case 1 -> {
+                    synchronized (pista2Mad) {
+                        pista2Mad.setBackground(color);
+                    }
+                }
+                case 2 -> {
+                    synchronized (pista3Mad) {
+                        pista3Mad.setBackground(color);
+                    }
+                }
+                case 3 -> {
+                    synchronized (pista4Mad) {
+                        pista4Mad.setBackground(color);
+                    }
+                }
+            }
+
+        } //Cambiar caja de barcelona
+        else if (ciudad.equals("Barcelona")) {
+            switch (pista) {
+                case 0 -> {
+                    synchronized (pista1Bar) {
+                        pista1Bar.setBackground(color);
+                    }
+                }
+                case 1 -> {
+                    synchronized (pista2Bar) {
+                        pista2Bar.setBackground(color);
+                    }
+                }
+                case 2 -> {
+                    synchronized (pista3Bar) {
+                        pista3Bar.setBackground(color);
+                    }
+                }
+                case 3 -> {
+                    synchronized (pista4Bar) {
+                        pista4Bar.setBackground(color);
+                    }
+                }
+            }
+        }
     }
 }

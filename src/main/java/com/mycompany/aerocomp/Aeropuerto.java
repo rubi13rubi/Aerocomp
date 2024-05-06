@@ -39,10 +39,15 @@ public class Aeropuerto {
     private AtomicInteger pistasPendientesCerrar = new AtomicInteger(0);
 
     private Semaphore puertaTaller = new Semaphore(20, true);
-    
+
     private Lock lockPausa = new ReentrantLock();
     private Condition condicionPausa = lockPausa.newCondition();
     private boolean pausado;
+    
+    private AtomicInteger numAvionesHangar = new AtomicInteger(0);
+    private AtomicInteger numAvionesTaller = new AtomicInteger(0);
+    private AtomicInteger numAvionesEstacionamiento = new AtomicInteger(0);
+    private AtomicInteger numAvionesRodaje = new AtomicInteger(0);
 
     public Aeropuerto(String ciudad, AerocompInterfaz interfaz) {
         this.ciudad = ciudad;
@@ -101,7 +106,9 @@ public class Aeropuerto {
             max = personasAeropuerto;//Se sacan como maximo el numero de personas del aeropuerto
         }
         int pasajerosSalir = 0; //Fix para cuando hay 0 personas que no de excepcion el random
-        if (max > 0) pasajerosSalir = rand.nextInt(max);
+        if (max > 0) {
+            pasajerosSalir = rand.nextInt(max);
+        }
         Log.logEvent("autobus " + id + " sube " + pasajerosSalir + " pasajeros del aeropuerto de " + this.ciudad);
         //Restar las personas del sistema del aeropuerto
         int personasaeropuerto = numPersonasAerop.addAndGet(-pasajerosSalir);
@@ -143,9 +150,11 @@ public class Aeropuerto {
                 colaEmbarque.put(avion);
                 if (embarque) {
                     interfaz.actualizarAreaEstacionamiento(ciudad, id, true);
+                    numAvionesEstacionamiento.incrementAndGet();
                     Log.logEvent("El avion " + id + " accede al area de estacionamiento del aeropuerto de " + this.ciudad + " esperando a embarcar");
                 } else {
                     interfaz.actualizarAreaRodaje(ciudad, id, true);
+                    numAvionesRodaje.incrementAndGet();
                     Log.logEvent("El avion " + id + " accede al area de rodaje del aeropuerto de " + this.ciudad + " y se dirige a las puertas de desembarque");
                     Thread.sleep(rand.nextInt(3000, 5000));
                     Log.logEvent("El avion " + id + " esta esperando a desembarcar en " + this.ciudad);
@@ -172,6 +181,7 @@ public class Aeropuerto {
         try {
             int intento = 1;
             interfaz.actualizarAreaEstacionamiento(ciudad, id, false);
+            numAvionesEstacionamiento.decrementAndGet();
             interfaz.actualizarPuerta(ciudad, id, true, true, puerta);
             Log.logEvent("El avion " + id + " entra a embarcar en la puerta " + puerta + " del aeropuerto de " + this.ciudad);
             while (intento <= 3 && personasenavion < capacidad) {
@@ -211,6 +221,7 @@ public class Aeropuerto {
     public void desembarcar(String id, int personasenavion, int puerta) {
         try {
             interfaz.actualizarAreaRodaje(ciudad, id, false);
+            numAvionesRodaje.decrementAndGet();
             interfaz.actualizarPuerta(ciudad, id, true, false, puerta);
             Log.logEvent("El avion " + id + " entra a desembarcar en la puerta " + puerta + " del aeropuerto de " + this.ciudad);
             Thread.sleep(rand.nextInt(1000, 5000));
@@ -275,6 +286,7 @@ public class Aeropuerto {
 
     public int esperarPistaDespegue(String id) {
         interfaz.actualizarAreaRodaje(ciudad, id, true);
+        numAvionesRodaje.incrementAndGet();
         Log.logEvent("El avion " + id + " entra al area de rodaje" + " del aeropuerto de " + this.ciudad + " para realizar comprobaciones antes de solicitar una pista");
         try {
             Thread.sleep(rand.nextInt(1000, 5000));
@@ -300,6 +312,7 @@ public class Aeropuerto {
         }
         Log.logEvent("El avion " + id + " accede a la pista " + (pista + 1) + " del aeropuerto de " + this.ciudad);
         interfaz.actualizarAreaRodaje(ciudad, id, false);
+        numAvionesRodaje.decrementAndGet();
         interfaz.actualizarPista(ciudad, id, true, true, pista);
         return pista;
     }
@@ -317,6 +330,7 @@ public class Aeropuerto {
                 estadoPistas[pista] = 0; //Libera la pista solo si seguia ocupada
             } else if (estadoPistas[pista] == -2) { //-2 es el estado cerrandose (cuando se intenta cerrar y hay alguien dentro)
                 estadoPistas[pista] = -1; //Al salir la cierra definitivamente (estado -1)
+                interfaz.setColorPistas(ciudad, pista, -1);
                 pistasPendientesCerrar.incrementAndGet(); //Hace que no se libere el semaforo al liberar la siguiente pista
             }
             //En el caso de que se haya cerrado la pista (estado -1) mientras despegaba, la deja cerrada
@@ -325,8 +339,11 @@ public class Aeropuerto {
         } finally {
             lockPistas.unlock();
         }
-        if (pistasPendientesCerrar.get() > 0) pistasPendientesCerrar.decrementAndGet();
-        else semaforoPistas.release();
+        if (pistasPendientesCerrar.get() > 0) {
+            pistasPendientesCerrar.decrementAndGet();
+        } else {
+            semaforoPistas.release();
+        }
     }
 
     public void volar(String id) {
@@ -374,6 +391,7 @@ public class Aeropuerto {
                 estadoPistas[pista] = 0; //Libera la pista solo si seguia ocupada
             } else if (estadoPistas[pista] == -2) { //-2 es el estado cerrandose (cuando se intenta cerrar y hay alguien dentro)
                 estadoPistas[pista] = -1; //Al salir la cierra definitivamente (estado -1)
+                interfaz.setColorPistas(ciudad, pista, -1);
                 pistasPendientesCerrar.incrementAndGet(); //Hace que no se libere el semaforo al liberar la siguiente pista
             }
             //En el caso de que se haya cerrado la pista (estado -1) mientras despegaba, la deja cerrada
@@ -382,17 +400,22 @@ public class Aeropuerto {
         } finally {
             lockPistas.unlock();
         }
-        if (pistasPendientesCerrar.get() > 0) pistasPendientesCerrar.decrementAndGet();
-        else semaforoPistas.release();
+        if (pistasPendientesCerrar.get() > 0) {
+            pistasPendientesCerrar.decrementAndGet();
+        } else {
+            semaforoPistas.release();
+        }
         interfaz.actualizarPista(ciudad, id, false, false, pista);
     }
 
     public void comprobacionesAreadeEstacionamiento(String id) {
         try {
             interfaz.actualizarAreaEstacionamiento(ciudad, id, true);
+            numAvionesEstacionamiento.incrementAndGet();
             Log.logEvent("El avion " + id + " accede al area de estacionamiento de " + this.ciudad + " para realizar comprobaciones");
             Thread.sleep(rand.nextInt(1000, 5000));
             interfaz.actualizarAreaEstacionamiento(ciudad, id, false);
+            numAvionesEstacionamiento.decrementAndGet();
         } catch (InterruptedException ex) {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -403,11 +426,13 @@ public class Aeropuerto {
             puertaTaller.acquire();
             Log.logEvent("El avion " + id + " accede al taller de " + this.ciudad + " para realizar una revision " + (profundidad ? "en profundidad" : "rapida"));
             interfaz.actualizarTaller(ciudad, id, true);
+            numAvionesTaller.incrementAndGet();
             int tiempo = profundidad ? rand.nextInt(5000, 10000) : rand.nextInt(1000, 5000);
             Thread.sleep(tiempo);
             puertaTaller.release();
             Log.logEvent("El avion " + id + " sale del taller de " + this.ciudad);
             interfaz.actualizarTaller(ciudad, id, false);
+            numAvionesTaller.decrementAndGet();
         } catch (InterruptedException ex) {
             Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -415,6 +440,7 @@ public class Aeropuerto {
 
     public void iraHangar(String id) {
         interfaz.actualizarHangar(ciudad, id, true);
+        numAvionesHangar.incrementAndGet();
         Log.logEvent("El avion " + id + " va al hangar del aeropuerto de " + this.ciudad);
         try {
             Thread.sleep(rand.nextInt(15000, 30000));
@@ -423,20 +449,24 @@ public class Aeropuerto {
         }
         Log.logEvent("El avion " + id + " sale del hangar del aeropuerto de " + this.ciudad);
         interfaz.actualizarHangar(ciudad, id, false);
+        numAvionesHangar.decrementAndGet();
     }
 
     public void cerrarPista(int pista) {
 
         try {
-            Log.logEvent("Cerrando pista " + (pista + 1) + " del aeropuerto de " + this.ciudad);
             lockPistas.lock();
             if (estadoPistas[pista] == 0) { //Pista libre
+                Log.logEvent("Cerrando pista " + (pista + 1) + " del aeropuerto de " + this.ciudad);
                 estadoPistas[pista] = -1; //La cierra directamente
+                interfaz.setColorPistas(ciudad, pista, -1);
                 if (!semaforoPistas.tryAcquire()) {
                     pistasPendientesCerrar.incrementAndGet(); //Hace que no se libere el semaforo al liberar la siguiente pista
                 }
             } else if (estadoPistas[pista] == 1) { //Pista ocupada
+                Log.logEvent("Cerrando pista " + (pista + 1) + " del aeropuerto de " + this.ciudad + "(esperando a que salga un avion)");
                 estadoPistas[pista] = -2; //Cambia a estado cerrando, el cierre lo maneja el propio avion al salir de la pista
+                interfaz.setColorPistas(ciudad, pista, -2);
             }
         } finally {
             lockPistas.unlock();
@@ -445,19 +475,30 @@ public class Aeropuerto {
 
     public void abrirPista(int pista) {
         try {
-            Log.logEvent("Abriendo pista " + (pista + 1) + " del aeropuerto de " + this.ciudad);
             lockPistas.lock();
             if (estadoPistas[pista] == -1) { //Pista cerrada
+                Log.logEvent("Abriendo pista " + (pista + 1) + " del aeropuerto de " + this.ciudad);
                 estadoPistas[pista] = 0; //La abre directamente
+                interfaz.setColorPistas(ciudad, pista, 0);
                 semaforoPistas.release();
             } else if (estadoPistas[pista] == -2) { //Pista cerrando, quiere decir que no ha llegado a cerrarse y no hace falta liberar el semaforo
+                Log.logEvent("Cierre de pista " + (pista + 1) + " del aeropuerto de " + this.ciudad + " cancelado");
                 estadoPistas[pista] = 1; //La vuelve a dejar ocupada
+                interfaz.setColorPistas(ciudad, pista, 1);
             }
+            
         } finally {
             lockPistas.unlock();
         }
     }
-    
+
+    public void setInfoPistas(boolean[] info) {
+        for (int i = 0; i < 4; i++) {
+            if (info[i]) cerrarPista(i);
+            else abrirPista(i);
+        }
+    }
+
     public void comprobarPausa() {
 
         lockPausa.lock();
@@ -470,7 +511,7 @@ public class Aeropuerto {
             lockPausa.unlock();
         }
     }
-    
+
     public void pausa(boolean p) {
 
         pausado = p;
@@ -482,6 +523,17 @@ public class Aeropuerto {
                 lockPausa.unlock();
             }
         }
+    }
+    
+    public String[] getDatos(){
+        String[] datos = new String[6];
+        datos[0] = numPersonasAerop.toString();
+        datos[1] = numAvionesHangar.toString();
+        datos[2] = numAvionesTaller.toString();
+        datos[3] = numAvionesEstacionamiento.toString();
+        datos[4] = numAvionesRodaje.toString();
+        datos[5] = interfaz.getAerovia(ciudad);
+        return datos;
     }
 
     public String getCiudad() {
